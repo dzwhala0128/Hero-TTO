@@ -1,0 +1,40 @@
+# Local credentials and runtime state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+*.log
+logs/
+outputs/
+*.lock
+
+# Python / generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Editor / OS state
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Model weights / checkpoints
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+checkpoints/
+models/
