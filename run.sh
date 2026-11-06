@@ -17,7 +17,7 @@ case "${1:-}" in
     exec python -B -m pipeline.runner "$@" ;;
   *)
     cat <<'HELP'
-导师版：TextGrad只优化已有冻结VP，不重跑初始预测。
+TextGrad只优化已有冻结VP，不重跑初始预测。
   bash run.sh qwen --count 1 --claim-id 9 --run-id demo1 --freeze
   bash run.sh qwen --count 10 --run-id demo10 --freeze
   bash run.sh qwen --count 40 --af human63 --run-id demo40 --freeze
@@ -26,7 +26,7 @@ case "${1:-}" in
   bash run.sh qwen --count 500 --preflight       # 零模型调用
   bash run.sh compare --run-id demo1              # 先冻结再算离线指标
   bash run.sh hero --claim-id 0 --preflight       # 单独的原始HerO复现
-详情见：导师使用说明.md
+
 HELP
     exit 2 ;;
 esac
