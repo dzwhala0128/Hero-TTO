@@ -1,0 +1,230 @@
+项目逐文件作用说明
+
+## 总览
+
+| 目的 | 关键文件 |
+|---|---|
+| 启动1/10/40/169/500条TextGrad | `run.sh` → `pipeline/unified.py` |
+| 选择Qwen3.5-9B端点、Token预算 | `configs/qwen9b.json`、`.env`（如有） |
+| 修改统一Evaluator | `prompts/evaluator_system.txt`、`prompts/evaluator_user.txt` |
+| 查看默认Few-shot | `fewshot/fixed2.jsonl`（当前代码固定2条） |
+| 查看AF与QA输入 | `data/targeted40/`、`data/full169/runtime.json`、`data/full500/runtime.json` |
+| 查看冻结初始VP来源 | `pipeline/unified.py`中的`selected()`和各`runtime.json` |
+| 查看Native梯度与优化器 | `pipeline/native_backward.py`、`textgrad_native/textgrad/autograd/llm_ops.py`、`textgrad_native/textgrad/optimizer/optimizer.py` |
+| 计算指标 | `bash run.sh compare --run-id <实验ID>`，实现于`pipeline/compare_metrics.py` |
+| 复现原始HerO | `bash run.sh hero ...`，对应`pipeline/full_pipeline.py`和`hero/stages/` |
+
+## 实验主流程
+
+`冻结的初始VP → 输入Claim/AF/QA → 9B Evaluator（外置Prompt+固定2-shot） → Native Backward →（仅MATERIAL_ISSUE时）9B Optimizer → 结构验证 → 结果冻结 → 离线指标`。
+
+**注意**：原始HerO完整复现是独立入口。统一Qwen命令不调用HerO VP，也不重新生成初始标签。`NO_MATERIAL_ISSUE`分支会执行Backward，但不运行Optimizer；失败则可能回退Baseline。
+
+## 全部文件：逐项作用
+
+### 一、根目录与环境：
+
+| 文件路径 | 作用 |
+|---|---|
+| `.env.example` | 服务器环境变量示例：9B/HerO服务地址、模型路径、知识库及GPU设置；复制为`.env`后按服务器实际情况填写。 |
+| `CLEANUP_REPORT.md` | 项目清理记录：说明哪些历史占位文件及结果被从交付包剥离。 |
+| `LICENSES.md` | 引用/复用第三方源码的许可证和来源说明。 |
+| `QUICKSTART.md` | 极简命令备忘；压缩包内仍写着旧的`Advisor_Clean`目录，使用时以服务器当前路径为准。 |
+| `README.md` | 项目简介，概括“从冻结VP开始做TextGrad、原始HerO单独保留”的定位。 |
+| `environment.yml` | Conda环境声明，供新环境重建参考；已有`llama70b-bw`无需盲目重建。 |
+| `requirements-retrieval.txt` | 完整HerO检索复现额外需要的Python依赖清单，并包含基本依赖。 |
+| `requirements.txt` | 当前TextGrad运行入口所需的Python依赖清单。 |
+| `run.sh` | **统一命令入口**：`qwen`启动冻结VP优化，`hero`启动原始HerO，`evaluate/compare/status/freeze`执行对应管理任务。 |
+| `导师使用说明.md` | 导师运行指南：样本规模、AF方案、Prompt/Few-shot、输出和离线指标命令。 |
+
+### 二、`configs/`：模型和实验配置
+
+| 文件路径 | 作用 |
+|---|---|
+| `configs/experiments.yaml` | 历史各实验规模、AF方案与数据完备性记录；部分旧协议描述不等于当前统一运行方式。 |
+| `configs/hero_baseline.yaml` | 历史原始HerO VP推理参数和解析规则说明；用于HerO旧式Baseline入口，不是9B TextGrad当前配置。 |
+| `configs/human63.yaml` | 原Targeted40人工63 AF实验的历史E18配置；当前`qwen`不从这里读取Evaluator Prompt。 |
+| `configs/merged67.yaml` | 原Targeted40合并67 AF实验的历史E18配置；当前`qwen`不从这里读取Evaluator Prompt。 |
+| `configs/models.yaml` | 旧实验的HerO/TextGrad默认服务别名与端点映射；当前统一9B以`configs/qwen9b.json`为准。 |
+| `configs/qwen9b.json` | **统一9B流程实际使用的配置**：8005端点、模型名、8192上下文、Evaluator/Backward/Optimizer生成参数。 |
+| `configs/textgrad.yaml` | 旧Full169冻结Evaluator回放协议配置；不是当前统一9B在线Evaluator协议。 |
+
+### 三、`prompts/`与`fewshot/`：实际使用的提示词和示例
+
+| 文件路径 | 作用 |
+|---|---|
+| `fewshot/fixed2.jsonl` | **默认实际加载的2个Evaluator示例**（训练索引165、6），每行一条JSON。 |
+| `prompts/evaluator_system.txt` | **统一Evaluator系统Prompt**：证据审查准则及`STATUS/FEEDBACK`输出格式。 |
+| `prompts/evaluator_user.txt` | **统一Evaluator输入模板**：插入Few-shot、Claim、AF、QA及冻结初始Solution。 |
+| `prompts/native_backward_system.txt` | **TextGrad反向反馈系统Prompt**：约束梯度模型生成修改建议而不是直接替换Solution。 |
+| `prompts/native_optimizer_system.txt` | **TextGrad优化器系统Prompt**：根据文本梯度生成更新后的Solution。 |
+| `prompts/optimizer_constraints.json` | 优化输出格式约束：只含justification和verdict，且必须符合四分类枚举。 |
+
+### 四、`data/`：冻结Baseline、AF、QA和离线Gold
+
+| 文件路径 | 作用 |
+|---|---|
+| `data/evaluation_only/dev.json` | AVeriTeC Dev评测标注（含Gold标签）；**仅在预测冻结后**通过离线评价脚本读取。 |
+| `data/full169/claim_ids.json` | Full169固定169个Claim ID及实验顺序。 |
+| `data/full169/claims.json` | Full169的Claim文本清单。 |
+| `data/full169/runtime.json` | **169条输入**：每条已有冻结VP和10个QA；其中旧Evaluator字段是历史材料，统一`qwen`不会回放。 |
+| `data/full500/claims.json` | Full500的500条Claim ID与声明文本。 |
+| `data/full500/runtime.json` | **500条输入**：每条已有冻结VP与10个QA，无需重新生成初始预测。 |
+| `data/manifests/full169_historical_selection.json` | 169条样本的历史选取、顺序及被排除样本的溯源说明。 |
+| `data/manifests/human63_historical_sources.json` | 人工63 AF来源文件和历史校验摘要。 |
+| `data/manifests/merged67_historical_sources.json` | 合并67 AF来源文件和历史校验摘要。 |
+| `data/manifests/package_sha256.json` | 打包交付时的文件SHA256校验表；修改Prompt后需更新清单才可按旧哈希完整校验。 |
+| `data/manifests/source_provenance.json` | 来源文件到当前项目复制文件的路径与SHA追溯清单。 |
+| `data/qg_reference.json` | 原始HerO问题生成阶段的训练QA检索参考语料（用于选取QG的Few-shot）。 |
+| `data/targeted40/claim_ids.json` | Targeted40固定40个Claim ID及顺序，用于明确实验样本选择。 |
+| `data/targeted40/claims.json` | Targeted40的Claim ID与声明文本清单。 |
+| `data/targeted40/human63/mapping.json` | 人工AF与筛选QA的逐Claim对应关系和数据追溯映射。 |
+| `data/targeted40/human63/runtime.json` | **人工63 AF实验输入**：40条Claim对应的冻结初始VP、63条AF和总计154条筛选QA。 |
+| `data/targeted40/merged67/mapping.json` | 合并AF与筛选QA的逐Claim关联、来源与校验信息。 |
+| `data/targeted40/merged67/runtime.json` | **合并67 AF实验输入**：40条Claim、67条AF及总计154条筛选QA；初始VP仍对齐同一冻结来源。 |
+| `data/targeted40/original_qa/runtime.json` | Targeted40每条10个原始QA的输入；**不含初始VP**，运行时从human63冻结文件对齐读取。 |
+
+### 五、`pipeline/`：运行与TextGrad适配代码
+
+| 文件路径 | 作用 |
+|---|---|
+| `pipeline/__init__.py` | 项目运行模块包标记；供`python -m pipeline.*`导入。 |
+| `pipeline/baseline.py` | 原始HerO冻结外的VP重运行适配器（旧Prompt/解析/HTTP）；**统一TextGrad不调用**。 |
+| `pipeline/build_inputs.py` | 旧入口使用的无金标签输入装载和白名单校验；统一`qwen`另外由`unified.py`选择数据。 |
+| `pipeline/common.py` | 统一JSON读写、哈希计算、配置读取及输出路径安全检查函数。 |
+| `pipeline/compare_metrics.py` | **前后对比指标脚本**：读取冻结结果与Gold，计算Baseline及TextGrad的Accuracy/F1、标签变化和回退数。 |
+| `pipeline/engine.py` | 旧实验请求日志与模型调用引擎；当前统一9B使用`qwen_engine.py`。 |
+| `pipeline/evaluate.py` | **离线最终评价脚本**：读取已冻结预测，计算Accuracy、四分类Macro-F1、混淆矩阵等。 |
+| `pipeline/evaluator.py` | 旧Frozen Evaluator模板的TextGrad包装和历史回放支持；当前统一`qwen`不调用。 |
+| `pipeline/fewshot.py` | 把`fixed2.jsonl`中的结构化示例渲染成`DEMONSTRATION n`文本块。 |
+| `pipeline/full_pipeline.py` | 串联原始HerO的HyDE、检索、重排、QG、VP，并检查外部知识库/模型资产。 |
+| `pipeline/historical_parser.py` | 历史显式最终标签解析器，用于旧预测结果读取/对照。 |
+| `pipeline/native_backward.py` | 调用原生TextGrad `loss.backward()`并提取文本梯度，不使用手工反馈模拟代替。 |
+| `pipeline/optimizer.py` | 旧实验调用Native `TextualGradientDescent.step()`的封装；统一主流程直接调用Native TGD。 |
+| `pipeline/qwen_engine.py` | **当前9B请求适配器**：校验模型身份、Token预算、保存各阶段请求/响应并判断停止原因。 |
+| `pipeline/runner.py` | 旧实验统一控制器及原始HerO入口的运行/冻结/恢复逻辑；`run.sh qwen`不走它。 |
+| `pipeline/unified.py` | **当前统一Qwen TextGrad主流程**：加载冻结VP、AF/QA、外置Prompt和2-shot，执行Evaluator/Backward/Optimizer及冻结。 |
+| `pipeline/validator.py` | 只检查Optimizer生成的Solution结构、字段及四分类标签是否合法，不做语义判断。 |
+
+### 六、`hero/stages/`：独立保留的原始HerO
+
+| 文件路径 | 作用 |
+|---|---|
+| `hero/__init__.py` | 原始HerO包的Python初始化文件；可为空，但应保留。 |
+| `hero/stages/__init__.py` | 原始HerO阶段模块的Python初始化文件；可为空，但应保留。 |
+| `hero/stages/averitec_evaluate.py` | AVeriTeC相关官方评价实现，包括证据匹配相关计算。 |
+| `hero/stages/hyde_doc_utils.py` | HyDE假设文档的清洗、筛选、去重及检索输入辅助函数。 |
+| `hero/stages/hyde_fc_generation.py` | 原始HerO的HyDE-FC生成阶段：基于Claim生成假设性核查文本。 |
+| `hero/stages/question_generation.py` | 原始HerO问题生成阶段：对证据生成问题，与证据答案配成QA。 |
+| `hero/stages/reranking.py` | 原始HerO证据重排阶段：使用SFR嵌入评分与去重选择证据。 |
+| `hero/stages/retrieval.py` | 原始HerO证据检索阶段：针对知识库执行BM25等检索处理。 |
+| `hero/stages/veracity_prediction.py` | 原始HerO VP阶段：使用原始Prompt/解码流程与Llama微调模型预测真实性。 |
+
+### 七、`atomic_facts/`：AF拆分与历史格式兼容
+
+| 文件路径 | 作用 |
+|---|---|
+| `atomic_facts/common/historical_protocol.py` | 历史AF/QA格式拼装及严格两字段文本转JSON的辅助函数；供兼容处理与结构验证器使用。 |
+| `atomic_facts/fine_grained/generator/README.md` | 细粒度AF生成器的说明和使用背景；该方案的历史146 AF冻结输入并未随包提供。 |
+| `atomic_facts/fine_grained/generator/decompose.py` | 细粒度Atomic Fact拆分生成脚本；用于另行生成/研究AF，不被当前`qwen`主流程自动调用。 |
+| `atomic_facts/fine_grained/generator/decompose_original_prompt.py` | 保留原提示词形式的细粒度AF生成脚本，用于与修改版对照；不在统一优化主链上。 |
+| `atomic_facts/fine_grained/generator/demons.json` | 细粒度AF拆分器的示范样本库，供其选择Few-shot；**不是Evaluator的fixed2**。 |
+
+### 八、`scripts/`、`tests/`：检查、安装、测试
+
+| 文件路径 | 作用 |
+|---|---|
+| `scripts/assets.py` | 验证原始HerO所需每条Claim知识库文件，可选导出Lucene索引输入JSONL。 |
+| `scripts/check_data.py` | 离线检查样本数量、AF/QA映射、Gold隔离和交付数据哈希。 |
+| `scripts/check_env.sh` | 环境检查：数据完整性、Python依赖及核心导入；加`--online`可检查部分服务别名。 |
+| `scripts/finish_frozen_update.sh` | 旧版补丁升级清理工具，仅用于从错误的“重新生成VP”版迁移；新项目日常运行不需要。 |
+| `scripts/setup_env.sh` | 创建`.venv`并安装`requirements.txt`；共享服务器现有Conda环境不必重复执行。 |
+| `scripts/start_models.sh` | 可选vLLM服务启动脚本，需显式GPU编号与模型路径；**现有8005服务正常时不必执行**。 |
+| `scripts/verify_offline.py` | 离线测试入口：不调用GPU或模型，执行代码与模拟计算图验收。 |
+| `tests/test_frozen_unified.py` | 当前冻结Baseline统一9B流程的离线单元测试：无新VP请求、外部Prompt、2-shot及计算图。 |
+| `tests/test_reproduction.py` | 原项目离线回归测试：数据、解析器、结构验证、旧分支和冻结约束。 |
+
+### 九、`textgrad_native/hero_extension/`：HerO旧扩展
+
+| 文件路径 | 作用 |
+|---|---|
+| `textgrad_native/hero_extension/__init__.py` | HerO扩展适配包初始化，导出相关能力。 |
+| `textgrad_native/hero_extension/hero_data.py` | 读取HerO初始VP与证据，按样本选择并构造数据；不访问Gold。 |
+| `textgrad_native/hero_extension/hero_faithful_backward_v2_compact.py` | 历史Full169专用的faithful Backward扩展；当前统一流程采用标准Native Backward。 |
+| `textgrad_native/hero_extension/hero_objective.py` | 历史多版本事实核查Evaluator目标/提示词构造函数，供旧实验参考。 |
+| `textgrad_native/hero_extension/hero_objective_evaluator_v4a.py` | 历史V4-A Evaluator系统提示词构造器；当前统一Evaluator不使用。 |
+| `textgrad_native/hero_extension/hero_solution.py` | 把VP解释和四分类标签序列化为可训练Solution，并解析模型输出。 |
+| `textgrad_native/hero_extension/hero_validator.py` | 历史HerO定制验证器；**不等同**当前仅检查结构的`pipeline/validator.py`。 |
+
+### 十、`textgrad_native/textgrad/`：Native TextGrad源码
+
+| 文件路径 | 作用 |
+|---|---|
+| `textgrad_native/textgrad/__init__.py` | 原生TextGrad包初始化与公用接口导出。 |
+| `textgrad_native/textgrad/autograd/__init__.py` | 原生自动求导子包初始化。 |
+| `textgrad_native/textgrad/autograd/algebra.py` | 梯度聚合运算，如多个变量梯度求和/聚合。 |
+| `textgrad_native/textgrad/autograd/function.py` | TextGrad自动求导函数、模块与BackwardContext的基础抽象。 |
+| `textgrad_native/textgrad/autograd/functional.py` | 调用自动求导算子的快捷接口，如LLM调用和多字段LLM调用。 |
+| `textgrad_native/textgrad/autograd/llm_backward_prompts.py` | 原生LLM反向反馈Prompt模板常量；当前运行会注入外置Backward系统Prompt。 |
+| `textgrad_native/textgrad/autograd/llm_ops.py` | **核心LLM正向/反向算子**：`LLMCall`、`FormattedLLMCall`及其梯度逻辑。 |
+| `textgrad_native/textgrad/autograd/multimodal_backward_prompts.py` | 原生多模态反向传播Prompt；**当前文本事实核查不使用**。 |
+| `textgrad_native/textgrad/autograd/multimodal_ops.py` | 原生多模态LLM调用及梯度算子；**当前文本事实核查不使用**。 |
+| `textgrad_native/textgrad/autograd/reduce_prompts.py` | 多梯度合并/Reduce Prompt构造函数。 |
+| `textgrad_native/textgrad/autograd/string_based_ops.py` | 基于字符串处理的可微操作。 |
+| `textgrad_native/textgrad/config.py` | 管理全局/默认Backward Engine及引擎校验。 |
+| `textgrad_native/textgrad/defaults.py` | 原生TextGrad默认设置及常量。 |
+| `textgrad_native/textgrad/engine/__init__.py` | TextGrad模型引擎注册和选择入口；交付版对接本地HTTP服务。 |
+| `textgrad_native/textgrad/engine/base.py` | 基础EngineLM/CachedEngine抽象，供文本梯度模型调用使用。 |
+| `textgrad_native/textgrad/loss.py` | TextGrad损失/评价算子，如`TextLoss`和多字段评价。 |
+| `textgrad_native/textgrad/model.py` | 原生`BlackboxLLM`接口封装，将模型调用接入变量计算图。 |
+| `textgrad_native/textgrad/optimizer/__init__.py` | 优化器子包初始化及公用接口导出。 |
+| `textgrad_native/textgrad/optimizer/optimizer.py` | **核心优化器**`TextualGradientDescent`及带动量版本，根据反馈修订变量。 |
+| `textgrad_native/textgrad/optimizer/optimizer_prompts.py` | 原生TGD优化Prompt组合函数，配合外部优化器系统Prompt使用。 |
+| `textgrad_native/textgrad/prompts.py` | 原生TextGrad通用提示词与常量（区别于导师版外置`prompts/`）。 |
+| `textgrad_native/textgrad/utils/image_utils.py` | 图片URL与下载缓存相关的多模态辅助函数；当前文本实验不用。 |
+| `textgrad_native/textgrad/variable.py` | **核心计算图变量**`Variable`：保存Solution、梯度和反向传播连接。 |
+
+### 十一、`docs/`：历史实验资料与参考文档
+
+| 文件路径 | 作用 |
+|---|---|
+| `docs/ACCEPTANCE.md` | 旧项目交付验收记录；与当前用户Server01实跑记录区分。 |
+| `docs/ASSETS.md` | 原始HerO检索所需知识库、权重及可选索引资产说明。 |
+| `docs/DATA_PROVENANCE.md` | 冻结输入、历史源码和哈希追溯说明。 |
+| `docs/EXPERIMENT_MATRIX.md` | 旧实验支持范围矩阵；Full169/Full500描述包含旧限制，**不是当前统一9B的最新运行矩阵**。 |
+| `docs/PIPELINE.md` | 较详细的历史运行流程和源码位置说明；包含部分旧协议信息，不能直接代表当前统一入口。 |
+| `docs/TROUBLESHOOTING.md` | 历史常见报错、缺失输入与服务问题的排查说明。 |
+| `docs/observed_environment.json` | 历史环境信息快照，不代表当前Server01实时状态。 |
+
+
+## 运行后自动出现的文件（不在源码压缩包中）
+
+以`--run-id demo59`为例：
+
+| 生成路径 | 内容 |
+|---|---|
+| `outputs/demo59/run.json` | 运行参数、输入、Prompt/Few-shot或配置哈希等信息。 |
+| `outputs/demo59/claims/59/frozen_initial_vp.json` | 原有Baseline预测原文及规范化Solution；不会重做VP。 |
+| `outputs/demo59/claims/59/evaluator/request.json` / `response.json` | Evaluator真实请求和正常返回；原始HTTP响应还在`raw_response.json`。 |
+| `outputs/demo59/claims/59/backward/request.json` / `response.json` | Native Backward阶段输入输出。 |
+| `outputs/demo59/claims/59/evaluator_feedback.json` | 解析后的`STATUS + FEEDBACK`。 |
+| `outputs/demo59/claims/59/textual_gradient.json` | Native Backward的文本梯度。 |
+| `outputs/demo59/claims/59/optimizer/` | 当Evaluator返回`MATERIAL_ISSUE`时存在的优化器请求日志。 |
+| `outputs/demo59/claims/59/optimizer_solution.json` | 生成的候选Solution，正常执行优化后才有。 |
+| `outputs/demo59/claims/59/structural_validator.json` | 对候选输出的字段/四分类结构检查。 |
+| `outputs/demo59/claims/59/result.json` | 逐Claim最终状态、初始/最终预测、迭代次数和回退信息。 |
+| `outputs/demo59/claims/59/failure.json` | 发生失败时记录错误类型、原因、堆栈。 |
+| `outputs/demo59/predictions.json` | `--freeze`后整批样本的最终预测。 |
+| `outputs/demo59/freeze.json` | 冻结结果、样本清单和SHA256校验。 |
+| `outputs/demo59/offline_metrics.json` | 运行`evaluate`后生成的Accuracy、Macro-F1等指标。 |
+| `outputs/demo59/baseline_vs_textgrad_metrics.json` | 运行`compare`后生成的优化前后对比结果。 |
+
+## 提醒
+
+1. **不要混淆旧配置**：`configs/human63.yaml`、`merged67.yaml`、`textgrad.yaml`及`docs/EXPERIMENT_MATRIX.md`记录了历史实验；统一`run.sh qwen`直接以`configs/qwen9b.json`和`prompts/`为准。
+2. **Few-shot目前仍硬编码为2条**：`pipeline/unified.py`中的`FEWSHOT = ROOT / 'fewshot/fixed2.jsonl'`，并验证索引`[165,6]`。仅在服务器同目录放`fixed6.jsonl`不会自动切换到6-shot。
+3. **服务器最新文件可能和压缩包不同**：本说明基于完整压缩包；用户后来独立替换过`prompts/evaluator_user.txt`，并可能上传`fixed6.jsonl`，因此服务器实际版本应以服务器文件为准。
+4. **旧快速开始文档的路径需要更正**：`QUICKSTART.md`以及部分`导师使用说明.md`命令仍采用`HerO_TextGrad_Advisor_Clean`目录；实际使用路径是`/data/users/dengzhenyun/Hero-TTO/HerO_TextGrad_Advisor_FrozenBaseline`。
+5. **不要删除看似空白的`__init__.py`**：它们属于Python包结构文件。`docs/`与旧引擎源码用于追溯研究历史，虽然不在统一主链上，但不要当作无用脚本直接删除。
+6. **修改Prompt或示例后请使用新run-id**：避免与冻结记录、审计哈希及既有实验结果混淆。
+

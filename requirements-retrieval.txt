@@ -1,0 +1,14 @@
+-r requirements.txt
+# Python 3.11 Linux CUDA environment. GPU compatibility NOT validated here.
+# vLLM chooses its matching torch / transformers / tokenizers dependencies.
+# Save pip freeze after installation; model architecture may require a newer vLLM.
+vllm>=0.6.2
+sentence-transformers>=3.2
+numpy>=1.26
+pandas>=2.2
+nltk>=3.9
+rank-bm25==0.2.2
+scipy>=1.14
+scikit-learn>=1.5
+tqdm>=4.66
+# Optional Pyserini/Lucene route: see docs/ASSETS.md (not used by baseline BM25).
