@@ -27,15 +27,10 @@
 | 文件路径 | 作用 |
 |---|---|
 | `.env.example` | 服务器环境变量示例：9B/HerO服务地址、模型路径、知识库及GPU设置；复制为`.env`后按服务器实际情况填写。 |
-| `CLEANUP_REPORT.md` | 项目清理记录：说明哪些历史占位文件及结果被从交付包剥离。 |
-| `LICENSES.md` | 引用/复用第三方源码的许可证和来源说明。 |
-| `QUICKSTART.md` | 极简命令备忘；压缩包内仍写着旧的`Advisor_Clean`目录，使用时以服务器当前路径为准。 |
-| `README.md` | 项目简介，概括“从冻结VP开始做TextGrad、原始HerO单独保留”的定位。 |
 | `environment.yml` | Conda环境声明，供新环境重建参考；已有`llama70b-bw`无需盲目重建。 |
 | `requirements-retrieval.txt` | 完整HerO检索复现额外需要的Python依赖清单，并包含基本依赖。 |
 | `requirements.txt` | 当前TextGrad运行入口所需的Python依赖清单。 |
 | `run.sh` | **统一命令入口**：`qwen`启动冻结VP优化，`hero`启动原始HerO，`evaluate/compare/status/freeze`执行对应管理任务。 |
-| `导师使用说明.md` | 导师运行指南：样本规模、AF方案、Prompt/Few-shot、输出和离线指标命令。 |
 
 ### 二、`configs/`：模型和实验配置
 
