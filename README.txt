@@ -1,3 +1,5 @@
+此项目已经存在于服务器中 125.217.95.84（dengzhenyun）
+
 1..服务器内项目所在位置
 cd /data/users/dengzhenyun/Hero-TTO/HerO_TextGrad_Advisor_FrozenBaseline
 
