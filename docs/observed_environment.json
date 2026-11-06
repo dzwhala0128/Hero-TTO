@@ -1,0 +1,22 @@
+{
+  "python": "3.13.13 | packaged by Anaconda, Inc. | (main, Apr 14 2026, 06:19:41) [GCC 14.3.0]",
+  "packages": {
+    "torch": null,
+    "vllm": null,
+    "transformers": null,
+    "tokenizers": null,
+    "pyserini": null,
+    "openai": "2.46.0",
+    "diskcache": "5.6.3",
+    "httpx": "0.28.1",
+    "requests": "2.33.1",
+    "platformdirs": "4.9.4",
+    "rank-bm25": null,
+    "numpy": null,
+    "pandas": null,
+    "sentence-transformers": null,
+    "nltk": null
+  },
+  "java": "",
+  "gpu_inference_executed": false
+}

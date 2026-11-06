@@ -1,0 +1,17 @@
+The following two demonstrations illustrate the evaluation criteria and the required STATUS/FEEDBACK format.
+Use them as examples, but evaluate the TARGET INSTANCE independently based only on its own claim and QA evidence.
+
+<<FEW_SHOT_EXAMPLES>>
+
+### TARGET INSTANCE
+【Claim】
+<<CLAIM>>
+
+【AF】
+<<AF>>
+
+【QA】
+<<QA>>
+
+【初始Solution】
+<<CURRENT_SOLUTION>>

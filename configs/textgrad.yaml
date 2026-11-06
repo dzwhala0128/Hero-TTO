@@ -1,0 +1,28 @@
+{
+  "protocol": "full169_v4a_fixed6_frozen_evaluator_faithful_v2_compact",
+  "max_iterations": 1,
+  "optimizer_constraints": [
+    "Return one valid JSON object and no surrounding prose or Markdown.",
+    "The JSON object must contain exactly two string fields: justification and verdict.",
+    "The justification must be non-empty and use only the supplied claim and QA evidence.",
+    "The verdict must be exactly one of: Supported, Refuted, Not Enough Evidence, Conflicting Evidence/Cherrypicking.",
+    "Do not add metadata, confidence, annotations, citations not present in the evidence, or external facts."
+  ],
+  "stages": {
+    "evaluator": {
+      "temperature": 0,
+      "max_tokens": 1800
+    },
+    "backward": {
+      "temperature": 0.2,
+      "max_tokens": 512
+    },
+    "optimizer": {
+      "temperature": 0,
+      "max_tokens": 1400
+    }
+  },
+  "default_model_alias": "qwen36-evaluator",
+  "evaluator_mode": "request-exact frozen replay; no evaluator network call",
+  "validator": "structural only; historical evidence-boundary URL gate intentionally excluded and documented"
+}

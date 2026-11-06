@@ -1,0 +1,1842 @@
+[
+  {
+    "claim_id": 9,
+    "claim": "You see the number today? 33.1 GDP. The biggest in the history of our country by almost triple, right? Almost triple. Now it’s very much bigger than any GDP we’ve ever had. You have to go back to the 1950s, and then it’s less than half. This is the greatest number, 33.1 percent.",
+    "evidence": [
+      {
+        "question": "How does the GDP growth rate in the third quarter compare to the previous record set in the first quarter of 1950?",
+        "answer": "The BEA estimates that real GDP grew 7.4 percent (33.1 percent at an annual rate) in the third quarter, the largest single quarter of economic growth on record and roughly twice the prior record of 3.9 percent (16.7 percent at an annual rate) set in the first quarter of 1950."
+      },
+      {
+        "question": "How does the GDP growth rate in the third quarter of the year compare to the GDP growth rates in previous years, according to the claim?",
+        "answer": "The US government just published an eye-popping report: Gross domestic product, the broadest measure of the country’s economic growth, grew at a stunning 33.1% annual rate in the third quarter."
+      },
+      {
+        "question": "What was the annualized and seasonally adjusted rate of GDP growth in the third quarter, according to the evidence?",
+        "answer": "The third quarter, however, was one for the record books. Gross domestic product — the broadest measure of economic activity — grew at an annualized and seasonally adjusted rate of 33.1% between July and September."
+      },
+      {
+        "question": "How does the current GDP growth rate of 33.1% compare to the historical GDP growth rates in the 1950s?",
+        "answer": "It was also the fastest growth rate since the government began to track quarterly GDP data in 1947. It represented a sharp, albeit partial, recovery from the prior three months, when the economy contracted at an annualized, seasonally adjusted rate of 31.4%."
+      },
+      {
+        "question": "How does the GDP growth rate in the third quarter of 2020 compare to the GDP growth rates in the past, according to the speaker?",
+        "answer": "News broke this morning that real GDP grew at an annualized rate of 33.1% in the third quarter of 2020—beating expectations and setting an all-time record."
+      },
+      {
+        "question": "What is the highest GDP growth rate recorded in the US since the 1940s?",
+        "answer": "According to a report by the Commerce Department, gross domestic product rebounded at a 33.1 percent annualised rate last quarter -that was the fastest pace since the government started keeping records in 1947 and followed a historic shrinkage rate of 31.4 percent in the second quarter."
+      },
+      {
+        "question": "Does the GDP growth rate of 33.1% in the third quarter represent the largest in the history of the country?",
+        "answer": "He then touted newly released data from the Commerce Department showing that the economy grew by an annualised rate of 33.1 percent in the third quarter, beating expectations, but leaving the economy 3.5 percent below where it was at the end of 2019."
+      },
+      {
+        "question": "How does the current GDP growth rate of 33.1% compare to the GDP growth rates of previous years, including those in the 1950s?",
+        "answer": "Last quarter saw a record-high jump in economic growth: The government’s initial GDP calculation came in at 33.1 percent for the quarter on an annualized basis."
+      },
+      {
+        "question": "What was the annualized rate of growth of the U.S. economy between July and September?",
+        "answer": "The U.S. economy grew at a record annualized rate of 33.1% between July and September, clawing back much of the ground it had lost during the coronavirus-fueled shutdown earlier in the year, the Commerce Department said Thursday."
+      },
+      {
+        "question": "Is the current GDP the largest in the history of the country, considering the evidence that the economy is still 3.5% below where it was at the end of 2019?",
+        "answer": "The data from the Commerce Department showed that the economy grew by an annualized rate of 33.1 percent in the third quarter, beating expectations, but leaving the economy 3.5 percent below where it was at the end of 2019."
+      }
+    ]
+  },
+  {
+    "claim_id": 18,
+    "claim": "Even if your mail-in ballot is postmarked prior to the Election day but arrives after the Election day it will be thrown out.",
+    "evidence": [
+      {
+        "question": "How many states have laws that allow mail-in ballots to be counted as long as they are postmarked prior to the Election day, even if they arrive after the Election day?",
+        "answer": "According to the NCSL, 18 states have postmark-by-date laws on the books, meaning that as long as ballots are postmarked on or before Election Day -- or in some cases by the day prior to the election -- they will be counted, as long as they make it to election officials by a specified deadline, ranging from three to 14 days after the election."
+      },
+      {
+        "question": "What is the deadline for mail-in ballots to be considered valid in terms of postmark and arrival time?",
+        "answer": "Under some state laws, mail-in ballots will count as long as the ballot is postmarked by Election Day and arrives at the local election office within a certain number of days after Election Day."
+      },
+      {
+        "question": "What is the deadline for mail-in ballots to be considered valid in terms of postmark and arrival time?",
+        "answer": "This type of vote by mail deadline is known as a “postmarked by” deadline. For instance, in California, a mail-in ballot will count if it is postmarked by Election Day and the ballot arrives at the local election office within 17 days after Election Day."
+      },
+      {
+        "question": "What is the deadline for mail-in ballots to be considered valid in Pennsylvania, according to the state Supreme Court ruling?",
+        "answer": "And in Pennsylvania, not only will mailed ballots that are postmarked on or before 8 p.m. on Election Day and received by 5 p.m. the Friday after it be counted, due to a ruling from the state Supreme Court, but any ballots that arrive within that time frame without a postmark, or with an unreadable postmark, will be presumed to have been sent before the cutoff point, unless evidence indicates otherwise."
+      },
+      {
+        "question": "What happens to a mail-in ballot if it is postmarked before the Election day but arrives after the Election day in states that use postmarked deadlines?",
+        "answer": "In states using postmarked deadlines, if an absentee/mail-in ballot is postmarked by the return deadline, it will count towards the vote total even if it arrives after the election up to a specified number of days."
+      },
+      {
+        "question": "In which states will a mail-in ballot that is postmarked prior to Election Day but arrives after Election Day be accepted?",
+        "answer": "In 29 states, postal votes must be received on or before Election Day.[22] Other states have later deadlines, with California election law allowing mailed in ballots to arrive at the elections office up to 17 days after Election Day.[23] Some states, like Texas, give overseas and military voters extra time to mail in their ballots.[24]"
+      },
+      {
+        "question": "What is the deadline for mail-in ballots to be considered valid in terms of postmark and receipt, according to the evidence provided?",
+        "answer": "Mail ballots will now be accepted if they are received by 5 p.m. on the Friday after the election and were either postmarked by Nov. 3 or there is no evidence to suggest they were sent after Election Day."
+      },
+      {
+        "question": "What is the deadline for mail-in ballots to be postmarked in order to be eligible for counting in an election?",
+        "answer": "NOTE: Any mail ballot that is postmarked after Election Day cannot be counted, by law. If a ballot envelope is placed in a US Postal Service box on or near Election Day, that envelope may be postmarked late and may not be eligible to be counted."
+      },
+      {
+        "question": "What is the deadline for receiving mail-in ballots in Nevada, and what happens to ballots that are postmarked prior to Election Day but arrive after the Election Day?",
+        "answer": "(Section 20.1b). Although most states require that absentee or mail-in ballots be received by the close of Election Day, Nevada is among the 18 states that allow ballots received in the days after the election to be counted, provided they are postmarked by Election Day, according to the National Conference of State Legislatures."
+      },
+      {
+        "question": "What is the deadline for mail-in ballots to be counted in states that do not count ballots postmarked by election day but received after election day?",
+        "answer": "While Washington state counts ballots that are postmarked by election day, even if they arrive after, other states require that ballots be received on or before election day to be counted."
+      }
+    ]
+  },
+  {
+    "claim_id": 20,
+    "claim": "Viral video purportedly shows Pakistani opposition MPs chanted ‘Modi, Modi’ (India's PM)  inside the Pakistani Parliament",
+    "evidence": [
+      {
+        "question": "Did Pakistani opposition MPs chant 'Modi, Modi' inside the Pakistani Parliament?",
+        "answer": "A video has been shared by social media users with the claim that chants of ‘Modi Modi’ were raised in the Pakistani parliament."
+      },
+      {
+        "question": "Is the video of Pakistani opposition MPs chanting 'Modi, Modi' inside the Pakistani Parliament authentic?",
+        "answer": "Hence, the video of the parliament proceedings is Pakistan is being shared with a false claim that MPs were raising slogans in support of Modi."
+      },
+      {
+        "question": "Did the Pakistani opposition MPs chant \"Modi, Modi\" inside the Pakistani Parliament?",
+        "answer": "Shehzad Jai Hind also shared the video saying, \"We have all heard @narendramodi slogans in India!! Massive embarrassment for Pakistan & Imran as Opposition in Pakistan Parliament chants \"Modi Modi\""
+      },
+      {
+        "question": "Did the video show Pakistani opposition MPs chanting 'Modi, Modi' inside the Pakistani Parliament?",
+        "answer": "BJP leader Tajinder Pal Singh Bagga shared the video with the caption, \"Baluchistan MPs raising Modi-Modi slogans in Pakistan Parliament.\""
+      },
+      {
+        "question": "Are the Pakistani opposition MPs in the video actually chanting \"Modi, Modi\" inside the Pakistani Parliament?",
+        "answer": "In this video, some MPs can be heard raising slogans in the background and it is being claimed that these MPs are chanting 'Modi-Modi'."
+      },
+      {
+        "question": "Did Pakistani opposition MPs chant \"Modi, Modi\" inside the Pakistani Parliament?",
+        "answer": "In our investigation, we found this claim to be false. In the viral video, MPs are raising slogans of 'voting-voting.'"
+      },
+      {
+        "question": "Does the viral video show Pakistani opposition MPs chanting \"Modi, Modi\" inside the Pakistani Parliament?",
+        "answer": "On analyzing the video, it became clear that 'voting-voting' is being chanted in the background. When we checked on the internet, we found a longer version of the video of the proceedings on 'Dunya News' YouTube channel."
+      },
+      {
+        "question": "Was the video broadcast on October 28, 2020, showing Pakistani opposition MPs chanting 'Modi, Modi' inside the Pakistani Parliament authentic?",
+        "answer": "In a broadcast aired on October 28, 2020 India TV also claimed that slogans of ‘Modi-Modi’ were raised in the Pakistani parliament."
+      },
+      {
+        "question": "What did Pakistani opposition MPs allegedly do inside the Pakistani Parliament, according to the speaker?",
+        "answer": "And I want to narrate what happened in the Pakistani parliament. You will also be shocked. I was also shocked to hear that slogans of Narendra Modi were chanted there."
+      },
+      {
+        "question": "What were the actual slogans chanted inside the Pakistani Parliament, and how were they mispresented in the viral video?",
+        "answer": "In reality, slogans of ‘voting voting’ were raised (mispresented as ‘Modi Modi’ by India TV) following which ‘the one who is a friend of Modi is a foe of Pakistani’ was said."
+      }
+    ]
+  },
+  {
+    "claim_id": 50,
+    "claim": "Twitter now putting warnings on tweets that are just unedited clips of Biden saying he would end fracking",
+    "evidence": [
+      {
+        "question": "What is the reason behind Twitter's decision to label a video of Joe Biden's statement about ending fracking as \"partly false\" and \"manipulated media\"?",
+        "answer": "Twitter marked that video, which featured a clip of former Vice President and Democratic front-runner Joe Biden, as “partly false” and added a warning message to the tweet that said, “Manipulated media.”"
+      },
+      {
+        "question": "Did Twitter apply warning labels to tweets that were unedited clips of Joe Biden saying he would end fracking, and if so, what was the reason for doing so?",
+        "answer": "A video of Joe Biden that was deceptively edited to make it appear as if he endorsed President Donald Trump for re-election triggered warning labels from Twitter and Facebook, one of the first instances in which new policies meant to curb misinformation have been applied to the Trump campaign."
+      },
+      {
+        "question": "Does Twitter's labeling of the clip as \"manipulated media\" suggest that the clip of Biden saying he would end fracking has been edited or manipulated in some way?",
+        "answer": "The clip, which is still on the platform, was flagged by Twitter as \"manipulated media\" as part of its new policy to label some content which it feels is misleading, manipulated or synthetic - such as deep-fakes and edited clips."
+      },
+      {
+        "question": "Does Twitter's \"manipulated media\" label accurately reflect the nature of the tweets that are just unedited clips of Biden saying he would end fracking?",
+        "answer": "“Twitter applied its new ‘manipulated media’ label to a 100% real, 100% authentic, 100% unedited video of Joe Biden,” the letter said."
+      },
+      {
+        "question": "Are the tweets that are just unedited clips of Biden saying he would end fracking being labeled as \"manipulated media\" by Twitter?",
+        "answer": "Twitter has used its new \"manipulated media\" tag for the first time on an edited video of a speech by Joe Biden."
+      },
+      {
+        "question": "Did Twitter apply a \"manipulated media\" tag to a tweet posted by the Trump campaign that was an unedited clip of Joe Biden saying he would end fracking?",
+        "answer": "WASHINGTON — After the Trump campaign posted a deceptively edited video of Joe Biden on Monday, Twitter applied a \"manipulated media\" tag to the content amid criticism."
+      },
+      {
+        "question": "Is Twitter labeling tweets that are unedited clips of Biden saying he would end fracking as \"manipulated media\"?",
+        "answer": "One version of the video on the platform had Twitter’s “manipulated media” tag attached to it, which redirected to a page containing an explanation of what had been manipulated about the video along with links to fact-checking articles."
+      },
+      {
+        "question": "Does Twitter's manipulated-media policy justify the warning labels on unedited clips of Biden's statements about ending fracking?",
+        "answer": "Twitter’s manipulated-media policy was announced in February, but it remains fairly opaque. The blog post containing the announcement says that moderators take three things into account when determining the correct course of action for an account sharing edited and misleading videos: Has it been edited, was it shared in a misleading way, and is it likely to impact public safety or cause harm?"
+      },
+      {
+        "question": "Did Twitter's manipulated content rules apply to unedited clips of Biden's statement about ending fracking, resulting in warnings being placed on such tweets?",
+        "answer": "The site integrity team quickly decided that the video, which flipped the meaning of Biden's statement by cutting it off prematurely, broke Twitter's manipulated content rules, which went into place on Thursday."
+      },
+      {
+        "question": "Is the warning on tweets about Biden's statement on fracking due to the tweet being misleading or unedited?",
+        "answer": "Twitter head of site integrity Yoel Roth confirmed that the rules would apply to some high-profile misleading content — like a tightly cut clip of Vice President Joe Biden talking about race."
+      }
+    ]
+  },
+  {
+    "claim_id": 58,
+    "claim": "Russia sent medical aid to the US, in the form of medical equipment to help coronavirus patients.",
+    "evidence": [
+      {
+        "question": "Did Russia provide medical equipment to the United States to help fight the coronavirus pandemic?",
+        "answer": "MOSCOW/WASHINGTON - Russia sent the United States medical equipment on Wednesday to help fight the coronavirus pandemic, a public relations coup for Russian President Vladimir Putin after he discussed the crisis with U.S. President Donald Trump."
+      },
+      {
+        "question": "Did Russia send medical aid to the US in the form of medical equipment to help coronavirus patients?",
+        "answer": "A Russian Defense Ministry cargo jet loaded with masks, ventilators, and other medical equipment arrived at New York's John F. Kennedy International Airport on April 1: It was \"humanitarian assistance,\" according to the Kremlin, to help the United States in its fight against COVID-19."
+      },
+      {
+        "question": "Did Russia send medical aid to the US in the form of medical equipment to help coronavirus patients?",
+        "answer": "More striking was Russia’s delivery of medical assistance to the United States. A Russian Air Force cargo plane landed in New York on April 1 carrying protective gear and ventilators."
+      },
+      {
+        "question": "Did Russia send medical aid to the US in the form of medical equipment to help coronavirus patients?",
+        "answer": "President of Russia Vladimir Putin sent a military plane to the United States carrying medical supplies and masks to help the United States fight the coronavirus as a good will gesture to US President Trump."
+      },
+      {
+        "question": "Did Russia send medical aid to the US in the form of medical equipment to help coronavirus patients?",
+        "answer": "Following a “very constructive” phone call between President Trump and President Putin to discuss Russia’s plans to send a plane with medical equipment to the U.S. to help counter COVID-19, state-run channel Rossiya 1 reported: “today, in the U.S. they are awaiting the arrival of a Russian aircraft with humanitarian aid."
+      },
+      {
+        "question": "Did Russia offer medical aid to the US in the form of medical equipment to help coronavirus patients?",
+        "answer": "A Russian military plane brought much-needed medical equipment to the U.S. on Wednesday after President Vladimir Putin offered Donald Trump help for the U.S. battle with coronavirus."
+      },
+      {
+        "question": "Did Russia dispatch a cargo plane with masks and medical equipment to the US after Donald Trump accepted an offer of humanitarian aid from Vladimir Putin to fight the coronavirus outbreak?",
+        "answer": "Russia has dispatched a cargo plane with masks and medical equipment to the US after Donald Trump accepted an offer of humanitarian aid from Vladimir Putin to fight the coronavirus outbreak."
+      },
+      {
+        "question": "Did Russia reciprocate the medical aid it received from the US by sending medical equipment to the US to help coronavirus patients?",
+        "answer": "A few months later, the U.S sent $5.6 million in medical equipment to Moscow, with the U.S. Embassy in Moscow tweeting a video of a plane carrying some of the aid taxiing on the tarmac in Russia."
+      },
+      {
+        "question": "Did Russia send medical aid to the US in the form of medical equipment to help coronavirus patients?",
+        "answer": "MOSCOW — Russia has sent a planeload of medical aid to the United States amid the growing coronavirus pandemic."
+      },
+      {
+        "question": "Did Russia send medical aid to the US in the form of medical equipment to help coronavirus patients, as described by the Kremlin-supported RT channel?",
+        "answer": "The arrival of a Russian plane carrying ventilators, masks and respirators to New York was covered live on the Kremlin-supported RT channel, which described the shipment as \"humanitarian aid.\""
+      }
+    ]
+  },
+  {
+    "claim_id": 59,
+    "claim": "There is a scam involving Santander customers being sent fake bank cards.",
+    "evidence": [
+      {
+        "question": "What is the common characteristic of the scam messages sent to Santander customers?",
+        "answer": "All of the cases are similar in nature. The fraudsters sent out genuine-looking texts that appear as if they are from Santander saying there has been unusual activity, and giving a phone number to call."
+      },
+      {
+        "question": "Is Santander bank warning its customers about potential fraudulent activity involving their bank cards?",
+        "answer": "He told her that her bank card was suspected of being used fraudulently. When asked which card, he said Santander, and suggested she call her bank using the number on her debit card."
+      },
+      {
+        "question": "Are Santander customers being targeted by a scam involving fake bank cards?",
+        "answer": "“We have been made aware of an ATM scam in which suspects are using Santander Bank ATM’s to fraudulently withdraw cash using fake debit cards."
+      },
+      {
+        "question": "How did the scammers make the messages appear as if they came from Santander, and what was the approach they used to target the victims?",
+        "answer": "In these three cases, the messages were made to appear as if they had come from Santander. It is not clear whether the fraudsters targeted the victims with knowledge they banked with Santander or whether it was a scattergun approach."
+      },
+      {
+        "question": "Did Santander send a text message to its customers warning of suspicious activity on their accounts, as claimed in the scam?",
+        "answer": "A devious 'Santander' text message scam aimed at stealing customers' funds is conning people into handing over their details by claiming there has been \"suspicious activity\" on their account."
+      },
+      {
+        "question": "Did Santander customers receive fake bank cards from scammers who mimicked the bank's number, making it difficult to identify the scam?",
+        "answer": "The scammers are able to mimic Santander's number, meaning the text could actually appear within a legitimate thread of messages from the bank, making it especially hard to spot."
+      },
+      {
+        "question": "Is the purpose of the challenge to raise consumer awareness of how to avoid scams, or is it a real-life demonstration of a scam involving Santander customers being sent fake bank cards?",
+        "answer": "As part of Santander’s campaign to raise consumer awareness of how to avoid scams, Santander challenged SAS graduate 86 year old Alec Daniels from Hampshire, to write and distribute a pretend phishing email, as well as hack into a public WiFi hotspot, despite having little knowledge of computers."
+      },
+      {
+        "question": "Has Santander taken measures to alert its customers to potential scams, including running an annual scam awareness campaign?",
+        "answer": "The Santander spokesman said: “We invest significant resource each year to alert customers to scams; running an annual scam awareness campaign, offering tips and advice on our online security centre www.santander.co.uk/securitycentre."
+      },
+      {
+        "question": "Is the purpose of the challenge to raise consumer awareness of how to avoid scams, or is it a real-life demonstration of a scam involving Santander customers being sent fake bank cards?",
+        "answer": "As part of Santander’s campaign to raise consumer awareness of how to avoid scams, Santander challenged SAS1 graduate 86 year old Alec Daniels from Hampshire, to write and distribute a pretend phishing email, as well as hack into a public WiFi hotspot, despite having little knowledge of computers."
+      },
+      {
+        "question": "Are Santander customers being targeted by scammers who are sending fake bank cards and asking for their personal details?",
+        "answer": "Phishers are imitating the messages meant for SCA and asking users to provide their updated details. To make it convincing, these messages are sent through emails that appear to come from legitimate banks such as Santander, Royal Bank of Scotland (RBS), and HSBC."
+      }
+    ]
+  },
+  {
+    "claim_id": 77,
+    "claim": "A third of excess deaths in the United States between 1 March and  1 August 2020 during the COVID-19 pandemic could not be directly attributed to the coronavirus",
+    "evidence": [
+      {
+        "question": "What proportion of excess deaths in the United States between 1 March and 1 August 2020 during the COVID-19 pandemic were directly attributed to the coronavirus?",
+        "answer": "The study, “Excess Deaths from COVID-19 and Other Causes, March-April 2020,” showed that only 65% of the excess deaths that occurred in March and April were attributed to COVID-19, meaning more than one-third were linked to other causes."
+      },
+      {
+        "question": "What proportion of the 225,530 excess deaths in the United States between 1 March and 1 August 2020 were directly attributed to COVID-19?",
+        "answer": "The authors report that during this 5-month period, a total of 1 336 561 deaths occurred in the US, an estimated 20% increase compared with the number of expected deaths, and representing 225 530 excess deaths.2 Approximately 67% of these excess deaths were attributable directly to COVID-19, whereas excess deaths attributed to other causes also could have been related to the pandemic in general."
+      },
+      {
+        "question": "What percentage of excess deaths in the United States between 1 March and 1 August 2020 during the COVID-19 pandemic were not directly attributed to the coronavirus?",
+        "answer": "For every 100 excess deaths directly attributed to COVID-19, there were another 36 excess deaths. This means 26 percent of all excess deaths were not directly attributed to COVID."
+      },
+      {
+        "question": "What percentage of excess deaths in the United States between 1 March and 1 August 2020 during the COVID-19 pandemic were directly attributed to the coronavirus?",
+        "answer": "According to the study, published in the Journal of the American Medical Association, “between March 1 and August 1, 2020, 136,561 deaths occurred in the U.S, a 20% increase over expected deaths,” the study continues, “of the 225,530 excess deaths, 150,541 (67%) were attribute to COVID-19.”"
+      },
+      {
+        "question": "What percentage of excess deaths in the United States between 1 March and 1 August 2020 during the COVID-19 pandemic were not directly attributed to the coronavirus?",
+        "answer": "For every 100 excess deaths directly attributed to COVID-19, there were another 36 excess deaths. This means 26% of all excess deaths were not directly attributed to COVID."
+      },
+      {
+        "question": "What percentage of excess deaths in the United States between 1 March and 1 August 2020 during the COVID-19 pandemic were directly attributed to the coronavirus?",
+        "answer": "The study was an update of an analysis of excess deaths during March and April, published in JAMA on Jul 1, that found that 65% of excess deaths during that time were attributed to COVID-19 and that deaths from non-coronavirus causes such as Alzheimer's disease, diabetes, and heart disease jumped in the five states with the most COVID-19 deaths."
+      },
+      {
+        "question": "What percentage of excess deaths in the United States between 1 March and 1 August 2020 during the COVID-19 pandemic were directly attributed to the coronavirus?",
+        "answer": "This means 26 percent of all excess deaths were not directly attributed to COVID—or, in other words, that excess deaths were 36 percent higher than the number directly attributed to COVID."
+      },
+      {
+        "question": "What proportion of excess deaths in the United States between 1 March and 1 August 2020 during the COVID-19 pandemic were directly attributed to the coronavirus?",
+        "answer": "(HealthDay)—The number of expected U.S. deaths increased considerably from March through July 2020, with 67 percent of these excess deaths attributed to COVID-19; and the United States has experienced high COVID-19-associated mortality compared with other countries, according to two studies published online Oct. 12 in the Journal of the American Medical Association."
+      },
+      {
+        "question": "What percentage of excess deaths in the United States between 1 March and 1 August 2020 during the COVID-19 pandemic were not directly attributed to the coronavirus?",
+        "answer": "This means 26 percent of all excess deaths were not directly attributed to COVID-19—or viewed another way, that actual excess deaths were 36 percent higher than the number that has been officially attributed to COVID-19."
+      },
+      {
+        "question": "What proportion of excess deaths in the United States between 1 March and 1 August 2020 during the COVID-19 pandemic were attributed to the coronavirus?",
+        "answer": "During the coronavirus pandemic so far, there were 20% more deaths than would normally be expected from March 1 through August 1 in the United States – with Covid-19 officially accounting for about two-thirds of them, according to new research published Monday in the medical journal JAMA."
+      }
+    ]
+  },
+  {
+    "claim_id": 106,
+    "claim": "Amy Coney Barrett, associate justice of the Supreme Court of the United States,  said during her Supreme Court confirmation hearing that she was not using notes because she has seven kids and is used to stupid questions.",
+    "evidence": [
+      {
+        "question": "Did Amy Coney Barrett mention her children as a reason for not using notes during her Supreme Court confirmation hearing?",
+        "answer": "Amy Coney Barrett shared some details about her children as a proud mother of seven in her opening statement on the first day of her Senate confirmation hearings on her Supreme Court nomination."
+      },
+      {
+        "question": "Did Amy Coney Barrett bring notes to her Supreme Court confirmation hearing and, if so, what was her reason for doing so?",
+        "answer": "Federal Judge Amy Coney Barrett showcased her deep legal knowledge Tuesday during her Supreme Court confirmation hearing when asked to hold up her notes that she brought to the proceedings."
+      },
+      {
+        "question": "Did Amy Coney Barrett mention her experience as a mother of seven children during her Supreme Court confirmation hearing?",
+        "answer": "Earlier this year, 7th Circuit Judge Amy Coney Barrett spoke to The Heritage Foundation’s “SCOTUS 101” podcast about what it was like clerking for Supreme Court Justice Antonin Scalia, teaching at Notre Dame Law School, and balancing her career with raising seven kids."
+      },
+      {
+        "question": "Did Amy Coney Barrett claim to not use notes during her Supreme Court confirmation hearing due to her experience with answering questions as a mother of seven children?",
+        "answer": "Supreme Court nominee Judge Amy Coney Barrett held up a blank notepad when Sen. John Cornyn (R-TX) asked her to show the public the notes she’s been using to answer the numerous questions spat at her during day two of the confirmation hearings."
+      },
+      {
+        "question": "Did Amy Coney Barrett claim to use notes during her Supreme Court confirmation hearing, and if so, what was her reason for claiming to not use notes?",
+        "answer": "WASHINGTON — Supreme Court nominee Amy Coney Barrett demonstrated the depths of her judicial knowledge on Tuesday as she responded to hours of questioning with zero notes in front of her."
+      },
+      {
+        "question": "Does Amy Coney Barrett have a large family, which may have influenced her approach to her Supreme Court confirmation hearing?",
+        "answer": "Supreme Court Nominee, Amy Coney Barrett, has seven children–the oldest is 16 and the youngest is five."
+      },
+      {
+        "question": "Did Amy Coney Barrett mention her children as a reason for not using notes during her Supreme Court confirmation hearing?",
+        "answer": "If you follow the news surrounding hopefuls for the empty SCOTUS seat, you undoubtedly know that Barrett, a federal circuit judge and Notre Dame law grad, is the mother of seven children."
+      },
+      {
+        "question": "Did Amy Coney Barrett use notes during her Supreme Court confirmation hearing?",
+        "answer": "WASHINGTON — Supreme Court nominee Amy Coney Barrett demonstrated the depths of her judicial knowledge on Tuesday as she responded to hours of questioning with zero notes in front of..."
+      },
+      {
+        "question": "Did Amy Coney Barrett bring all of her children to her 7th Circuit confirmation hearing?",
+        "answer": "They have seven children (only two fewer than her old boss, Scalia). At her 7th Circuit confirmation hearing, Barrett introduced three of her daughters, who were sitting behind her."
+      },
+      {
+        "question": "Did Judge Amy Coney Barrett say during her Supreme Court confirmation hearing that she was not using notes because she has seven kids and is used to stupid questions?",
+        "answer": "WASHINGTON – When Judge Amy Coney Barrett displayed that she was not using notes during Tuesday's Supreme Court confirmation hearing, the moment became just one of a few to go viral."
+      }
+    ]
+  },
+  {
+    "claim_id": 126,
+    "claim": "Ulysses S. Grant, commander of the Union Army during the American Civil War, was a slave owner.",
+    "evidence": [
+      {
+        "question": "What was Ulysses S. Grant's relationship with a slave named William Jones?",
+        "answer": "At some time before the Civil War, Grant himself owned a slave named William Jones. We know this not because the Grant correspondence mentions it, as his letters up until the Civil War do not mention his opinions on slavery nor discuss the status of slaves, but because he manumitted Jones on March 29, 1859."
+      },
+      {
+        "question": "Who was an enslaved man owned by Ulysses S. Grant and when was he freed from slavery?",
+        "answer": "William Jones was an enslaved man owned by Ulysses S. Grant for a period of time in the late 1850s. On March 29, 1859, Grant went to the St. Louis Courthouse and wrote a manumission paper legally freeing Jones from slavery."
+      },
+      {
+        "question": "Did Ulysses S. Grant own an enslaved individual?",
+        "answer": "As a result, Ulysses Grant was the last U.S. president to have owned an enslaved individual. Grant’s legacy as the respected Commanding General of the Union Army, and his efforts as president to protect black citizenship have long obscured his personal slave-ownership, as well as that of his beloved wife."
+      },
+      {
+        "question": "Did Ulysses S. Grant own slaves, as evidenced by primary source material in his own handwriting and documentation of his ownership of a specific slave named William Jones?",
+        "answer": "Had you read this essay, you’d see that I provided context and made arguments about Grant’s relationship to slavery based on primary source material in Grant’s own handwriting and that Grant’s ownership of William Jones (the only known slave Grant owned) is documented."
+      },
+      {
+        "question": "Did Ulysses S. Grant own any slaves during his lifetime?",
+        "answer": "During his time at White Haven, Ulysses S. Grant worked alongside enslaved African-Americans. He actually was the owner of an enslaved man named William Jones."
+      },
+      {
+        "question": "Did Ulysses S. Grant own slaves during the American Civil War?",
+        "answer": "Update, 8/24/2016: A passage in this letter from Grant to Congressman Elihu B. Washburne on August 30, 1863, further demonstrates that Grant did not own slaves during the war until the passage of the 13th amendment in 1865, nor did he even have intentions of doing so."
+      },
+      {
+        "question": "Did Ulysses S. Grant own a slave named Jones, and if so, what was his decision regarding the slave's ownership?",
+        "answer": "According to the signed manumission, Jones was “purchased by me [Grant] of Frederick Dent.” Jones is the only known enslaved individual who was owned by Grant—though his decision to free William rather than sell him, especially as he struggled financially, suggests that Grant had personal discomfort with slave ownership."
+      },
+      {
+        "question": "How did Ulysses S. Grant acquire the slave named William Jones?",
+        "answer": "At some time during the late 1850s, Grant came to own a slave named William Jones. It is not certain when this occurred or why, but most likely Grant’s ownership of Jones was through purchase or as a gift from his father-in-law."
+      },
+      {
+        "question": "What is the basis for the claim that Ulysses S. Grant owned slaves until December 1865, and how does this relate to the narrative that he didn't care about the demise of slavery and that slavery had little to do with the context of the Civil War?",
+        "answer": "Given this evidence, why is it claimed that he owned slaves until December 1865? By arguing that Grant didn’t care about slavery’s demise and that he even owned slaves himself during the war, the people who buy this narrative are trying to spread the idea that slavery had little to do with the pretext or context of the Civil War."
+      },
+      {
+        "question": "Did Ulysses S. Grant own a slave named William Jones, and if so, what was the outcome of his ownership?",
+        "answer": "Grant owned a slave named William Jones, whom he freed in 1859. Between 1854 and 1859 Grant worked and lived on an 850-acre farm in Missouri, near St. Louis, that was owned by his father-in-law."
+      }
+    ]
+  },
+  {
+    "claim_id": 136,
+    "claim": "Forty percent of Iowa’s energy resources are from renewables.",
+    "evidence": [
+      {
+        "question": "What percentage of Iowa's energy resources come from wind energy?",
+        "answer": "The Hawkeye state has a long history of relying upon renewable energy. In fact, although coal is the most heavily used electric generation resource, wind energy is the second largest source of electricity in Iowa: 37 percent of Iowa’s total electricity generation came from wind energy in 2018, more than in any other state."
+      },
+      {
+        "question": "What percentage of Iowa's energy resources come from renewable sources?",
+        "answer": "In addition to renewable fuels, Iowa is a national leader in the generation of wind power. Wind energy supports more than 9,000 jobs in Iowa alone and provides 40 percent of the state's electricity."
+      },
+      {
+        "question": "What percentage of Iowa's electricity generation comes from renewable resources?",
+        "answer": "More than two-fifths of Iowa's electricity net generation comes from renewable resources, almost all of it from wind.23 In 2019, the state was the third-largest wind power producer, after Texas and Oklahoma."
+      },
+      {
+        "question": "What percentage of Iowa's energy resources come from wind power?",
+        "answer": "According to the U.S. Energy Information Administration, “wind provided 37 percent of Iowa’s total electricity generation in 2017, a larger share than in any other state,” versus just 4.7 percent in the country overall in recent years."
+      },
+      {
+        "question": "What percentage of Iowa's energy resources come from renewable sources?",
+        "answer": "In 2008, about 4 percent of Iowa’s electricity generation came from wind. But so many wind farms have been built in the state that in 2015, according to the U.S. Energy Information Administration, “wind provided 31.3% of Iowa’s total electricity generation in 2015, a larger share than any other state.”"
+      },
+      {
+        "question": "What percentage of Iowa's energy resources come from renewable sources, according to the evidence provided?",
+        "answer": "Last year, Iowa received about 37 percent of its electric generation from wind, according to the U.S. Energy Information Administration."
+      },
+      {
+        "question": "What percentage of Iowa's energy resources come from wind power?",
+        "answer": "Due to abundant wind and solar resources, a strong history of business and state support, and the work of the Iowa Environmental Council and our partners, Iowa has become a national clean energy leader in recent years, producing more energy with wind – over 59 percent – than any other state."
+      },
+      {
+        "question": "What percentage of Iowa's energy resources are expected to come from wind energy by 2020?",
+        "answer": "Clarion Energy Content Directors 7.17.2015 Share A new report by the American Wind Energy Association (AWEA) and the Wind Energy Foundation finds that 28 percent of Iowa’s electricity was generated by wind in 2014, and that up to 40 percent of its energy could come from wind by 2020."
+      },
+      {
+        "question": "What percentage of Iowa's energy resources come from renewable sources?",
+        "answer": "In Iowa, wind power has taken off over the past decade. It now makes up nearly 40 percent of the electricity produced in the state."
+      },
+      {
+        "question": "What percentage of Iowa's energy resources are expected to come from wind energy by 2020?",
+        "answer": "New Projects - Renewables Iowa’s wind energy industry poised for growth A new report by AWEA and the Wind Energy Foundation finds that 28 percent of Iowa’s electricity was generated by wind in 2014, and that up to 40 percent of its energy could come from wind by 2020."
+      }
+    ]
+  },
+  {
+    "claim_id": 141,
+    "claim": "China seek for court’s approval to kill the over 20,000 coronavirus patients to avoid further spread of the virus.",
+    "evidence": [
+      {
+        "question": "Did China seek court's approval to kill over 20,000 coronavirus patients to avoid further spread of the virus?",
+        "answer": "An article claiming China sought court approval to kill over 20,000 patients who were infected by the deadly novel Coronavirus, is false and originates from a dubious website that has a history of peddling misinformation."
+      },
+      {
+        "question": "Did China seek court's approval to kill over 20,000 coronavirus patients to avoid further spread of the virus?",
+        "answer": "The article carried made-up information on the outbreak situation in China, specifically a false claim that China’s highest court was “expected to give an approval on Friday” on its government’s supposed proposal to kill over 20,000 coronavirus patients in the country to “control” the further propagation of the virus."
+      },
+      {
+        "question": "Did China seek the court's approval to kill over 20,000 coronavirus patients to avoid further spread of the virus?",
+        "answer": "CLAIM: China seeks the court’s approval to kill over 20,000 coronavirus patients to avoid further spread of the virus:"
+      },
+      {
+        "question": "Did China seek court's approval to kill over 20,000 coronavirus patients to avoid further spread of the virus?",
+        "answer": "It shows an article by \"City News\", headlined “China seek for court’s approval to kill the over 20,000 coronavirus patients to avoid further spread of the virus”."
+      },
+      {
+        "question": "Does the Supreme People's Court in China plan to give approval for the mass killing of over 20,000 coronavirus patients?",
+        "answer": "The highest level of court in China, Supreme People’s Court, is expected to give an approval on Friday for the mass killing of coronavirus patients in China as sure means of controlling the spread of the deadly virus."
+      },
+      {
+        "question": "Is the report claiming that China is seeking court approval to kill over 20,000 coronavirus patients a true or fabricated news?",
+        "answer": "The “fake news” report read: “The highest level of court in China, Supreme People’s Court, is expected to give approval on Friday for the mass killing of coronavirus patients in China as a sure means of controlling the spreading of the deadly virus."
+      },
+      {
+        "question": "Did China seek the court's approval to kill over 20,000 coronavirus patients to avoid further spread of the virus?",
+        "answer": "The highest level of court in Chhina [sic], Supreme People’s Court, is expected to give an approval on Friday for the mass killing of coronavirus patients in China as sure means of controlling the spread of the deadly virus."
+      },
+      {
+        "question": "Is the Supreme People's Court of China considering approving a plan to kill over 20,000 coronavirus patients to control the spread of the virus?",
+        "answer": "The text reads, in part: “The highest level of court in Chhina, Supreme People’s Court, is expected to give an approval on Friday [February 7] for the mass killing of coronavirus patients in China as sure means of controlling the spread of the deadly virus.”"
+      },
+      {
+        "question": "Did the Chinese government seek court approval to kill over 20,000 coronavirus patients to prevent further spread of the virus?",
+        "answer": "Website news-af.feednews.com published on Feb. 7 a fake article claiming the Chinese government, upon approval of its Supreme People’s Court, will carry out a mass execution of 20,000 COVID-19 patients in the country."
+      },
+      {
+        "question": "Did the Supreme People's Court in China give approval for the mass killing of over 20,000 coronavirus patients to control the spread of the virus?",
+        "answer": "The article reads as “The highest level of court in Chhina, Supreme People’s Court is expected to give approval on Friday for the mass killing of coronavirus patients in China as sure means of controlling the spread of the deadly virus.”"
+      }
+    ]
+  },
+  {
+    "claim_id": 142,
+    "claim": "The CDC has said over 98,000 people had non-COVID related deaths because of hospitals that were closed down for non-essential services",
+    "evidence": [
+      {
+        "question": "According to the CDC's Morbidity and Mortality Weekly Report, what percentage of U.S. adults have avoided medical care during the pandemic due to concerns about COVID-19, and how does this relate to the claim that over 98,000 people had non-COVID related deaths because of hospitals being closed down for non-essential services?",
+        "answer": "Also, the Morbidity and Mortality Weekly Report from the Centers for Disease Control and Prevention (CDC) issued results of a survey showing that an estimated 41 percent of U.S. adults have avoided medical care during the pandemic because of concerns about COVID-19, including 12 percent who sidestepped urgent or emergency care and another 32 percent who bypassed routine care."
+      },
+      {
+        "question": "Did the fear generated by COVID-19 lead to a significant number of non-COVID related deaths due to people avoiding medical care for non-emergency symptoms?",
+        "answer": "The cause of some of the excess US deaths that have occurred since mid-March might not be COVID-19 itself but the fear it generated, preventing people from seeking medical care for symptoms that require immediate attention such as chest pain, Mehrotra speculated."
+      },
+      {
+        "question": "How many non-COVID related deaths were attributed to hospitals being closed down for non-essential services, according to the CDC?",
+        "answer": "This is 232 more than the 104 deaths reportedly attributed to COVID-19 over the same period. These additional excess deaths, not directly attributed to COVID-19, may be due to underreporting in the early phases of the pandemic or to indirect consequences such as missed or delayed medical interventions."
+      },
+      {
+        "question": "Did the closure of hospitals for non-essential services lead to an increase in non-COVID related deaths due to delayed or avoided medical care?",
+        "answer": "However, medical care delay or avoidance might increase morbidity and mortality risk associated with treatable and preventable health conditions and might contribute to reported excess deaths directly or indirectly related to COVID-19 (2)."
+      },
+      {
+        "question": "How many non-COVID related deaths were attributed to hospitals being closed down for non-essential services according to the Centers for Disease Control and Prevention (CDC)?",
+        "answer": "The Centers for Disease Control and Prevention (CDC) also released a report today on the impact COVID-19 has had on emergency department visits in the United States."
+      },
+      {
+        "question": "What is the relationship between the decline in hospital admissions, emergency department visits, and excess deaths during the pandemic, and the CDC's claim that over 98,000 people had non-COVID related deaths due to hospitals being closed down for non-essential services?",
+        "answer": "“These findings align with recent reports that hospital admissions, overall emergency department (ED) visits and the number of ED visits for heart attack, stroke, and hyperglycemic crisis have declined since the start of the pandemic, and that excess deaths directly or indirectly related to COVID-19 have increased in 2020 versus prior years,” the report said."
+      },
+      {
+        "question": "How did the COVID-19 pandemic affect non-COVID related deaths in hospitals?",
+        "answer": "In addition, social distancing practices, the demand on hospitals and health care providers, and public fear related to COVID-19 might lead to delays in seeking or obtaining lifesaving care."
+      },
+      {
+        "question": "What is the relationship between the closure of hospitals for non-essential services and the increase in non-COVID related deaths?",
+        "answer": "Large increases in mortality from heart disease, diabetes, and other diseases were observed. Further investigation is required to determine the extent to which these trends represent nonrespiratory manifestations of COVID-19 or secondary pandemic mortality caused by disruptions in society that diminished or delayed access to health care and the social determinants of health (eg, jobs, income, food security)."
+      },
+      {
+        "question": "How did the closure of hospitals for non-essential services affect the mortality rate of patients under 65?",
+        "answer": "The increase in the risk of death for affected adults under 65 was even greater: their risk of dying in the hospital increased by 10% compared with similar patients who were not affected by a closure."
+      },
+      {
+        "question": "Did the CDC report that hospital closures for non-essential services led to non-COVID related deaths?",
+        "answer": "Furthermore, if patients with chronic conditions turn away from the health care system because of concerns about potential COVID-19 infection, there could be increases in certain categories of deaths unrelated to COVID-19."
+      }
+    ]
+  },
+  {
+    "claim_id": 146,
+    "claim": "Right after a time where we're going through a pandemic that lost 22 million jobs at the height, we've already added back 11.6 million jobs.",
+    "evidence": [
+      {
+        "question": "How many jobs were lost during the pandemic, and how many jobs were added back after the initial loss?",
+        "answer": "This followed a massive loss of more than 22 million jobs in March and April. The economy has recovered about half of the jobs lost, but there are still 10.7 million fewer jobs than in February."
+      },
+      {
+        "question": "How many jobs were lost during the pandemic, and how many jobs have been added back since then?",
+        "answer": "FACT CHECK: With September's jobs report, over 11.4 million jobs have been added since March. But job gains have slowed in the past three months, showing the recovery is starting to lose momentum."
+      },
+      {
+        "question": "How many jobs were lost during the pandemic, and how many jobs were added back after the pandemic's peak?",
+        "answer": "... We're going through a pandemic that lost 22 million jobs at the height, we've already added back 11.6 million jobs.\""
+      },
+      {
+        "question": "What is the current job loss status in the US compared to the pre-pandemic level, and how many jobs have been added back since the pandemic's peak?",
+        "answer": "And even though the economy added back more than 1 million jobs every month between May and August, the country is still down 10.7 million jobs since February, before Covid-19 hit."
+      },
+      {
+        "question": "How many jobs were lost during the pandemic and how many jobs were recovered after the pandemic, according to the evidence?",
+        "answer": "The pandemic led to the loss of approximately 25 million jobs between February and April and a recovery of about 9 million jobs between then and June.3 These losses represent a historically unprecedented level of unemployment and while as of June some areas have exhibited a slow recovery, the near-term prospects for those who have lost jobs is uncertain at best."
+      },
+      {
+        "question": "Did the number of jobs lost during the pandemic exceed the number of jobs regained in the subsequent period?",
+        "answer": "Between April and June, about 9 million jobs have been regained. In this portion of the analysis, we compare the number of workers in June to that in February, an indicator that we refer to as the “net job loss rate.”"
+      },
+      {
+        "question": "How many jobs have been added back to the US economy since the pandemic, compared to the total number of jobs lost during the pandemic?",
+        "answer": "At this point, the U.S. economy is still down 11.5 million jobs from where it was in February, before the pandemic hit."
+      },
+      {
+        "question": "Did the number of jobs lost during the pandemic get fully recovered under the given circumstances?",
+        "answer": "Since then, around 11.4 million jobs have been added, but the unemployment rate is still much higher than before the pandemic."
+      },
+      {
+        "question": "How many jobs were lost in the US during the pandemic, and how many jobs were recovered by mid-May?",
+        "answer": "By mid-May, however, total US job losses relative to February stood at 16.2 million, a net recovery of 3.6 million jobs from mid-April to mid-May."
+      },
+      {
+        "question": "How many jobs have been recovered since the pandemic's peak in April?",
+        "answer": "Although the economy has partially recovered from the depths of April, as of August just over half of the 22 million total jobs lost between February and April had not returned."
+      }
+    ]
+  },
+  {
+    "claim_id": 153,
+    "claim": "President Trump and I have a plan to improve healthcare and protect pre-existing conditions for every American.",
+    "evidence": [
+      {
+        "question": "Does President Trump have a plan to improve healthcare and protect pre-existing conditions for every American, or is his claim a false promise?",
+        "answer": "Facts First: Trump’s claim about protecting those with pre-existing conditions is false. Though Trump says he would do this, his administration has consistently taken steps to undermine the Affordable Care Act – including joining a lawsuit aimed at striking down the law – without presenting alternative plans that would offer similar benefits."
+      },
+      {
+        "question": "Does President Trump's administration's court efforts to dismantle the Affordable Care Act align with his claim to have a plan to improve healthcare and protect pre-existing conditions for every American?",
+        "answer": "FACT CHECK: While President Trump and Republicans have repeatedly insisted on protecting preexisting conditions, the Trump administration is currently in court seeking to dismantle the Affordable Care Act, which guarantees coverage for Americans with preexisting medical conditions."
+      },
+      {
+        "question": "Does President Trump's plan to improve healthcare and protect pre-existing conditions for every American actually include measures to strengthen protections for individuals with pre-existing conditions, or does it instead propose weakening or eliminating these protections?",
+        "answer": "President Trump’s record includes support for legislation to repeal and replace the ACA that would have weakened pre-existing condition protections, and expansion of short-term insurance plans that are not required to cover pre-existing conditions."
+      },
+      {
+        "question": "Did President Trump and Mike Pence actually have a plan to improve healthcare and protect pre-existing conditions for every American?",
+        "answer": "PENCE'S CLAIM: \"President Trump and I have a plan to improve health care and protect -- to protect preexisting conditions for every American.\""
+      },
+      {
+        "question": "Does President Trump's administration's actions align with his claim to have a plan to improve healthcare and protect pre-existing conditions for every American?",
+        "answer": "The President’s actions on this issue tell a different story, however. The Trump Administration is in federal courts waging an anti-health care campaign to eliminate protections for pre-existing conditions and destroy every other protection and benefit of the Affordable Care Act."
+      },
+      {
+        "question": "Does President Trump's executive order ensure that Americans with pre-existing conditions can obtain insurance at affordable rates, as he claims?",
+        "answer": "President Trump has vowed to protect people with pre-existing conditions if the ACA is overturned and recently issued an executive order saying it is the “policy of the United States” to “ensure that Americans with pre-existing conditions can obtain the insurance of their choice at affordable rates.”"
+      },
+      {
+        "question": "How does President Trump's track record of pursuing legislation, litigation, and executive actions to dismantle the Affordable Care Act's protections for people with pre-existing conditions align with his claim that he has a plan to improve healthcare and protect pre-existing conditions for every American?",
+        "answer": "While Trump has long insisted that he and the GOP will protect people with pre-existing conditions from losing their health insurance, he has pursued legislation, litigation and executive actions to dismantle those protections under the Affordable Care Act."
+      },
+      {
+        "question": "Does President Trump's executive order to protect people with pre-existing conditions provide a concrete plan for enforcement, or is it a vague statement without a clear implementation strategy?",
+        "answer": "Trump signed an executive order in September that says it’s US policy to protect people with pre-existing conditions, but administration officials didn’t specify how that would be enforced if the Affordable Care Act is overturned."
+      },
+      {
+        "question": "Does President Trump's executive order guarantee protection for pre-existing conditions for every American, or would further legislation be required to achieve this goal?",
+        "answer": "President Donald Trump has signed an executive order declaring it the policy of the U.S. government to protect people with preexisting conditions, but Trump would have to go back to Congress to work out legislation to replace those in “Obamacare.”"
+      },
+      {
+        "question": "Does President Trump have a plan to improve healthcare and protect pre-existing conditions for every American, or is the current protection provided by the Affordable Care Act at risk of being overturned?",
+        "answer": "THE FACTS: There is no clear plan. People with preexisting conditions are already protected by the Obama-era Affordable Care Act, and if the Trump administration succeeds in persuading the Supreme Court to overturn it, those protections will be jeopardy."
+      }
+    ]
+  },
+  {
+    "claim_id": 155,
+    "claim": "Trump said 'there were fine people on both sides' in far-right protests.",
+    "evidence": [
+      {
+        "question": "What did Donald Trump mean by \"there were very fine people on both sides\" in the context of the far-right protests in Charlottesville, Virginia?",
+        "answer": "President Donald Trump on Tuesday defended some of the neo-Nazis and white supremacists who were part of the deadly Charlottesville, Virginia, protests last weekend, saying there were “very fine people” on both sides of the racially charged unrest."
+      },
+      {
+        "question": "What did Donald Trump say about the participants in the 2017 Charlottesville rally?",
+        "answer": "After the deadly 2017 Charlottesville rally, Trump told reporters: “I’ve condemned neo-Nazis; I’ve condemned many different groups,” but said he believed that not all of the right-wing participants were neo-Nazis, and that “you also had people that were very fine people on both sides.”"
+      },
+      {
+        "question": "What did Donald Trump mean by \"fine people\" when referring to the protesters in Charlottesville?",
+        "answer": "On Aug. 15, Trump said this of the rally organizers and others who protested the planned removal of the Robert E. Lee statue in Charlottesville: “[Y]ou had some very bad people in that group, but you also had people that were very fine people, on both sides.”"
+      },
+      {
+        "question": "What did Donald Trump say about the people involved in the Unite the Right rally in Charlottesville, Virginia, in 2017?",
+        "answer": "President Donald Trump is still defending his infamous remarks in the wake of the Unite the Right rally in Charlottesville, Virginia, in 2017, when he said, “You also had some very fine people on both sides.”"
+      },
+      {
+        "question": "What did Donald Trump mean by saying \"there were very fine people on both sides\" in the context of the far-right protests in Charlottesville?",
+        "answer": "Following the \"Unite the Right\" rally on Aug. 11 and 12, 2017, in Charlottesville, where white nationalists protested the city's decision to remove a statue of Robert E. Lee, and one counter-protester was run over and killed, President Trump declared there were \"very fine people on both sides\" while defending the protesters and arguing for keeping the statue."
+      },
+      {
+        "question": "What did President Trump specifically refer to as being on the \"other side\" of the violent protests in his statement?",
+        "answer": "In August 2017, after violence during a rally of white supremacists and neo-Nazis left one counterprotester dead and dozens injured, President Trump defended the marchers during a press conference and argued that there were “some very fine people on both sides.”"
+      },
+      {
+        "question": "What did Trump mean by \"very fine people on both sides\" in his comments about the far-right protests in Charlottesville?",
+        "answer": "These writers argue that Trump’s “very fine people on both sides” comments were meant to refer to the protesters in attendance who were attempting to stop the removal of a statue of Confederate Gen. Robert E. Lee from a public square in Charlottesville, not the neo-Nazis and white nationalists who made up the bulk of the event’s attendees."
+      },
+      {
+        "question": "What specific group of people did Donald Trump refer to as \"very fine people\" when he said \"there were fine people on both sides\" in the context of the 2017 alt-right riot in Charlottesville?",
+        "answer": "He was referring only to people who wanted to preserve a statue of General Robert E. Lee when he declared that there were “very fine people on both sides” of the deadly 2017 alt-right riot in Charlottesville, President Trump said Friday."
+      },
+      {
+        "question": "Did Donald Trump's statement \"there were fine people on both sides\" imply moral equivalence between the white supremacists and the counter-protesters in the far-right protests?",
+        "answer": "Trump denounced the violence but not before insisting there had been “very fine people on both sides,” a comment that drew wide condemnation for suggesting moral equivalence between violent white supremacists and counter-protesters."
+      },
+      {
+        "question": "What did President Trump say about the people involved in the violent clashes in Charlottesville, Virginia, in 2017?",
+        "answer": "WASHINGTON – President Donald Trump defended his widely criticized comments that there were fine people on \"both sides\" of the violent clashes in Charlottesville, Virginia, in 2017, saying the utterance was put \"perfectly.\""
+      }
+    ]
+  },
+  {
+    "claim_id": 175,
+    "claim": "“Wisconsin Republicans have not passed a single bill in 6 months.”",
+    "evidence": [
+      {
+        "question": "Is the claim that Wisconsin Republicans have not passed a single bill in 6 months based on actual legislative data or is it a statement made on Facebook?",
+        "answer": "Facebook posts stated on October 4, 2020 in a Facebook post: “Wisconsin Republicans have not passed a single bill in 6 months.”"
+      },
+      {
+        "question": "What was the outcome of the Wisconsin legislature's activities in the 6-month period preceding the claim?",
+        "answer": "On Wednesday, lawmakers in Wisconsin passed a bill that would give the legislature control of the Wisconsin Economic Development Corp. board, make it easier for legislators to hire private attorneys, limit early voting to two weeks, and require Gov.-elect Tony Evers (D) to get permission from the legislature to ban guns in the state Capitol, among other measures."
+      },
+      {
+        "question": "Did the Wisconsin Republican-controlled legislature pass any bills in the 6-month period preceding the evidence, or was the claim referring to a specific type of bill or category of legislation?",
+        "answer": "Wisconsin’s Republican-controlled legislature has overhauled the powers of the governor. In early December, Republican state lawmakers unveiled a 141-page package of bills that would give Republicans power over key gubernatorial decisions and weaken the role of the attorney general, as well as proposals to limit voter turnout."
+      },
+      {
+        "question": "Did Wisconsin Republicans pass any bills in the 6 months leading up to July 3, 2019?",
+        "answer": "On July 3, 2019, Governor Evers signed AB 56, the 2019-21 state biennial budget, into law as 2019 Act 9, with partial vetoes."
+      },
+      {
+        "question": "Did the Wisconsin Republicans pass any bills in the 6 months prior to December 14, 2018?",
+        "answer": "On December 14, 2018, outgoing Wisconsin Governor Scott Walker signed into law three bills that were rapidly passed by the Republican-held state legislature during an extraordinary session following the November 7, 2018 election that resulted in Democrats winning each statewide elected seat."
+      },
+      {
+        "question": "Did Wisconsin Republicans pass any legislation in the 6-month period preceding the introduction of the \"Tougher on Crime\" package?",
+        "answer": "The legislation were part of Wisconsin Republicans’ “Tougher on Crime” package, which was unveiled last month and passed on mostly party-line votes in the Legislature earlier this month, with Republicans voting in favor and Democrats against."
+      },
+      {
+        "question": "Did the Wisconsin Assembly pass any bills in the past 6 months?",
+        "answer": "The Assembly, for its part, passed a wide-ranging series of legislation, including a package of six college affordability bills backed by Walker, a bill that will require parents keep children under age 2 in rear-facing car seats and a bill that subjects the Wisconsin Interscholastic Athletics Association to open records laws."
+      },
+      {
+        "question": "What was the outcome of the Wisconsin Republicans' legislative efforts despite the challenges they faced?",
+        "answer": "Wisconsin Republicans pushed through protests, internal disagreement and Democratic opposition to pass the bills after an all-night session."
+      },
+      {
+        "question": "How many abortion bills passed by the Republican-controlled Legislature in Wisconsin have been vetoed by Governor Tony Evers in the past 6 months?",
+        "answer": "Madison, Wis. — Wisconsin's Democratic Gov. Tony Evers has vetoed four abortion bills passed by the Republican-controlled Legislature."
+      },
+      {
+        "question": "What type of bills did the Republican-controlled state legislature in Wisconsin pass, despite the claim that they have not passed a single bill in 6 months?",
+        "answer": "- The Republican-controlled state legislature in Wisconsin passed a sweeping set of bills on Wednesday to limit the power of the newly elected Democratic governor Tony Evers."
+      }
+    ]
+  },
+  {
+    "claim_id": 180,
+    "claim": "Dr. Ebeneezer, a medical doctor and a herbal practitioner at the Amuzu Hospital has instructed men to have sex at least 21 times a month to avoid prostate cancer.",
+    "evidence": [
+      {
+        "question": "Does Dr. Ebeneezer recommend a specific frequency of sexual activity to prevent prostate cancer?",
+        "answer": "Ebeneezer, a medical doctor and a herbal practitioner at the Amuzu Hospital has instructed men to have sex at least 21 times a month to avoid prostate cancer."
+      },
+      {
+        "question": "What is the recommended frequency of ejaculation according to the US study that Dr. Ebeneezer is referring to, and how does it relate to the risk of prostate cancer?",
+        "answer": "They were referring to a US study which concluded that ejaculating at least 21 times a month significantly reduces a man’s risk of having prostate cancer, compared to those ejaculating 4-7 times a month."
+      },
+      {
+        "question": "Did Dr. Ebeneezer, a medical doctor and a herbal practitioner at the Amuzu Hospital, actually instruct men to have sex at least 21 times a month to avoid prostate cancer?",
+        "answer": "In a twitter video that has since gone viral online, the Doctor was seen advising men to have sex at least 21 times a month in order to check against prostate cancer."
+      },
+      {
+        "question": "Is there a correlation between frequent ejaculation and a lower risk of prostate cancer diagnosis?",
+        "answer": "In an article in the journal European Urology, Jennifer R. Rider, assistant professor of epidemiology, and colleagues found that an ejaculation frequency of 21 or more times per month at ages 20–29 years or 40–49 years is associated with a significant, 19 percent and 22 percent decreased risk of a PCa diagnosis, respectively, compared with a frequency of 4 to 7 times per month in adjusted analyses."
+      },
+      {
+        "question": "Is the recommended frequency of sex by Dr. Ebeneezer (at least 21 times a month) supported by the evidence from the 18-year Harvard study, which found a reduced risk of prostate cancer for men who ejaculated 21 times a month compared to those who ejaculated four to seven times a month?",
+        "answer": "An 18-year Harvard study of nearly 30,000 health professionals determined that risk of prostate cancer was reduced by 20 percent for men who ejaculated 21 times a month, compared to men who ejaculated four to seven times a month."
+      },
+      {
+        "question": "How many times per month is there a correlation between ejaculation and a lower risk of prostate cancer according to Dr. Ebeneezer's research?",
+        "answer": "They concluded that those who ejaculated more than 21 times per month had a lower risk of prostate cancer than men who only ejaculated 4–7 times per month."
+      },
+      {
+        "question": "Is there conclusive evidence that frequent ejaculation (21 times or more per month) decreases the risk of contracting prostate cancer?",
+        "answer": "There is no conclusive evidence to suggest that ejaculating frequently (21 times or more per month) decreases your chance of contracting prostate cancer, despite one Harvard Medical School study once claiming so."
+      },
+      {
+        "question": "Is there a correlation between frequent ejaculation (at least 21 times a month) and a lower risk of developing prostate cancer?",
+        "answer": "After potential confounders were controlled for in multivariate analyses, the relative risk for prostate cancer was about 20% lower in men who ejaculated at least 21 times a month than in men who ejaculated four to seven times a month."
+      },
+      {
+        "question": "Is there a correlation between frequent ejaculation and a lower risk of developing prostate cancer?",
+        "answer": "Either way, you'll have to do it a lot. Men who ejaculated 21 times per month had a 20% lower risk of developing prostate cancer than those who orgasmed \"only\" 4-7 times per month, according to the study's lead author, Harvard epidemiologist, Jennifer Rider."
+      },
+      {
+        "question": "Does the study suggest that having sex at least 21 times a month can reduce the risk of prostate cancer?",
+        "answer": "That study, published in the Journal of the American Medical Association, found that men reporting 21 or more ejaculations per month had a 50 percent lower risk of PCa than those reporting 4 to 7 ejaculations per month, but the association was limited to ejaculation frequency in the year before the questionnaire and not ages 20–29 or 40–49."
+      }
+    ]
+  },
+  {
+    "claim_id": 199,
+    "claim": "For a cumulative 29 of Nigeria's 60 years of existence as a nation, Nigeria has been under military rule.",
+    "evidence": [
+      {
+        "question": "How long was Nigeria under civilian rule before it was under military rule after independence?",
+        "answer": "1Nigeria has been under military rule since independence (1 October 1960), except for the periods between 1 October 1960 and 15 January 1966; and 1 October 1979 and 31 December 1983."
+      },
+      {
+        "question": "How many years out of Nigeria's first 40 years of independence was the country under military rule?",
+        "answer": "Nigeria's military ruled the country for nearly 30 of its first 40 years of independence. However, in 1999, Nigeria made a transition to civilian rule."
+      },
+      {
+        "question": "How many years after Nigeria's independence in 1960 was Nigeria under military rule?",
+        "answer": "For nearly 30 of its first 54 years since independence in 1960, Nigeria was ruled by successive military dictatorships."
+      },
+      {
+        "question": "How many years out of Nigeria's 60 years of existence as a nation was the country under military rule, according to the evidence provided?",
+        "answer": "The military \"ruled Nigeria from 1966-1979, and 1983-1999\", a period of about thirty years (Alli 2001: 208)."
+      },
+      {
+        "question": "How many years of Nigeria's 60 years of existence as a nation were spent under military rule?",
+        "answer": "In spite of the fact that Nigeria is experiencing its longest period of uninterrupted civilian administration (since May 29, 1999), the country may rightly be said to be in its tender years of democracy in view of the fact that 28 of Nigeria’s post-independence years were spent under the military."
+      },
+      {
+        "question": "How many years out of Nigeria's 60 years of existence as a nation has Nigeria been under military rule?",
+        "answer": "Nigeria has spent 24 out of the 34 years since independence from colonial rule under military governments."
+      },
+      {
+        "question": "How many years out of Nigeria's 60 years of existence has the country been under military rule?",
+        "answer": "For a cumulative 29 of our 60 years existence as a nation, we have been under military rule."
+      },
+      {
+        "question": "How many years out of Nigeria's 60 years of existence has the country been under military rule?",
+        "answer": "3. Nigeria has been ruled by military leaders for a combined 29 years."
+      },
+      {
+        "question": "How many years of Nigeria's 60 years of existence as a nation have been under military rule?",
+        "answer": "After a long British colonial rule from 1914 that ended with independence in 1960, democracy in Nigeria has been truncated intermittently by civil war (1967-1970) and military rule (1983-1999)."
+      },
+      {
+        "question": "How many years has Nigeria been under a democratic government since gaining independence in 1960?",
+        "answer": "Nigeria has spent only about ten years under a democratic government since gaining independence in 1960 the rest of the time a military government was in power."
+      }
+    ]
+  },
+  {
+    "claim_id": 205,
+    "claim": "Nigeria’s urban population at independence was approximately 7 million.",
+    "evidence": [
+      {
+        "question": "What was the total population of Nigeria at the time of independence in 1960?",
+        "answer": "It said Nigeria's population was around 63 million when the west African country gained independence in 1960, compared with a population now estimated at close to 200 million."
+      },
+      {
+        "question": "What was the total urban population of Nigeria at the time of independence in 1960?",
+        "answer": "At independence in 1960, Lagos had an estimated population of 763,000; today it is about 13 million. Together with Lagos state, the population reaches 21 million."
+      },
+      {
+        "question": "What was the size of Nigeria's urban population at the time of independence?",
+        "answer": "During the 1970s Nigeria had possibly the fastest urbanization growth rate in the world. Because of the great influx of people into urban areas, the growth rate of urban population in Nigeria in 1986 was estimated to be close to 6 percent per year, more than twice that of the rural population."
+      },
+      {
+        "question": "What was the total population of Nigeria at independence, given the information about the urban population and the percentage increase in cities with a population of 500,000 or more?",
+        "answer": "Between 1960-1980, World Bank estimates indicate that 1) population in Nigerian cityes of over 500,000 population increased from 22-57%; 2) the number of cities with a population of 500,000 or more increased from 2 to 9 and 3) the urban population increased from 13-20%."
+      },
+      {
+        "question": "What was the size of Nigeria's urban population at the time of independence?",
+        "answer": "Between 1970 and 1980, the proportion of Nigerians living in urban areas was estimated to have grown from 16 to more than 20 percent, and by 2010, urban population was expected to be more than 40 percent of the nation's total."
+      },
+      {
+        "question": "What was the urban population of Nigeria at the time of independence?",
+        "answer": "In the decade between 2007 and 2017, Nigeria’s urban dwellers increased from 41 percent of the population to about 50 percent."
+      },
+      {
+        "question": "What was the approximate number of people living in urban areas in Nigeria at the time of its independence?",
+        "answer": "In 1950, only 10.1% of population was urban in Nigeria, this rose to 20.0% by 1970, 43.3% in 2000, and it is expected to reach 58.3% by 2020.[9]"
+      },
+      {
+        "question": "What was the urban population of Nigeria before it gained independence?",
+        "answer": "The rapid growth of the urban population of Nigeria was the direct consequence of the colonial, commercial and evangelical activities witnessed by many Nigerian towns in the decades leading up to Independence."
+      },
+      {
+        "question": "What was the approximate size of Nigeria's urban population at the time of independence?",
+        "answer": "Moreover, in areas such as the Igbo region in the southeast, which had few urban centers before the colonial period and was not highly urbanized even at independence, there has been a massive growth of newer cities since the 1970s, so that these areas in 1990 were also highly urban."
+      },
+      {
+        "question": "What was the size of Nigeria's urban population when it gained independence from colonial rule in 1960?",
+        "answer": "Nigeria’s urban areas have grown steadily since independence from colonial rule was achieved in 1960."
+      }
+    ]
+  },
+  {
+    "claim_id": 206,
+    "claim": "There has been a 60% drop in government revenue in Nigeria.",
+    "evidence": [
+      {
+        "question": "By what percentage did the revenues available to Nigeria drop?",
+        "answer": "To put the above numbers another way — while oil prices have dropped by 60%, the revenues available to Nigeria have dropped by 81%."
+      },
+      {
+        "question": "What percentage drop in government revenue was reported in Nigeria due to a combination of factors including a 40% drop in oil prices and steep drop in economic activities?",
+        "answer": "He said in addition to public health challenges to contain the virus’ spread, Nigeria has suffered a significant drop in foreign exchange earnings and internal revenues due to a 40% drop in oil prices and steep drop in economic activities, leading to a 60% drop in government revenue."
+      },
+      {
+        "question": "What was the impact of declining oil prices on Nigeria's government revenue?",
+        "answer": "Because Nigeria is heavily dependent on oil which accounts for about 90% of export earnings and over 70% of total government revenues, Nigeria’s commercial activities were adversely affected by declining oil prices with its economy contracting by 0.67% and 2.06% in the first and second quarters of 2016 respectively."
+      },
+      {
+        "question": "What percentage of Nigeria's government revenue comes from oil, which is experiencing a decline in international prices?",
+        "answer": "The fall in international oil prices is having a devastating impact on Nigeria’s formal economy. Oil, the property of the Nigerian government, provides more than 60 percent of government revenue."
+      },
+      {
+        "question": "What percentage of Nigeria's GDP is the country's non-oil revenue mobilization, according to the IMF?",
+        "answer": "The revenue base is simply too low to address the current challenges, says the IMF. At 3-4 percent of GDP, Nigeria’s non-oil revenue mobilization has been one of the lowest worldwide, reflecting weaknesses in revenue administration systems and systemic noncompliance."
+      },
+      {
+        "question": "What is the trend in government revenue in Nigeria, according to the evidence?",
+        "answer": "For the first time since 1999, Nigeria's government revenue is shrinking and the value of the national currency, the naira, is falling."
+      },
+      {
+        "question": "What was the percentage change in crude oil revenue of the Federation in 1998 compared to the previous period?",
+        "answer": "In 1998, the crude oil revenue of the Federation declined by 123 billion (4 percent of GDP).3 Recurrent federal government expenditures increased by 48 billion—substantially more than budgeted—largely on account of the increase in public sector salaries that took effect on September 1, 1998 and higher overhead expenditure."
+      },
+      {
+        "question": "What is the percentage change in government revenue in Nigeria, according to the Selected Issues paper analyzing mobilization of tax revenues in Nigeria?",
+        "answer": "This Selected Issues paper analyzes mobilization of tax revenues in Nigeria. Low non-oil revenue mobilization is affecting the government’s objectives to expand growth-enhancing expenditure priorities, foster higher growth, and comply with its fiscal rule which limits the federal government deficit to no more than 3 percent of GDP."
+      },
+      {
+        "question": "Did the decline in global oil prices lead to a 60% drop in Nigeria's government revenue?",
+        "answer": "A steep decline in global oil prices has devastated Nigeria's economy, which derives about 70 percent of its revenue from oil."
+      },
+      {
+        "question": "What is the reason for the expected further decline in Nigeria's government revenue, according to the evidence?",
+        "answer": "With appropriate adjustments therefore, the ratio will fall even further. Perhaps Nigeria needs to rebase her tax revenue generation model."
+      }
+    ]
+  },
+  {
+    "claim_id": 208,
+    "claim": "It makes no sense for oil to be cheaper in Nigeria than in Saudi Arabia.",
+    "evidence": [
+      {
+        "question": "What is the price of oil in Nigeria compared to Saudi Arabia, according to President Buhari's statement?",
+        "answer": "“Egypt charges N211 per litre. Saudi Arabia charges N168 per litre. It makes no sense for oil to be cheaper in Nigeria than in Saudi Arabia,” Buhari said in his independence day address on October 1st."
+      },
+      {
+        "question": "What is the speaker's point of comparison between Nigeria and Saudi Arabia in terms of living standard and ruling elites accountability?",
+        "answer": "It does not make sense for petrol to be cheaper in Nigeria than Saudi Arabia.” – In as much as I see reason with the need for petroleum subsidy removal Megida Excellency Buhari, I ask with extreme humility and without prejudice Sir, does it make sense for our living standard and ruling elites accountability to be less than that of Saudi Arabia?"
+      },
+      {
+        "question": "What is the price of oil in Nigeria compared to Saudi Arabia, according to President Buhari?",
+        "answer": "“Further afield, Egypt charges N211 per litre. Saudi Arabia charges N168 per litre. It makes no sense for oil to be cheaper in Nigeria than in Saudi Arabia,” Buhari said."
+      },
+      {
+        "question": "Why does Nigeria have lower fuel prices than Saudi Arabia, despite being a major oil producer?",
+        "answer": "According to him, it makes no sense for fuel to be cheaper in Nigeria than in Saudi Arabia which sells at N168 per litre."
+      },
+      {
+        "question": "Why does the Federal Government consider it illogical for oil to be cheaper in Nigeria than in Saudi Arabia, Egypt, Niger Republic, and Republic of Benin?",
+        "answer": "The Federal Government has said that it does not make sense for oil to be cheaper in Nigeria than Saudi Arabia, Egypt, Niger Republic and Republic of Benin, other oil-producing nations."
+      },
+      {
+        "question": "What is the speaker's opinion about the price of oil in Nigeria compared to Saudi Arabia?",
+        "answer": "|Re: Buhari: It Makes No Sense For Oil To Be Cheaper In Nigeria Than Saudi Arabia by F117nighthawk: 11:25am"
+      },
+      {
+        "question": "What is the President of Nigeria's perspective on the price of oil in Nigeria compared to Saudi Arabia?",
+        "answer": "|Re: Buhari: It Makes No Sense For Oil To Be Cheaper In Nigeria Than Saudi Arabia by JordanMichael(m):"
+      },
+      {
+        "question": "What is the apparent contradiction between the price of oil in Nigeria and Saudi Arabia, and what could be the possible reasons for this disparity?",
+        "answer": "- Says it makes no sense for oil to be cheaper in Nigeria than Saudi Arabia"
+      },
+      {
+        "question": "What is the price of oil in Nigeria compared to Saudi Arabia, according to the speaker?",
+        "answer": "“Further afield, Egypt charges N211 per litre. Saudi Arabia charges N168 per litre. It makes no sense for oil to be cheaper in Nigeria than in Saudi Arabia.”"
+      },
+      {
+        "question": "What is the relationship between the price of oil and the price of petrol in Nigeria and Saudi Arabia?",
+        "answer": "“It does not make sense for petrol to be cheaper in Nigeria than Saudi Arabia."
+      }
+    ]
+  },
+  {
+    "claim_id": 211,
+    "claim": "At independence, Nigeria had a population of 45 million.",
+    "evidence": [
+      {
+        "question": "What was the population of Nigeria at the time of its independence in 1960?",
+        "answer": "It said Nigeria's population was around 63 million when the west African country gained independence in 1960, compared with a population now estimated at close to 200 million."
+      },
+      {
+        "question": "What was the population of Nigeria at the time of independence from Britain in 1960?",
+        "answer": "The World Bank estimates Nigeria’s population stood at 136 million in 2003, Africa’s largest, but this was based on the last head count in 1991, the only credible census since independence from Britain in 1960."
+      },
+      {
+        "question": "Is the claim that Nigeria had a population of 45 million at independence supported by the evidence provided?",
+        "answer": "In recent decades, Nigeria’s population estimates have been based on the 1963 census. Although its reliability has been questioned, it was deemed more dependable than the 1973 census, which never saw the light of day because the results were discredited."
+      },
+      {
+        "question": "What was the population of Nigeria at the time of independence in 1960?",
+        "answer": "2. At independence in 1960, our population stood at a little over 45 million people but with a steadily rising population growth rate of 2.5%, within 30 years it had more than doubled to 95 million in 1990."
+      },
+      {
+        "question": "What was the population of Nigeria at the time of independence in 1960?",
+        "answer": "Population growth in NigeriaFrom 1960 to 2022 the population of Nigeria increased from 45.14 million to 218.54 million people."
+      },
+      {
+        "question": "What was the population of Nigeria at the time of independence?",
+        "answer": "(January 2007) Nigeria’s population reached 140 million, according to provisional results of the Nigerian population census released in December 2006.1"
+      },
+      {
+        "question": "What was the estimated population of Nigeria at the time of independence?",
+        "answer": "It reports that 168 million people were living in Nigeria in 2012, which on the basis of 3% growth rates would suggest a population of around 178 million in 2014."
+      },
+      {
+        "question": "What was the total population of Nigeria at the time of independence?",
+        "answer": "The northern leaders were not about to take that lying down. A new census was held in 1963 and this time, an additional 8.5 million people were discovered in the north bringing the total to 31 million for the north—a figure higher than the population of every other country in Africa at the time—and 56 million for Nigeria as a whole."
+      },
+      {
+        "question": "What was the population of Nigeria at the time of its independence in 1960?",
+        "answer": "Nigeria in 1960 had a population of 45 million people, the highest not just among the ‘class of 1960’ but across the continent."
+      },
+      {
+        "question": "What was the total population of Nigeria at the time of its independence in 1960?",
+        "answer": "At independence in 1960, Lagos had an estimated population of 763,000; today it is about 13 million. Together with Lagos state, the population reaches 21 million."
+      }
+    ]
+  },
+  {
+    "claim_id": 215,
+    "claim": "52% of Nigeria’s current population lives in urban areas.",
+    "evidence": [
+      {
+        "question": "What percentage of Nigeria's population lives in urban areas, according to the World Bank collection of development indicators in 2022?",
+        "answer": "Urban population (% of total population) in Nigeria was reported at 53.52 % in 2022, according to the World Bank collection of development indicators, compiled from officially recognized sources."
+      },
+      {
+        "question": "What is the current percentage of Nigeria's population living in urban areas?",
+        "answer": "In the decade between 2007 and 2017, Nigeria’s urban dwellers increased from 41 percent of the population to about 50 percent."
+      },
+      {
+        "question": "What percentage of Nigeria's population lives in urban areas?",
+        "answer": "Nigeria’s rate of urbanization is one of the fastest in the world, with almost half of the population living in urban areas in 2011 and an ongoing urbanization rate of 4 percent a year."
+      },
+      {
+        "question": "What percentage of Nigeria's population is predicted to be urban by 2050?",
+        "answer": "He also noted the 2014 World Urbanization Prospects prediction that by 2050, 77 percent of Nigeria’s population will be urban."
+      },
+      {
+        "question": "What percentage of Nigeria's population is estimated to be living in urban areas, according to the Chairman of the National Population Commission (NPC)?",
+        "answer": "At a population conference in New York, Chairman of the National Population Commission (NPC) Eze Duruiheoma estimated that the current population of Nigeria is 198 million, and that the population living in urban areas has been growing 6.5 percent annually over the past fifty years."
+      },
+      {
+        "question": "What percentage of Nigeria's population is estimated to live in urban areas, with some states having a proportion of over 75% and an average of about 70% across the country?",
+        "answer": "In some of the present thirty states in Nigeria, the proportion of rural urban dwellers is estimated at over 75% but, generally, Nigeria claims an average of about 70%."
+      },
+      {
+        "question": "Does more than half of Nigeria's population currently reside in urban areas?",
+        "answer": "Over half of Nigeria's population live in rural areas -- 52% to be exact. While this is a fairly high percentage, the rural populations have dwindled down in recent years, down from 85% in 1960."
+      },
+      {
+        "question": "What percentage of Nigeria's population lives in rural areas, according to the World Bank collection of development indicators in 2022?",
+        "answer": "Rural population (% of total population) in Nigeria was reported at 46.48 % in 2022, according to the World Bank collection of development indicators, compiled from officially recognized sources."
+      },
+      {
+        "question": "What percentage of Nigeria's population currently resides in urban areas?",
+        "answer": "About half of Nigeria’s total 150 million population now lives in cities compared to 35% in 1990, generating 60% of the country’s gross domestic product (GDP)."
+      },
+      {
+        "question": "What percentage of Nigeria's population is growing annually in urban areas?",
+        "answer": "Nigeria’s population live in urban areas; urbanization is growing at 4.23 percent annually.  The "
+      }
+    ]
+  },
+  {
+    "claim_id": 233,
+    "claim": "There has been a 60% drop in government revenue.",
+    "evidence": [
+      {
+        "question": "Did the government revenue decrease by 60% in absolute terms?",
+        "answer": "However, it is high as a percentage of government revenue and was around 60% as stated "
+      },
+      {
+        "question": "Does the government revenue meet its target, and if not, by how much is it short, according to the Minister of Finance?",
+        "answer": "The figure represents 56 percent of the target, according to the Minister of Finance. The overall revenue is likely going to be seriously impacted due to disruptions caused by the COVID-19 pandemic and drop in global oil price."
+      },
+      {
+        "question": "What was the percentage change in government revenue from the previous year?",
+        "answer": "an overall general government revenue decrease of $57,401,800 or 16.5 percent year-over-year. Areas experiencing"
+      },
+      {
+        "question": "What is the relationship between the reduction in government revenue and the deterioration in measures?",
+        "answer": "measures. In addition, the significant reduction in government revenue has led to a deterioration "
+      },
+      {
+        "question": "What percentage decrease in government revenue was observed from the previous quarter?",
+        "answer": "Examinations of changes from the previous quarter are made with seasonally adjusted figures. Central government's total revenue diminished by 0.5 per cent from the previous quarter."
+      },
+      {
+        "question": "What is the impact of the 60% reduction in government revenue on the country's ability to fund essential public services such as health, education, and social services?",
+        "answer": "He explained that with a 60 per cent reduction in revenue, the country just cannot afford to sustain the payments “if reasonable provisions must be made for health, education and other social services.”"
+      },
+      {
+        "question": "What was the percentage change in government revenue in the first few months, according to the evidence?",
+        "answer": "In the first few months, nearly all sources of government tax revenue severely fell below expectations, leading to immediate budget shortfalls."
+      },
+      {
+        "question": "What is the relationship between the decline in economic activity and the 60% drop in government revenue?",
+        "answer": "economic activity. With a decline in revenue, government raised its "
+      },
+      {
+        "question": "What is the percentage of total revenue to GDP in 2016, and how does it compare to previous years?",
+        "answer": "sources. Total revenue to GDP for 2016 is variously given as 5.3% (IMF)2; as 6% (Minister "
+      },
+      {
+        "question": "What percentage of GDP did government revenue decline from in 2015?",
+        "answer": "in 2015 and Government revenue declined from 27.6 per cent of GDP to 7.6 per cent of "
+      }
+    ]
+  },
+  {
+    "claim_id": 242,
+    "claim": "U.S. Centers for Disease Control and Prevention downgrades COVID-19, rating it less fatal than seasonal flu",
+    "evidence": [
+      {
+        "question": "How does the Director of the National Institute of Allergy and Infectious Diseases, Dr. Anthony Fauci, compare the mortality rate of COVID-19 to the seasonal flu?",
+        "answer": "Fauci said COVID-19 is at least 10 times \"more lethal\" than the seasonal flu, even if the mortality rate drops far below the World Health Organization's current estimate of 3.4%."
+      },
+      {
+        "question": "How does the number of provisionally reported COVID-19 deaths compare to influenza deaths during the apparent peak week of the current season?",
+        "answer": "The CDC also publishes provisional counts of COVID-19 deaths but acknowledges that its reporting lags behind other public data sources.7 For the week ending April 11, 2020, data indicate that the number of provisionally reported COVID-19 deaths was 14.4-fold greater than influenza deaths during the apparent peak week of the current season (week ending February 29, 2020), consistent with the ranges based on CDC statistics.6 As the CDC continues to revise its COVID-19 counts to account for delays in reporting, the ratio of counted COVID-19 deaths to influenza deaths is likely to increase."
+      },
+      {
+        "question": "What is the basis for the US Centers for Disease Control and Prevention's claim that COVID-19 is less fatal than seasonal flu?",
+        "answer": "The US Center for Disease Control (CDC) has released an update to their research on the fatality rate associated with COVID-19."
+      },
+      {
+        "question": "Does the number of deaths from COVID-19 in the United States during the second full week of April exceed the number of deaths from seasonal flu during the worst week of the past seven flu seasons?",
+        "answer": "If we compare, for instance, the number of people who died in the United States from COVID-19 in the second full week of April to the number of people who died from influenza during the worst week of the past seven flu seasons (as reported to the CDC), we find that the novel coronavirus killed between 9.5 and 44 times more people than seasonal flu."
+      },
+      {
+        "question": "How does the estimated number of COVID-19 deaths in the US compare to the estimated number of seasonal flu deaths, according to the CDC?",
+        "answer": "Based on the figure of approximately 60 000 COVID-19 deaths in the US as of the end of April 2020, this ratio suggests only a 1.0-fold to 2.6-fold change from the CDC-estimated seasonal influenza deaths calculated during the previous 7 full seasons.3 From our analysis, we infer that either the CDC’s annual estimates substantially overstate the actual number of deaths caused by influenza or that the current number of COVID-19 counted deaths substantially understates the actual number of deaths caused by SARS-CoV-2, or both."
+      },
+      {
+        "question": "Does the CDC's reporting on flu deaths accurately reflect the relative severity of COVID-19 compared to seasonal flu?",
+        "answer": "The CDC should immediately change how it reports flu deaths. While in the past it was justifiable to err on the side of substantially overestimating flu deaths, in order to encourage vaccination and good hygiene, at this point the CDC’s reporting about flu deaths is dangerously misleading the public and even public officials about the comparison between these two viruses."
+      },
+      {
+        "question": "How does the number of deaths from seasonal flu compare to the number of deaths from COVID-19, according to the U.S. Centers for Disease Control and Prevention?",
+        "answer": "From October 2021-May 2022, the U.S. Centers for Disease Control and Prevention (CDC) estimated 9 million flu-associated illnesses, 4 million medical visits, 10,000 hospitalizations and 5,000 deaths."
+      },
+      {
+        "question": "Did the CDC's initial estimate of the COVID-19 fatality rate change over time?",
+        "answer": "According to NPR, the CDC has revised the estimate downward from its estimate in mid-April. Internal versions of the CDC scenario documents acquired by the Center for Public Integrity show that on April 14, the CDC had estimated a 0.33% fatality rate."
+      },
+      {
+        "question": "Does the evidence suggest that COVID-19 is less fatal than the seasonal flu?",
+        "answer": "A recent paper published in the journal JAMA Internal Medicine emphasized this point when it found that, in the U.S., there were 20 times more deaths per week from COVID-19 than from the flu in the deadliest week of an average influenza season, Live Science previously reported."
+      },
+      {
+        "question": "How do the weekly counts of COVID-19 deaths compare to weekly counts of seasonal influenza deaths?",
+        "answer": "Conversely, COVID-19 fatalities are at present being counted and reported directly, not estimated. As a result, the more valid comparison would be to compare weekly counts of COVID-19 deaths to weekly counts of seasonal influenza deaths."
+      }
+    ]
+  },
+  {
+    "claim_id": 350,
+    "claim": "The rate of abortions under Democratic presidential administrations has actually fallen more precipitously.",
+    "evidence": [
+      {
+        "question": "Does the rate of abortions under Democratic presidential administrations have a unique trend compared to other administrations?",
+        "answer": "It would be easy to demonstrate that abortion rates have not risen under Democratic administrations in the last several decades, but it would be false to argue that declines in abortion rates are an exclusive feature of Democratic presidencies."
+      },
+      {
+        "question": "Does the rate of abortions under Democratic presidential administrations have a significant decline compared to other periods?",
+        "answer": "It is plain to see that abortion rates have risen (prior to their peaking in the mid-1980s) and fallen under both Democratic and Republican administration, suggesting little to no correlation with whichever political party controls the White House."
+      },
+      {
+        "question": "Has the rate of abortions decreased under both Democratic and Republican presidential administrations?",
+        "answer": "The claim that abortion rates fall under Democrats, while true, ignores the fact that rates have also continued to decline through Republican administrations as well."
+      },
+      {
+        "question": "Can the CDC's annual abortion surveillance study be used to analyze relative changes in abortion rates during the presidencies of different presidential parties?",
+        "answer": "While these data are not perfect due to inconsistent (and sometimes non-existent) reporting from different states, they can be used to analyze relative changes in abortion rates during the presidencies of different presidential parties, as we will do here using numbers from the CDC’s annual abortion surveillance study."
+      },
+      {
+        "question": "How much did the rate of abortions decrease during Bill Clinton's presidency compared to George W. Bush's presidency?",
+        "answer": "In other words, abortions decreased during Bill Clinton’s presidency by nearly ten times the amount they decreased during George W. Bush’s (-36.9% vs. -3.7%), even though both men served the same number of years."
+      },
+      {
+        "question": "Does the analysis by the SNOPES website support the claim that the rate of abortions under Democratic presidential administrations has actually fallen more precipitously?",
+        "answer": "The SNOPES website gives a good analysis of whether it is true to say that abortion rates fall during Democratic Administrations and rise during Republican Ones"
+      },
+      {
+        "question": "Can the claim that the rate of abortions under Democratic presidential administrations has actually fallen more precipitously be supported by the evidence provided?",
+        "answer": "In fact, causation between the presidency and abortion rates would be difficult to demonstrate in any case because it is hard to draw a straight line between federal government policy (let alone presidential policy) and abortion procurement."
+      },
+      {
+        "question": "Has the rate of abortions increased or decreased under Republican presidential administrations since the mid-1980s?",
+        "answer": "The claim, then, that abortion rates (at least since their mid-1980s peak) have risen when Republicans have held the White House is therefore equally false."
+      },
+      {
+        "question": "How did the rate of abortions change under Democratic presidential administrations compared to previous administrations?",
+        "answer": "Let’s take a look at the CDC’s annual numbers. After increasing under Nixon, Ford, Carter, and Reagan, abortion began to decrease in the late 1980s with the administration of George H. W. Bush (senior)."
+      },
+      {
+        "question": "Does the rate of abortions decrease more significantly under Democratic presidential administrations compared to Republican administrations?",
+        "answer": "But people who are against abortion may want to rethink their political alignment, though: during the last three decades, abortion rates have fallen the most under Democrats, and remained flat or at best decreased marginally under Republican administrations."
+      }
+    ]
+  },
+  {
+    "claim_id": 354,
+    "claim": "unemployment rate in the state of Edo, Nigeria reduced from 25% to 19% during Godwin Obaseki's tenure.",
+    "evidence": [
+      {
+        "question": "What was the unemployment rate in Edo State, Nigeria, before Godwin Obaseki's tenure?",
+        "answer": "The latest report from the National Bureau of Statistics showed that unemployment in Edo State has dropped drastically from 25.1 per cent in the 3rd Quarter of 2018 to 19 per cent in the 2nd Quarter of 2020, according to Friday’s report from the National Bureau of Statistics."
+      },
+      {
+        "question": "What was the unemployment rate in Edo State before and after Godwin Obaseki's tenure?",
+        "answer": "The unemployment rate in Edo State has dropped from 25.1 per cent in the 3rd quarter of 2018 to 19 per cent in the second quarter of 2020, new data released from Nigeria Bureau of Statistics (NBS) have shown."
+      },
+      {
+        "question": "Did the unemployment rate in Edo state, Nigeria actually decrease from 25% to 19% during Godwin Obaseki's tenure, as claimed?",
+        "answer": "Nairaland Forum / Nairaland / General / Politics / Edo Unemployment Rate Falls From 25.1% To 19%, Obaseki Claims Achievement (13572 Views)"
+      },
+      {
+        "question": "What was the unemployment rate in the state of Edo, Nigeria before and after Godwin Obaseki's tenure, according to the evidence provided?",
+        "answer": "|Re: Edo Unemployment Rate Falls From 25.1% To 19%, Obaseki Claims Achievement by honest1480(m): 9:12pm"
+      },
+      {
+        "question": "What was the unemployment rate in the state of Edo, Nigeria before and after Godwin Obaseki's tenure, according to the evidence provided?",
+        "answer": "|Re: Edo Unemployment Rate Falls From 25.1% To 19%, Obaseki Claims Achievement by GodlyHeart: 9:09pm On Aug 14, 2020"
+      },
+      {
+        "question": "What was the unemployment rate in the state of Edo, Nigeria before and after Godwin Obaseki's tenure, according to the evidence provided?",
+        "answer": "|Re: Edo Unemployment Rate Falls From 25.1% To 19%, Obaseki Claims Achievement by anonimi: 9:09pm On Aug 14, 2020"
+      },
+      {
+        "question": "What was the unemployment rate in the state of Edo, Nigeria before and after Godwin Obaseki's tenure, according to the evidence provided?",
+        "answer": "|Re: Edo Unemployment Rate Falls From 25.1% To 19%, Obaseki Claims Achievement by anonimi: 9:16pm On Aug 14, 2020"
+      },
+      {
+        "question": "What was the unemployment rate in the state of Edo, Nigeria before and after Godwin Obaseki's tenure?",
+        "answer": "*[/b][b]Edo unemployment rate falls from 25.1% to 19% on back of Obaseki’s job creation drive*https://www.google.com/amp/s/thenationonlineng.net/edo-unemployment-rate-reduces-to-19/amp/"
+      },
+      {
+        "question": "What was the unemployment rate in the state of Edo, Nigeria before and after Godwin Obaseki's tenure, according to the evidence provided?",
+        "answer": "|Re: Edo Unemployment Rate Falls From 25.1% To 19%, Obaseki Claims Achievement by officialfestus(m): 9:14pm"
+      },
+      {
+        "question": "What is the impact of the job creation drive of the Governor Godwin Obaseki-led administration on the unemployment rate in the state of Edo, Nigeria, specifically, what was the reduction in unemployment rate during his tenure?",
+        "answer": "The 6.1 per cent drop is attributed to the job creation drive of the Governor Godwin Obaseki-led administration, whose job creation agency, Edo State Skills Development Agency, (EdoJobs) is credited to have created over 170,000 jobs through innovative programmes in the last three and half years."
+      }
+    ]
+  },
+  {
+    "claim_id": 366,
+    "claim": "Biden called law enforcement the enemy.",
+    "evidence": [
+      {
+        "question": "What changes did Biden propose in response to his statement about law enforcement being the enemy?",
+        "answer": "Biden continued by calling for the series of changes we outlined in our above fact check on the “enemy” remark, including a focus on community policing and more investigations of police departments."
+      },
+      {
+        "question": "Does Joe Biden support defunding the police, as claimed by his radical advisors, or does he have a different stance on law enforcement?",
+        "answer": "Police are not the enemy. Joe Biden has surrounded himself with radical advisors who are committed to defunding the police, using those exact terms like 'redirecting funds,' and no matter what he says, Joe Biden will fall in line with the radical left's defund-police insanity."
+      },
+      {
+        "question": "Did Joe Biden ever refer to law enforcement as the \"enemy\"?",
+        "answer": "Biden has rejected support for those calls multiple times: in a spokesperson’s statement, in an op-ed, during fundraisers, in a number of local news interviews, and in response to a questionnaire from the Fraternal Order of Police, an organization of law enforcement officers."
+      },
+      {
+        "question": "Does Biden's call for police reform imply that law enforcement is the enemy, or is it a more nuanced approach to addressing issues in the criminal justice system?",
+        "answer": "But according to some longtime Biden supporters in law enforcement circles, the former veep’s call for police reform stands as a more measured contrast to both Trump’s “law-and-order” message and the calls by some protesters to abolish police departments entirely."
+      },
+      {
+        "question": "Is there any evidence to support the claim that Joe Biden has called law enforcement the enemy?",
+        "answer": "“You’ve always got to look at what a person does, not what they say, and Joe Biden has always been there for law enforcement, has always proven himself, has always fought on our behalf, and has successfully passed bills that benefit law enforcement and first responders,” Scotto said."
+      },
+      {
+        "question": "What does Biden support in terms of law enforcement, according to his statements?",
+        "answer": "He said Biden supports funding for community policing programs, diversifying police departments “to resemble the communities in which they serve” and equipping more officers with body-worn cameras."
+      },
+      {
+        "question": "Did Joe Biden ever refer to law enforcement as the \"enemy\"?",
+        "answer": "PolitiFact, \"Pence takes Biden’s comments on police funding, ‘enemy’ out of context,\" July 10, 2020"
+      },
+      {
+        "question": "Does Joe Biden consider law enforcement to be an adversary or opponent of the community?",
+        "answer": "In fact, Joe Biden recently said we 'absolutely' need to redirect police funding, and police departments have 'become the enemy' in our communities."
+      },
+      {
+        "question": "Did Biden ever call law enforcement the enemy?",
+        "answer": "While Biden has called this “one of those great inflection points in American history,” his record on criminal justice, and more than two decades of calls for increasing the number of police on the street are getting a second look, putting his past positions at odds with the conclusions of even some allies."
+      },
+      {
+        "question": "What did Joe Biden say about law enforcement in his speech, and how does it relate to the claim that he called law enforcement the enemy?",
+        "answer": "The Biden campaign gave PolitiFact an unedited audio recording of that exchange. The recording shows that after Biden said he \"proposed that kind of reform,\" he added, \"And by the way, the idea though, that’s not the same as getting rid of or defunding all the police.\""
+      }
+    ]
+  },
+  {
+    "claim_id": 386,
+    "claim": "The CDC has removed the “Covid-19 Pandemic” and replaced it with “Covid-19 Outbreak” on their website.",
+    "evidence": [
+      {
+        "question": "Has the CDC changed the terminology used to describe the COVID-19 situation on their website?",
+        "answer": "Pandemic, epidemic, outbreak. What do these terms mean? According to the Centers for Disease Control and Prevention (CDC):"
+      },
+      {
+        "question": "Did the CDC's response to the COVID-19 outbreak change from a \"pandemic\" to an \"outbreak\" at any point in time?",
+        "answer": "On January 21, 2020 CDC launched its agency wide response to the COVID-19 pandemic. It has been the largest response to any disease outbreak in CDC’s history."
+      },
+      {
+        "question": "What is the definition of a pandemic according to the World Health Organization, and how does it relate to the terminology used by the CDC in describing the spread of Covid-19?",
+        "answer": "A pandemic is defined as the “worldwide spread” of a new disease. Whereas, an outbreak is the occurrence of disease cases in excess of what’s normally expected and an epidemic is more than a normal number cases of an illness, specific health-related behavior or other health-related events in a community or region, according to the World Health Organization."
+      },
+      {
+        "question": "When did the World Health Organization declare the COVID-19 outbreak as a global pandemic?",
+        "answer": "On March 11, 2020, the World Health Organization (WHO) declared that an outbreak of the viral disease COVID-19 – first identified in December 2019 in Wuhan, China – had reached the level of a global pandemic."
+      },
+      {
+        "question": "Has the CDC officially declared the end of the Covid-19 pandemic?",
+        "answer": "This document uses pandemic severity categories based on the current CDC Pandemic Severity Assessment Framework1."
+      },
+      {
+        "question": "Has the World Health Organization (WHO) officially declared the end of the COVID-19 pandemic?",
+        "answer": "This does not mean the pandemic itself is over, but the global emergency it caused is – for now. A review committee will be established to develop long-term, standing recommendations for countries on how to manage COVID-19 on an ongoing basis."
+      },
+      {
+        "question": "Why did the CDC change the terminology on their website from \"Covid-19 Pandemic\" to \"Covid-19 Outbreak\"?",
+        "answer": "pandemic. For example, CDC has developed COVID-19 materials using a variety of communication formats,"
+      },
+      {
+        "question": "Did the CDC change the terminology used to describe the COVID-19 situation on their website from \"Pandemic\" to \"Outbreak\"?",
+        "answer": "In late April, the World Health Organization (WHO) declared its first ever \"public health emergency of international concern\", or PHEIC,[44] and in June, the WHO and the U.S. CDC stopped counting cases and declared the outbreak a pandemic.[45]"
+      },
+      {
+        "question": "Did the CDC update the terminology on their website to reflect the WHO's announcement on March 11, 2020, characterizing the COVID-19 outbreak as a pandemic?",
+        "answer": "On March 11, 2020, the World Health Organization announced that the COVID-19 outbreak can be characterized as a pandemic, as the rates of infection continue to rise in many locations around the world and across the United States."
+      },
+      {
+        "question": "Has the CDC changed the terminology used to describe the COVID-19 situation on their website?",
+        "answer": "pandemic outbreaks. According to the CDC, an influenza pandemic “can occur when a non-human "
+      }
+    ]
+  },
+  {
+    "claim_id": 398,
+    "claim": "The Indian government has launched an online health consultation scheme.",
+    "evidence": [
+      {
+        "question": "Has the Indian government launched an online health consultation scheme, and if so, what is the name of the platform and how many consultations has it conducted during the lockdown?",
+        "answer": "In a push to Digital India, a flagship programme for promoting e-governance, the newly launched eSanjeevani platform, an initiative to make e-health services easily accessible across the states has conducted two lakh tele-consultations during the lockdown."
+      },
+      {
+        "question": "What percentage of the Indian population has access to the online health consultation scheme \"eSanjeevani\" as of November 2019?",
+        "answer": "The services of the digital platform were introduced in November 2019. “Tele-consultation by 'eSanjeevani' has been implemented by 23 states (which covers 75% of the population) and other states are in the process of rolling it out,” the Union health ministry said."
+      },
+      {
+        "question": "What is the purpose of the eSanjeevani scheme being prepared for a national roll-out at 155,000 health and wellness centers across rural India?",
+        "answer": "eSanjeevani is being prepared for a national roll-out at 155,000 health and wellness centers across rural India by the Ministry of Health and Family Welfare (Government of India) under the Ayushman Bharat Scheme (the world's largest health insurance scheme)."
+      },
+      {
+        "question": "What is the purpose of the eSanjeevani platform, as mentioned by the Union health ministry?",
+        "answer": "“In what can be seen as a big push for the Digital India initiative of the prime minister, the eSanjeevani platform has proved its usefulness and easy access for the caregivers and the medical community, and those seeking healthcare services in the time of Covid-19,” the Union health ministry said."
+      },
+      {
+        "question": "Did the Indian government launch an online health consultation scheme in April 2020?",
+        "answer": "The Health Ministry rolled out the second tele-consultation service ‘eSanjeevaniOPD’ enabling patient-to-doctor telemedicine owing to the COVID-19 pandemic in April 2020."
+      },
+      {
+        "question": "Has the Indian government launched an online health consultation scheme, and if so, what are the two platforms through which it is operational?",
+        "answer": "The national tele-medicine service which is operational on two government platforms - 'eSanjeevani' and 'eSanjeevaniOPD'- has completed over 1.5 lakh teleconsultations, the Union health ministry said."
+      },
+      {
+        "question": "What is the purpose of the eSanjeevani platform, as launched by the Indian government?",
+        "answer": "In what can be seen as a big push for the ‘Digital India’ initiative of the Prime Minister, the eSanjeevani platform has proved its usefulness and easy access for the caregivers and the medical community, and those seeking healthcare services in the times of COVID."
+      },
+      {
+        "question": "Has the Indian government launched an online health consultation scheme that has resulted in 1.5 lakh tele-consultations?",
+        "answer": "The telemedicine service platforms of the Ministry of Health & Family Welfare i.e. ‘eSanjeevani’ and ‘eSanjeevaniOPD’ have completed 1.5 lakh tele-consultations."
+      },
+      {
+        "question": "What type of telemedicine services are available on the eSanjeevani platform launched by the Indian government?",
+        "answer": "This eSanjeevani platform has enabled two types of telemedicine services viz. Doctor-to-Doctor (eSanjeevani) and Patient-to-Doctor (eSanjeevani OPD) Tele-consultations."
+      },
+      {
+        "question": "Has the Indian government introduced a digital healthcare service, eSanjeevani, which allows for online health consultations?",
+        "answer": "\"As a digital modality of healthcare services delivery, eSanjeevani is gradually shaping into a parallel stream for the Indian healthcare delivery system with the number of teleconsultations per day on the platform touching the 8,000-mark in the last few days,\" the ministry said."
+      }
+    ]
+  },
+  {
+    "claim_id": 399,
+    "claim": "The Daily Trust news report about a UK judge ruling on how Nigerian Vice President Yemi Osinbajo detected the Process and Industrious Development Limited (P&ID) fraud against Nigeria is fake news.",
+    "evidence": [
+      {
+        "question": "What role did Nigerian Vice President Yemi Osinbajo play in the Process and Industrious Development Limited (P&ID) case, according to the UK court ruling?",
+        "answer": "Going by the ruling by a United Kingdom judge, the timely observation and interventions of the Vice President of Nigeria, Prof. Yemi Osinbajo was instrumental in how the Process and Industrious Development Limited (P&ID) case became known and identified as a fraudulent endeavour, according to a review of the court record."
+      },
+      {
+        "question": "What did the UK judge say about the role of Nigerian Vice President Yemi Osinbajo in detecting the Process and Industrial Development Limited (P&ID) fraud against Nigeria?",
+        "answer": "A United Kingdom judge says the timely observation and intervention of Vice President Yemi Osinbajo was instrumental in how the Process and Industrial Development Limited (P&ID) deal with Nigeria became known and identified as a fraudulent endeavour."
+      },
+      {
+        "question": "Did the UK judge's ruling confirm that Vice President Yemi Osinbajo played a role in detecting the P&ID fraud against Nigeria?",
+        "answer": "A United Kingdom judge has revealed that the timely interventions of the Vice President of Nigeria, Prof. Yemi Osinbajo was instrumental to Nigeria securing a favourable judgment against Process and Industrious Development Limited (P&ID)."
+      },
+      {
+        "question": "Did the UK High Court of Justice Queen's Bench Division Commercial Court's ruling contradict the claim that Nigerian Vice President Yemi Osinbajo detected the P&ID fraud against Nigeria?",
+        "answer": "Sir Ross Cranston of the UK High Court of Justice Queen’s Bench Division Commercial Court explained that the Vice President was a regular fixture all through process, noting that, the Vice President’s “fraud on the nation” statement in June 2018 turned the case against P&ID in Nigeria’s favour."
+      },
+      {
+        "question": "How did Nigerian Vice President Yemi Osinbajo allegedly detect the Process and Industrious Development Limited (P&ID) fraud against Nigeria, according to the UK judge's ruling?",
+        "answer": "How Osinbajo detected P&ID fraud against Nigeria – UK Judge"
+      },
+      {
+        "question": "Did Vice President Yemi Osinbajo's statement in June 2018 have any impact on the P&ID case in Nigeria?",
+        "answer": "He noted that the Vice President’s “fraud on the nation” statement in June 2018 turned the case against P&ID in Nigeria’s favour."
+      },
+      {
+        "question": "Does the UK judge's ruling in the P&ID case against Nigeria confirm the allegations made by the Nigerian Vice President, Yemi Osinbajo, that the deal was fraudulent and an attempt to cheat the country out of billions of dollars?",
+        "answer": "In welcoming the judgment, Shehu said in the Presidency’s view, it was “right, just and provides a strong prima facie case that the fraudulent gas deal with P&ID and the subsequent judgment debt of $10bn against Nigeria was a clear attempt to cheat the country of billions of dollars by a company that had not invested one naira in our country.”"
+      },
+      {
+        "question": "What is the Nigerian government's stance on the UK Commercial Court's recognition of the tribunal's decision regarding the P&ID fraud case?",
+        "answer": "“We look forward to challenging the UK Commercial Court’s recognition of the tribunal’s decision in the UK Court of Appeal, uncovering P&ID’s outrageous approach for what it is: a sham based on fraudulent and criminal activity developed to profit from a developing country,” Nigerian attorney general Abubakar Malami said."
+      },
+      {
+        "question": "Did a UK judge rule in favor of P&ID in a case involving Nigeria, as reported by The Daily Trust?",
+        "answer": "“In light of the indicators of fraud listed above, the most likely explanation for this is that Mr Shasore had entered into a dishonest arrangement with P&ID not to challenge its evidence or seek any disclosure with the inevitable result that Nigeria lost the case.”"
+      },
+      {
+        "question": "Does the UK judge's ruling on the P&ID fraud against Nigeria confirm that the Nigerian Vice President, Yemi Osinbajo, detected a fraudulent gas deal and subsequent judgment debt of $10 billion against Nigeria?",
+        "answer": "The Presidency said, “In our view, the judgment is right, just and provides a strong prima facie case that the fraudulent gas deal with P&ID and the subsequent judgment debt of $10 billion against Nigeria was a clear attempt to cheat the country of billions of dollars by a company that had not invested one Naira in our country."
+      }
+    ]
+  },
+  {
+    "claim_id": 404,
+    "claim": "Indian Railways has been completely privatized, and as a result, scores of people working in the Railways would lose their jobs.",
+    "evidence": [
+      {
+        "question": "Does the privatization of Indian Railways lead to a significant loss of jobs for its employees?",
+        "answer": "Contrary to the claim that this will boost job generation, past experience has shown that such privatisation results in a huge job loss creating insecurity for lakhs of employees of the Indian Railways."
+      },
+      {
+        "question": "Are there any plans to completely privatize Indian Railways, leading to job losses for scores of people working in the Railways?",
+        "answer": "There are fears that privatisation will decrease jobs in the Indian Railways. Yadav said it is completely baseless to say so."
+      },
+      {
+        "question": "Will the privatization of Indian Railways result in job losses for its employees?",
+        "answer": "With the initiation of the talks for Indian Railways privatization, on Friday itsaid that certain job profiles of its employees might change in the coming days but asserted that there will be no job losses."
+      },
+      {
+        "question": "Will scores of people working in the Railways lose their jobs as a result of the decision to ensure better facilities for passengers?",
+        "answer": "“The decision has been taken by Indian Railways to ensure better facilities for passengers. The core areas and responsibilities of operations pertaining to trains and ticketing will remain with the railways, so nobody is going to lose their job."
+      },
+      {
+        "question": "Does the evidence suggest that the privatization of Indian Railways will lead to an increase in job generation or a loss of jobs for Railway employees?",
+        "answer": "Such privatisation undermines the basic of self-reliant economy. Contrary to the claim that this will boost job generation, past experience has shown that it will result in a huge loss creating insecurity for the employees of the Railways.”"
+      },
+      {
+        "question": "Will the privatization of Indian Railways lead to a significant loss of jobs for railway employees?",
+        "answer": "Sen says that the employment lost due to privatisation of production units, the jewels of Indian Railways, in the railway workshops, and in the maintenance units will be many times more than the employment created by the private players."
+      },
+      {
+        "question": "Will the privatization of Indian Railways result in a reduction in the number of employees working in the Railways?",
+        "answer": "“We will be rightsizing and not downsizing. Let there be no doubt that the Indian Railways will remain the largest employer in the country."
+      },
+      {
+        "question": "Will the decision of Indian Railways to bring in private entities to run 151 passenger trains result in job losses for people working in the Railways?",
+        "answer": "The decision of the Railways to bring in private entities to run 151 passenger trains will not result in any job losses but will increase employment opportunities, bring in new technology and also enable the national transporter to provide trains on demand said VK Yadav, the Chairperson of Railway Board on Wednesday."
+      },
+      {
+        "question": "Does the privatization of Indian Railways guarantee job losses for scores of people working in the Railways?",
+        "answer": "Railways Ministry has been claiming that private participation through this move would raise about Rs 30,000 crore, which would be used for the modernisation of the national transporter and would generate employment."
+      },
+      {
+        "question": "Will the privatization of Indian Railways lead to a reduction in the number of employees working in the Railways?",
+        "answer": "\"We will be rightsizing and not downsizing. Let there be no doubt that the Indian Railways will remain the largest employer in the country."
+      }
+    ]
+  },
+  {
+    "claim_id": 427,
+    "claim": "U.S. citizens should show up at polling places on Election Day and cast an in-person ballot if poll workers can’t confirm that their mail-in ballot was received.",
+    "evidence": [
+      {
+        "question": "What happens if a voter shows up to the polling place and poll workers cannot confirm that their mail-in ballot has been received?",
+        "answer": "If poll workers cannot confirm that a voter has not already voted by mail, the voter may have to vote by provisional ballot, meaning the canvassing board would decide later whether to count the vote."
+      },
+      {
+        "question": "Can a mail-in ballot be rejected, and if so, what is the recommended alternative?",
+        "answer": "You can also vote in person if you mail your ballot and it does not reach your election office by Election Day, or if your mail-in ballot is rejected for any reason."
+      },
+      {
+        "question": "Can a voter still cast a ballot on Election Day if their mail-in ballot is not confirmed as received by the polling place?",
+        "answer": "If you were sent a mail-in ballot, but your polling place has no record of having received it, you may vote by provisional ballot."
+      },
+      {
+        "question": "What are the options available to voters who requested an absentee ballot but are concerned that it may not be counted, and what is the process for handling these situations on Election Day?",
+        "answer": "Additionally, some voters that requested an absentee ballot may wish to vote on Election Day for any number of reasons—such as failure to receive their ballot in time or due to fear their ballot did not arrive back to their local election official in time to be counted, which would also entitle voters to provisional ballots in at last 16 states plus the District of Columbia."
+      },
+      {
+        "question": "Can voters use the \"Where's My Ballot?",
+        "answer": "Voters should sign-up for our “Where’s My Ballot?” tool to receive messages by email, text message, or voice call when their ballot has been mailed, received, counted, and if there are any issues with their ballot."
+      },
+      {
+        "question": "What is the purpose of the notifications sent by some states to voters regarding the status of their mail-in ballots, and how does this relate to the claim that U.S. citizens should show up at polling places on Election Day and cast an in-person ballot if poll workers can’t confirm that their mail-in ballot was received?",
+        "answer": "Some states may choose to notify voters that their ballot has cleared certain steps of the process. This may be in the form of a text message or an email informing the voter that the ballot has been mailed out, delivered to the voter’s home by the U.S. Postal Service, received by the election official, etc."
+      },
+      {
+        "question": "What happens if a voter tries to vote in-person on Election Day after submitting a mail-in ballot?",
+        "answer": "Once a mail ballot has been returned to the Board, it cannot be retrieved or withdrawn. The same voter cannot vote in person in the polling place on Election Day unless he or she brings the mail ballot (or a portion of it) to the election judges OR completes an affidavit stating the mail ballot was never received by the voter or that it was received and lost."
+      },
+      {
+        "question": "What happens if a voter has already been issued an early mail/absentee ballot but still wants to vote in person on Election Day?",
+        "answer": "Voters who have already been issued an early mail/absentee ballot can still vote in person using an affidavit ballot."
+      },
+      {
+        "question": "What happens if a mail-in ballot is not received by the close of polls on Election Day, and how does this affect the voter's ability to cast an in-person ballot?",
+        "answer": "The voted ballot must be received by mail by the close of the polls on election day. If the ballot is rejected, the registered voter will be notified that the ballot was rejected and why the ballot was rejected."
+      },
+      {
+        "question": "Can a voter still cast a ballot on Election Day if they did not receive their mail-in ballot?",
+        "answer": "If you don’t have your ballot or never received it, you can still cast a provisional ballot. Your vote will be counted once the county determines it never received your mail-in ballot."
+      }
+    ]
+  },
+  {
+    "claim_id": 436,
+    "claim": "The US military will check purity and distribute COVID-19 vaccines in US.",
+    "evidence": [
+      {
+        "question": "Did the US military say they would check the purity of COVID-19 vaccines?",
+        "answer": "There is no evidence that the US military will \"check the purity\" of vaccines. However, Trump said in this May, 2020 press conference that they would be involved in the distribution of a COVID-19 vaccine."
+      },
+      {
+        "question": "Will the US military be responsible for both checking the purity of COVID-19 vaccines and distributing them to the public?",
+        "answer": "Claim 1: \"Made vaccines voluntary not mandatory. Military will check purity and distribute vaccines\""
+      },
+      {
+        "question": "Is the US military responsible for checking the purity and distributing COVID-19 vaccines in the US?",
+        "answer": "The Department of Defense is conducting a coordinated vaccine distribution strategy for prioritizing, and administering COVID-19 vaccines that will strengthen our ability to protect our people, maintain readiness, support the national COVID-19 response, and trust in safe and effective vaccines and vaccination plan."
+      },
+      {
+        "question": "Will the US military be directly involved in checking the purity and distributing COVID-19 vaccines in the US?",
+        "answer": "Planning is still underway. And, while the military is involved in distribution preparations and planning, we were told by the Department of Health and Human Services that “DOD support may not be required at all” for vaccination distribution."
+      },
+      {
+        "question": "Will the US Department of Defense be responsible for both checking the purity of COVID-19 vaccines and distributing them in the US?",
+        "answer": "With regard to distribution, OWS has stated that the U.S. Department of Defense (DOD) will assist with the distribution and administration of the vaccine."
+      },
+      {
+        "question": "Does the evidence suggest that the US military is fully prepared to check purity and distribute COVID-19 vaccines in the US, as claimed by the administration?",
+        "answer": "Likewise, the HHS materials don’t support Trump’s claim of the military being “fully set up” to distribute vaccines, but rather show an administration that still has a lot of planning to do."
+      },
+      {
+        "question": "Is the US military responsible for checking the purity and distributing COVID-19 vaccines in the US?",
+        "answer": "Trump claimed that the military is “fully set up” to deliver the vaccines, and a senior administration official at the July 30 briefing seemed to confirm that the Defense Department is handling “all the logistics.”"
+      },
+      {
+        "question": "Will the US military be responsible for checking the purity of COVID-19 vaccines before distributing them in the US?",
+        "answer": "The Defense Department will handle the logistics of distribution and manufacturing, including assembling the vaccination kits, according to a senior administration official who spoke anonymously at a July 30 background briefing."
+      },
+      {
+        "question": "What role will the US military play in the distribution of COVID-19 vaccines in the US, according to the White House official?",
+        "answer": "“The United States military is always ready and able to assist the American people and respond to a crisis, and like the President and HHS have said, the military stands ready to assist with logistics and mass distribution,” the White House official said."
+      },
+      {
+        "question": "What specific role will the US military play in the distribution of COVID-19 vaccines in the US, beyond just meeting logistical needs?",
+        "answer": "As the world’s largest organization conducting acquisition and movement of personnel and material, DOD is uniquely capable of meeting the logistical needs of Operation Warp Speed, Perna said, and its involvement in supply, production, and development will enable faster distribution than would have otherwise been possible."
+      }
+    ]
+  },
+  {
+    "claim_id": 444,
+    "claim": "The World Health Organization (WHO) says there is no proof that face masks protect against Covid-19.",
+    "evidence": [
+      {
+        "question": "What specific situations and settings does the WHO recommend wearing masks in to prevent COVID-19 transmission?",
+        "answer": "“WHO has updated its guidance to advise that to prevent COVID-19 transmission effectively in areas of community transmission, governments should encourage the general public to wear masks in specific situations and settings as part of a comprehensive approach to suppress SARS-CoV-2 transmission.”"
+      },
+      {
+        "question": "What is the purpose of wearing face masks in public according to the World Health Organization (WHO)?",
+        "answer": "The World Health Organization (WHO) has changed its advice on face masks, saying they should be worn in public where social distancing is not possible to help stop the spread of coronavirus."
+      },
+      {
+        "question": "What types of public settings does the World Health Organization recommend wearing fabric masks in to prevent the spread of COVID-19?",
+        "answer": "The WHO guidance on face masks for COVID-19 has changed to include the recommendation that the general public use fabric masks in public settings where physical distancing can’t be achieved and provides specific guidance on mask layers and materials."
+      },
+      {
+        "question": "Has the World Health Organization's stance on the effectiveness of face masks in preventing the spread of COVID-19 changed over time?",
+        "answer": "The issue of mask wearing has been widely debated in the press and the World Health Organization (WHO) have recently changed their advice, to now recommend the routine wearing of face masks by the general public as a means of preventing the spread of COVID‐19 (WHO, 2020a)."
+      },
+      {
+        "question": "Does the World Health Organization (WHO) recommend the use of face masks as a means of protection against COVID-19?",
+        "answer": "WHO published updated guidance on the use of masks for the control of COVID-19, which provided updated advice on who should wear a mask, when it should be worn and what it should be made of."
+      },
+      {
+        "question": "Does the World Health Organization (WHO) recommend the use of face masks by the general public in the community to decrease the risk of infection?",
+        "answer": "The finding “supports mask use by the general public in the community to decrease the risk of infection,” the WHO said in a statement to Vox, noting that in updating their guidance, they took the STAG-IH advice into consideration."
+      },
+      {
+        "question": "Does the World Health Organization (WHO) recommend the use of face masks for preventing the spread of Covid-19?",
+        "answer": "We previously highlighted some inconsistency in WHO's initial January, 2020, guidance on this issue.1, 2 WHO had not yet recommended mass use of masks for healthy individuals in the community (mass masking) as a way to prevent infection with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in its interim guidance of April 6, 2020.3 Public Health England (PHE) has made a similar recommendation.4 By contrast, the US Centers for Disease Control and Prevention (CDC) now advises the wearing of cloth masks in public5 and many countries, such as Canada, South Korea, and the Czech Republic, require or advise their citizens to wear masks in public places.6, 7, 8 An evidence review9 and analysis10 have supported mass masking in this pandemic."
+      },
+      {
+        "question": "Does the World Health Organization (WHO) recommend wearing cloth masks in areas where community transmission of Covid-19 is ongoing?",
+        "answer": "Even the WHO finally came around. Spurred by the results of a review of the evidence the organization had commissioned, on June 5, the WHO announced updated guidance recommending that all citizens should wear cloth masks in areas where community transmission is ongoing."
+      },
+      {
+        "question": "Does the World Health Organization's statement that there is no proof that face masks protect against Covid-19 align with the growing body of scientific evidence that suggests masks do reduce the spread of COVID-19?",
+        "answer": "While both the CDC and the World Health Organization have changed their guidance on masks, and some published studies touting the value of masks have been criticized for questionable methods, there is a growing body of scientific evidence that indicates masks do reduce the spread of COVID-19."
+      },
+      {
+        "question": "Does the World Health Organization (WHO) recommend the use of face masks in the community to prevent the acquisition of COVID-19?",
+        "answer": "However, the use of face mask in the community remains controversial.21 , 22 WHO issued an interim guideline regarding the use of masks in the context of COVID-19 on 6 April 2020, stating no evidence that wearing a mask by healthy persons in the wider community setting can prevent acquisition of COVID-19.23 European Centre for Disease Prevention and Control issued a technical report on 8 April 2020 that the use of face masks in the community could be considered, especially when visiting busy, closed spaces, despite not knowing how much the use of masks in the community can contribute to a decrease in transmission in addition to the other counter measures.24 On 3 April 2020, CDC recommended the use of cloth face coverings, especially in areas of significant community-based transmission.25"
+      }
+    ]
+  },
+  {
+    "claim_id": 462,
+    "claim": "US cable news channel Fox News is not available in Canada due to media legislation in the country.",
+    "evidence": [
+      {
+        "question": "Is there any evidence that Fox News has been banned in Canada due to Canadian Radio-Television and Telecommunications Commission (CRTC) prohibitions?",
+        "answer": "Since at least 2011, rumors have circulated claiming the Fox News television channel has been banned in Canada due to their running afoul of Canadian Radio-Television and Telecommunications Commission (CRTC) prohibitions that make it \"illegal to broadcast lies and label it news\":"
+      },
+      {
+        "question": "Does the Canadian Radio-television and Telecommunications Commission (CRTC) regulations prohibit the availability of Fox News Channel in Canada?",
+        "answer": "The CRTC regulations apply only to Canadian broadcasters using Canadian airwaves; they do not apply to the Fox News Channel, which is a non-Canadian entity transmitted via satellite and cable, not broadcast over public airwaves."
+      },
+      {
+        "question": "Did the Canadian government initially reject Fox News' attempt to establish a Canadian version of the channel due to media ownership laws, but later approve its availability on digital television platforms?",
+        "answer": "Fox Chairman and CEO Rupert Murdoch was rebuffed in his efforts to establish Fox News Canada in 2003 due to Canadian laws regarding foreign ownership of print and broadcast media, but the CRTC approved an application to bring the Fox News Channel to Canadian digital television line-ups back in November 2004, and that channel is now carried by dozens of different digital providers throughout Canada."
+      },
+      {
+        "question": "What is the outcome of the Canadian Radio-television and Telecommunications Commission's (CRTC) decision regarding the availability of Fox News Channel in Canada?",
+        "answer": "The Canadian Radio-television and Telecommunications Commission (CRTC) approved an application Thursday to bring the Fox News Channel, one of the highest-rated news channels in the United States, onto Canadian digital airwaves."
+      },
+      {
+        "question": "Why did the Canadian Radio-television and Telecommunications Commission (CRTC) reject a proposal to bring Fox News to Canada?",
+        "answer": "Sources: Interview with Paul Schabas, partner at Blake, Cassels & Graydon LLP, July 10, 2014; Interview with Brian Rogers, litigator at Wardle, Daley, Bernstein, LLP, July 10, 2014; Interview with Janet Alshouse, Senior Vice President of International Distribution at Fox News, July 11, 2014; Interview with Eric Rancourt, spokesperson for the Canadian Radio-television and Telecommunications Commission, July 11, 2014; Interview with Sheehan Carter, senior manager of TV operations at the Canadian Radio-television and Telecommunications Commission, July 11, 2014; Snopes, Canadian Fox, Jan. 7, 2014; Huffington Post, Regulators Reject Proposal That Would Bring Fox-Style News to Canada, Feb. 28, 2011; Canadian Radio-television and Telecommunications Commission, Broadcast Regulatory Policy 2011-308, May 11, 2011; Canadian Radio-television and Telecommunications Commission, Broadcast Public Notice 2004-88, Nov. 18, 2004; Canadian Radio-television and Telecommunications Commission, Broadcast Public Notice 2004-51, July 15, 2004; Canadian Radio-television and Telecommunications Commission, Commission Letter, Nov. 7, 2003; Fox News, Hating America, July 9, 2004; Fox News, Where in the World is Fox, March 1, 2011; Lexum, Supreme Court Judgements: R vs. Zundel, Aug 27, 1992; National Post, Going to Court with Ernst Zundel, Feb. 21, 2014; CBC News, CRTC Approves Fox News for Canada, Nov. 18, 2004"
+      },
+      {
+        "question": "Did the media legislation in Canada prevent Fox News from entering the country?",
+        "answer": "However, it is not true that such regulations have kept the Fox News Channel from gaining entry into Canada, or that they were invoked to boot Fox News out of that country after the channel was established there."
+      },
+      {
+        "question": "Does the Canadian Radio-television and Telecommunications Commission (CRTC) consider Fox News to be a competitive service with any Canadian pay or specialty service?",
+        "answer": "However, in its decision, the CRTC said Fox News offers little Canadian coverage and is not \"partially or totally competitive with any Canadian pay or specialty service.\""
+      },
+      {
+        "question": "Why did Fox News initially get denied broadcast in Canada in 2003?",
+        "answer": "Fox was denied broadcast in 2003, but not because Canadians found it to be untruthful. And Fox News got its approval to broadcast via satellite in 2004 and certainly has a dish presence up north today."
+      },
+      {
+        "question": "Why did the CRTC reject a CCTA application to bring Fox News to Canada?",
+        "answer": "The CRTC rejected a CCTA application to bring Fox to Canada last November because Fox News U.S. and Winnipeg-based Global Television were planning to create Fox News Canada, a combination of U.S. and Canadian news."
+      },
+      {
+        "question": "Is Fox News Channel actually banned in Canada due to media legislation in the country?",
+        "answer": "\"Such-and-such a country banned Fox News\" has become a familiar social media trope in recent years. A 2011 variant of the rumor held (falsely) that the Fox News Channel was banned in Canada for running afoul of Canadian Radio-Television and Telecommunications Commission (CTRC) regulations prohibiting the broadcasting of \"false or misleading news.\""
+      }
+    ]
+  },
+  {
+    "claim_id": 480,
+    "claim": "Donald Trump said: \"Biden also vowed to oppose school choice and close down charter schools, ripping away the ladder of opportunity for Black and Hispanic children.\"",
+    "evidence": [
+      {
+        "question": "What did Donald Trump claim Joe Biden vowed to do regarding school choice and charter schools?",
+        "answer": "\"Biden also vowed to oppose school choice and close all charter schools, ripping away the ladder of opportunity for Black and Hispanic children,\" Trump claimed."
+      },
+      {
+        "question": "What did Joe Biden promise to do regarding charter schools, according to Donald Trump's statement?",
+        "answer": "Biden also vowed to oppose school choice and close all charter schools, ripping away the ladder of opportunity for Black and Hispanic children."
+      },
+      {
+        "question": "Does Joe Biden plan to eliminate charter schools and restrict school choice options for Black and Hispanic students?",
+        "answer": "Biden also vowed to oppose School Choice and close down Charter Schools, ripping away the ladder of opportunity for Black and Hispanic children."
+      },
+      {
+        "question": "Does Donald Trump accurately represent Joe Biden's stance on school choice and charter schools?",
+        "answer": "As for Trump’s claim that Biden opposes school choice, as the document makes clear, Biden opposes “private school vouchers and other policies that divert taxpayer–funded resources away from the public school system.”"
+      },
+      {
+        "question": "What is Donald Trump's stance on Joe Biden's views on charter schools and school choice?",
+        "answer": "But overall, this claim from Trump goes too far. Biden is in favor of good charter schools and allowing students to have their pick of public schools, which falls under the umbrella of school choice."
+      },
+      {
+        "question": "What did Joe Biden say about charter schools and school choice, and how does this relate to the claim made by Donald Trump?",
+        "answer": "By that metric, Trump had a point: Biden opposes the use of public money for private schools. He’s also against for-profit and low-performing charter schools."
+      },
+      {
+        "question": "What specific education policies did Donald Trump claim Joe Biden would implement, and how did Trump characterize the potential impact on Black and Hispanic children?",
+        "answer": "In a series of virtual tele-rallies, President Donald Trump repeatedly distorted Joe Biden’s position on education, claiming the former vice president wants to “end school choice” and “abolish charter schools.”"
+      },
+      {
+        "question": "What is Donald Trump's stance on charter schools and school choice, according to his statement?",
+        "answer": "The president also said Democratic presidential nominee Joe Biden opposes school choice and has vowed to shut down charter schools, and said, “In a second term, I will expand charter schools and provide school choice to every family in America.”"
+      },
+      {
+        "question": "What specific type of school choice does Donald Trump claim Joe Biden opposes, and how does this align with the evidence provided?",
+        "answer": "So when Trump says Biden opposes school choice, it’s true that he opposes vouchers for private schools."
+      },
+      {
+        "question": "What did Donald Trump claim about Joe Biden's stance on charter schools, and how does this claim align with the evidence provided?",
+        "answer": "Nonetheless, whether Biden would cut off funding for charter schools managed by for-profit companies, or whether he would seek to rein in charter school expansion with further school district oversight, Trump goes too far with his blanket claim that Biden would “abolish all charter schools.”"
+      }
+    ]
+  },
+  {
+    "claim_id": 483,
+    "claim": "Donald Trump said \"We have spent nearly $2.5 trillion on completely rebuilding our military, which was very badly depleted when I took office.\"",
+    "evidence": [
+      {
+        "question": "What did Donald Trump claim about the amount of money spent on rebuilding the US military?",
+        "answer": "TRUMP: “We have spent $2.5 trillion on completely rebuilding our military, which was very badly depleted when I took office, as you know.”"
+      },
+      {
+        "question": "Did Donald Trump accurately state the amount of money spent on rebuilding the military since he took office?",
+        "answer": "We have spent nearly $2.5 trillion on completely rebuilding our military, which was very badly depleted when I took office."
+      },
+      {
+        "question": "Did Donald Trump claim that the U.S. military was rebuilt with a specific amount of money?",
+        "answer": "On Jan. 8, Trump pointed out that he had spent $2.5 trillion to rebuild the military, claiming that because of that the “U.S. armed forces are stronger than ever before.”"
+      },
+      {
+        "question": "How much of the $2.5 trillion in defense spending mentioned by Trump actually occurred during his presidency, and how much was spent during the tenure of his predecessor, Barack Obama?",
+        "answer": "Facts First: Trump was exaggerating. Defense spending for fiscal years 2017, 2018 and 2019 was $2.05 trillion, and that includes more than three-and-a-half months of Obama’s tenure, since the 2017 fiscal year began in October 2016."
+      },
+      {
+        "question": "How does the evidence support the claim that Trump has spent $2.5 trillion on rebuilding the military, and what does this claim reveal about Trump's understanding of the military's condition when he took office?",
+        "answer": "— “We’ve rebuilt the military, 2.5 trillion dollars.” Trump frequently suggests this money is all for new equipment, but he’s just adding together three years of budgets, none of which is a record."
+      },
+      {
+        "question": "How much of the $2.5 trillion claimed by Trump was actually spent during his presidency?",
+        "answer": "Facts First: Trump was exaggerating. As noted by Todd Harrison, director of defense budget analysis at the Center for Strategic and International Studies, total defense spending for fiscal years 2017, 2018 and 2019 was $2.05 trillion – and that includes more than three-and-a-half months of Obama’s tenure, since the 2017 fiscal year began in October 2016."
+      },
+      {
+        "question": "Did Donald Trump spend nearly $2.5 trillion on rebuilding the US military over a period of almost three years?",
+        "answer": "Trump said, “I spent $2.5 trillion over the last almost three years rebuilding our military.”"
+      },
+      {
+        "question": "How much of the military's rebuilding was done before Trump took office?",
+        "answer": "\"The American military has been completely rebuilt under my administration at a cost of $2.5 trillion,\" Trump said in the Jan. 8 address."
+      },
+      {
+        "question": "Did the US spend more or less than $2.5 trillion on rebuilding its military over the last three years, according to Donald Trump's statement?",
+        "answer": "“Our military has been completely rebuilt…We spent two and a half trillion dollars rebuilding it over the last three years.”"
+      },
+      {
+        "question": "Did Todd Harrison, director of defense budget analysis at the Center for Strategic and International Studies, agree with Donald Trump's statement about the amount of money spent on rebuilding the military?",
+        "answer": "Todd Harrison, director of defense budget analysis at the Center for Strategic and International Studies, told us when Trump has claimed $2-plus trillion was spent on military equipment, that’s “absolutely untrue.”"
+      }
+    ]
+  },
+  {
+    "claim_id": 496,
+    "claim": "Joe Biden is for open borders, sanctuary cities, free lawyers and health care for illegal immigrants.",
+    "evidence": [
+      {
+        "question": "Does Joe Biden's agenda support an end to deportations, support for sanctuary cities, and free lawyers and healthcare for illegal immigrants, all paid for by American taxpayers?",
+        "answer": "(Applause.) Joe Biden is for open borders. Their agenda calls for an end to deportations; support for sanctuary cities; and free lawyers and free healthcare for illegal immigrants, all paid for by American taxpayers."
+      },
+      {
+        "question": "Does Joe Biden support providing free lawyers and healthcare for illegal immigrants?",
+        "answer": "Joe Biden is for open borders; sanctuary cities; and free lawyers and healthcare for illegal immigrants."
+      },
+      {
+        "question": "Does Joe Biden's plan to \"secure the border\" actually involve opening up America's borders and providing government benefits to illegal aliens?",
+        "answer": "- Biden claims he'll secure the border. In reality, Biden will open up America's borders by stopping all deportations, shutting down detention centers, blocking ICE officers from doing their jobs, providing government health benefits to illegal aliens, and turning America into a massive sanctuary city."
+      },
+      {
+        "question": "What specific immigration policies has Joe Biden proposed, and how do they differ from the claim that he is for open borders, sanctuary cities, free lawyers, and health care for illegal immigrants?",
+        "answer": "While it's true that Biden has pledged to stop construction of the border wall that Trump made a key 2016 campaign promise, he has hardly proposed amnesty and free health care for all undocumented immigrants."
+      },
+      {
+        "question": "Does Joe Biden's pledge to provide health care to illegal immigrants imply support for open borders, sanctuary cities, and free lawyers for illegal immigrants?",
+        "answer": "Trump’s campaign website claims: “Biden pledged to give free, taxpayer-funded health care to illegal immigrants.”"
+      },
+      {
+        "question": "Does Joe Biden support providing health care to illegal immigrants, but not necessarily making it free?",
+        "answer": "Biden has said that people should have access to health care, regardless of immigration status; he has not said it should be free."
+      },
+      {
+        "question": "What specific benefits does Joe Biden propose for illegal immigrants, and how do these benefits differ from those available to legal immigrants or U.S. citizens?",
+        "answer": "Biden is not offering blanket “welfare” to immigrants in, or coming to, the U.S. legally or illegally."
+      },
+      {
+        "question": "What specific immigration policy did Joe Biden support in 2013?",
+        "answer": "Biden supports a more open and welcoming immigration policy than the one championed by Trump. Biden supported the 2013 Senate immigration bill, the so-called Gang of Eight bill, which in addition to providing a path to earned citizenship for those then in the country illegally, would have included significant investments in border security."
+      },
+      {
+        "question": "Does Joe Biden believe that the US government is obligated to provide free healthcare to undocumented immigrants?",
+        "answer": "The video carried the title, \"Joe Biden Says U.S. Obligated to Give Free Healthcare to 'Undocumented' Immigrants.\""
+      },
+      {
+        "question": "Does Joe Biden's administration's defense of sanctuary cities, free lawyers, and healthcare for illegal immigrants imply that he is in favor of open borders?",
+        "answer": "Indeed, his administration defends them in court. Biden continued and expanded Title 42, an archaic public-health order which allows the expulsion of most adult migrants without access to the asylum process, purportedly due to the COVID-19 public health emergency, although cases were much lower in the countries of origin for most of these migrants."
+      }
+    ]
+  },
+  {
+    "claim_id": 498,
+    "claim": "As we speak the US are developing a growing number of treatments, including convalescent plasma, that are saving lives all across the country.",
+    "evidence": [
+      {
+        "question": "What types of treatments, including convalescent plasma, are being developed by the US to save lives across the country?",
+        "answer": "As we speak we’re developing a growing number of treatments, including convalescent plasma that are saving lives all across the country."
+      },
+      {
+        "question": "What types of treatments, including convalescent plasma, are being developed by the US to save lives across the country?",
+        "answer": "As we speak we're developing a growing number of treatments, including convalescent plasma that are saving lives all across the country."
+      },
+      {
+        "question": "Has the US FDA granted an emergency use authorization for convalescent plasma as a treatment for COVID-19?",
+        "answer": "Still, Dr. Michael Joyner of the Mayo Clinic, who is leading the nation's expanded access program, which has allowed more than 70,000 COVID-19 patients to receive convalescent plasma, said the findings \"certainly meet the threshold\" for an emergency use authorization."
+      },
+      {
+        "question": "Is there sufficient evidence to support the claim that convalescent plasma is a effective treatment for COVID-19, given the National Institute of Health's treatment guidelines stating \"insufficient data\" to support its use?",
+        "answer": "The National Institute of Health treatment guidelines, last updated on July 17, say there's \"insufficient data\" to support convalescent plasma as a Covid-19 treatment, though thousands of patients in the U.S. have received the treatment as part of clinical trials."
+      },
+      {
+        "question": "What evidence is there to support the claim that convalescent plasma is saving lives across the country?",
+        "answer": "“The use of convalescent plasma – blood plasma from individuals who have recovered from COVID-19 – presents real hope for saving lives,” said Marc Klapholz, Chair of the Department of Medicine at Rutgers New Jersey Medical School and University Hospital, and the Principal Investigator for the use of Convalescent COVID-19 plasma."
+      },
+      {
+        "question": "What was the Trump Administration's role in making convalescent plasma available across the country, and how did it relate to the ongoing evaluation of its effectiveness through clinical trials?",
+        "answer": "“The Trump Administration recognized the potential of convalescent plasma early on. Months ago, the FDA, BARDA, and private partners began work on making this product available across the country while continuing to evaluate data through clinical trials."
+      },
+      {
+        "question": "Has the US FDA issued an emergency use authorization for convalescent plasma as a treatment for COVID-19 in hospitalized patients?",
+        "answer": "On August 23, 2020, the U.S. Food and Drug Administration issued an emergency use authorization (EUA) for investigational convalescent plasma for the treatment of COVID-19 in hospitalized patients as part of the agency’s ongoing efforts to fight COVID-19."
+      },
+      {
+        "question": "Is the use of convalescent plasma in the US a new treatment for COVID-19, or is it a revival of an existing practice?",
+        "answer": "While this is a new advance against COVID-19, it is not a new practice. Convalescent plasma has been used before as a potentially life-saving treatment against quickly developing diseases and infections, when proven treatments or vaccines were not yet available."
+      },
+      {
+        "question": "What evidence is there that the US is developing treatments, including convalescent plasma, that are saving lives across the country?",
+        "answer": "Now, over 140 clinical trials are recruiting COVID-19 patients to study effects of convalescent plasma and nearly 2,500 hospitals are participating in the U.S. COVID-19 Expanded Access Program for collecting and providing convalescent plasma to patients across the U.S."
+      },
+      {
+        "question": "Does Dr. Christopher D. Hillyer, MD, President and CEO of New York Blood Center, believe that convalescent plasma is a life-saving treatment for COVID-19 patients?",
+        "answer": "In our experience, convalescent plasma is a life saver and no person in need, anywhere, should go without it,” said Christopher D. Hillyer, MD, President and CEO, of New York Blood Center."
+      }
+    ]
+  }
+]

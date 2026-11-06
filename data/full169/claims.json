@@ -1,0 +1,678 @@
+[
+  {
+    "claim_id": 9,
+    "claim": "You see the number today? 33.1 GDP. The biggest in the history of our country by almost triple, right? Almost triple. Now it’s very much bigger than any GDP we’ve ever had. You have to go back to the 1950s, and then it’s less than half. This is the greatest number, 33.1 percent."
+  },
+  {
+    "claim_id": 10,
+    "claim": "Donald Trump, when he thinks of climate change, he says hoax. Well, guess what? Speaking of hoaxes, remember what he said about these increasing violent hurricanes and the frequency? He actually said, maybe we should detonate a nuclear bomb over the Atlantic. By the way, the same stable genius who said the biggest problem we had in the Revolutionary War is we didn’t have enough airports."
+  },
+  {
+    "claim_id": 11,
+    "claim": "The U.S. surgeon general and the Centers for Disease Control both previously said that ‘masks are not effective in preventing [the] general public from catching coronavirus.’"
+  },
+  {
+    "claim_id": 15,
+    "claim": "Illegal drug, border crossings, and human smuggling activities have decreased in areas where barriers are deployed in the United States."
+  },
+  {
+    "claim_id": 18,
+    "claim": "Even if your mail-in ballot is postmarked prior to the Election day but arrives after the Election day it will be thrown out."
+  },
+  {
+    "claim_id": 26,
+    "claim": "Ivermectin is a treatment for coronavirus."
+  },
+  {
+    "claim_id": 33,
+    "claim": "America went from 75,000 flu deaths last year in 2019 to almost 0 in 2020"
+  },
+  {
+    "claim_id": 43,
+    "claim": "Donald Trump said that $15 an hour is too much for essential workers"
+  },
+  {
+    "claim_id": 47,
+    "claim": "Joe Biden said he wants to ban fracking in the US."
+  },
+  {
+    "claim_id": 50,
+    "claim": "Twitter now putting warnings on tweets that are just unedited clips of Biden saying he would end fracking"
+  },
+  {
+    "claim_id": 58,
+    "claim": "Russia sent medical aid to the US, in the form of medical equipment to help coronavirus patients."
+  },
+  {
+    "claim_id": 59,
+    "claim": "There is a scam involving Santander customers being sent fake bank cards."
+  },
+  {
+    "claim_id": 60,
+    "claim": "UK Employees unable to work in tier 3 areas will get a combination of Job Support Scheme and Universal Credit, which will mean they get 80% of their wages."
+  },
+  {
+    "claim_id": 68,
+    "claim": "Joe Biden said 'If Your 8-Year-Old Child Says They Want To Be Transgender, They Have A Right To Transition'."
+  },
+  {
+    "claim_id": 73,
+    "claim": "Chinese Diplomats Assault Taiwan Counterparts in Fiji"
+  },
+  {
+    "claim_id": 76,
+    "claim": "Hunter Biden (son of US president Joe Biden)  had 25,000 pics of him torturing and raping children under 10 in China on his laptop."
+  },
+  {
+    "claim_id": 81,
+    "claim": "NBC News Kristen Welker gave thousands of dollars to Obama, Clinton and Biden, is registered as a Democrat & her family spent Christmas with the Obamas at the White House."
+  },
+  {
+    "claim_id": 82,
+    "claim": "In the US lockdowns are partly responsible for excess deaths not directly attributed to COVID-19 which were observed in 2020."
+  },
+  {
+    "claim_id": 100,
+    "claim": "US president Joe Biden (candidate at the time of claim) supports the new green deal (The Green New Deal is a nonbinding resolution, introduced by Rep. Alexandria Ocasio-Cortez and Sen. Ed Markey last year, to tackle climate change.)"
+  },
+  {
+    "claim_id": 101,
+    "claim": "The Tanishq jewellery store in Gandhidham,  Gujarat, India was attacked following a negative reaction to an advertisement."
+  },
+  {
+    "claim_id": 115,
+    "claim": "More people who wear masks become sick with COVID-19 compared to non-mask wearers"
+  },
+  {
+    "claim_id": 135,
+    "claim": "No one lost their health care because of the Wellmark and Iowa Farm Bureau Health Plan Bill."
+  },
+  {
+    "claim_id": 142,
+    "claim": "The CDC has said over 98,000 people had non-COVID related deaths because of hospitals that were closed down for non-essential services"
+  },
+  {
+    "claim_id": 143,
+    "claim": "New Zealand spends less on pensions than most wealthy countries, spending 4.4 per cent of GDP"
+  },
+  {
+    "claim_id": 148,
+    "claim": "U.S. President Donald Trump has suspended all travel from China."
+  },
+  {
+    "claim_id": 153,
+    "claim": "President Trump and I have a plan to improve healthcare and protect pre-existing conditions for every American."
+  },
+  {
+    "claim_id": 183,
+    "claim": "Mexico on a \"red alert\" with children being targeted for kidnapping so their organs can be harvested"
+  },
+  {
+    "claim_id": 186,
+    "claim": "A picture of a man with UP Chief Minister Yogi Adityanath shared with a claim that he is the father of rape accused Sandeep Thakur in the Hathras case."
+  },
+  {
+    "claim_id": 192,
+    "claim": "It makes no sense for oil to be cheaper in Nigeria than in Saudi Arabia."
+  },
+  {
+    "claim_id": 206,
+    "claim": "There has been a 60% drop in government revenue in Nigeria."
+  },
+  {
+    "claim_id": 208,
+    "claim": "It makes no sense for oil to be cheaper in Nigeria than in Saudi Arabia."
+  },
+  {
+    "claim_id": 209,
+    "claim": "Nigeria has seen a 60% drop in government revenue"
+  },
+  {
+    "claim_id": 210,
+    "claim": "There was a 40% drop in oil prices in Nigeria."
+  },
+  {
+    "claim_id": 225,
+    "claim": "There was a 40% drop in oil prices in Nigeria in 2020."
+  },
+  {
+    "claim_id": 229,
+    "claim": "There was a 40% drop in the price of oil, Nigeria's main export."
+  },
+  {
+    "claim_id": 233,
+    "claim": "There has been a 60% drop in government revenue."
+  },
+  {
+    "claim_id": 237,
+    "claim": "The alleged concerns of the United States over Cuba's cooperation, in this case about the ‘More Doctors’ program, are neither legitimate nor pertinent to be discussed at PAHO [Pan American Health Organization]."
+  },
+  {
+    "claim_id": 241,
+    "claim": "President Joe Biden is abusing the prescription drug Adderall."
+  },
+  {
+    "claim_id": 259,
+    "claim": "Govt of India is providing money to bereaved families of COVID-19 - Insurance benefits for Covid-19 deaths can be claimed under the schemes of PMJJBY and PMSBY."
+  },
+  {
+    "claim_id": 269,
+    "claim": "Sunil Gavaskar said that \"Virat Kohli has only trained against Anushka [Sharma]'s balls during the lockdown\""
+  },
+  {
+    "claim_id": 282,
+    "claim": "Premier Daniel Andrews of the state of Victoria in Australia sold the rights to water to China."
+  },
+  {
+    "claim_id": 288,
+    "claim": "Black Lives Matter wants to destroy the nuclear family."
+  },
+  {
+    "claim_id": 303,
+    "claim": "There is a double standard in how Senate Republicans handled the confirmations for Obama's and Trump's high court picks."
+  },
+  {
+    "claim_id": 306,
+    "claim": "Brucellosis is caused by a new virus from China."
+  },
+  {
+    "claim_id": 324,
+    "claim": "US Miami-Dade County Mayor Carlos Giminez kept his taxpayer-funded Mercedes-Benz after slashing $400 million in government jobs and spending."
+  },
+  {
+    "claim_id": 328,
+    "claim": "24 of every 100 kids in US schools speak Spanish."
+  },
+  {
+    "claim_id": 350,
+    "claim": "The rate of abortions under Democratic presidential administrations has actually fallen more precipitously."
+  },
+  {
+    "claim_id": 353,
+    "claim": "The UK public won’t be able to claim compensation if unlicensed vaccines damage our health."
+  },
+  {
+    "claim_id": 354,
+    "claim": "unemployment rate in the state of Edo, Nigeria reduced from 25% to 19% during Godwin Obaseki's tenure."
+  },
+  {
+    "claim_id": 360,
+    "claim": "These unlicensed vaccines will be administered by non-medical staff, such as your employer in the UK."
+  },
+  {
+    "claim_id": 366,
+    "claim": "Biden called law enforcement the enemy."
+  },
+  {
+    "claim_id": 370,
+    "claim": "Government of India has imposed taxes on all school books"
+  },
+  {
+    "claim_id": 375,
+    "claim": "Nigeria was the third most terrorised in the world in 2020, after Afghanistan and Iraq."
+  },
+  {
+    "claim_id": 389,
+    "claim": "The cardinal and unforgivable sin of a French magazine Charlie Hebdo in insulting the holy face of the Prophet once again revealed the hatred and hostility of the political and cultural institutions of the Western world against Islam and the Muslim community."
+  },
+  {
+    "claim_id": 394,
+    "claim": "Under Trump's watch, auto assembly plants have been added at an unprecedented rate in Michigan, Ohio, North Carolina, South Carolina and possibly other states."
+  },
+  {
+    "claim_id": 404,
+    "claim": "Indian Railways has been completely privatized, and as a result, scores of people working in the Railways would lose their jobs."
+  },
+  {
+    "claim_id": 413,
+    "claim": "Over the past 40 years, the Uyghur population in Xinjiang, in China, grew from 5.55 million to 12 million."
+  },
+  {
+    "claim_id": 423,
+    "claim": "Sen. Martha McSally “supported a plan to turn Medicare into a voucher program and ‘shift costs’ onto seniors” and “even supported raising the retirement age."
+  },
+  {
+    "claim_id": 427,
+    "claim": "U.S. citizens should show up at polling places on Election Day and cast an in-person ballot if poll workers can’t confirm that their mail-in ballot was received."
+  },
+  {
+    "claim_id": 428,
+    "claim": "More cops have died from COVID this year than have been killed on patrol."
+  },
+  {
+    "claim_id": 435,
+    "claim": "Igbo people In Nigeria (Igbo people are found in southeastern Nigeria) are the richest people per capita in Africa."
+  },
+  {
+    "claim_id": 448,
+    "claim": "Kyle Rittenhouse failed to appear at his court hearing in Lake County, Illinois, on 28th August 2020 and was given an extra month to comply."
+  },
+  {
+    "claim_id": 454,
+    "claim": "Face masks cause hypoxia."
+  },
+  {
+    "claim_id": 457,
+    "claim": "The Radio Act in Canada makes it a crime to lie to the public via airwaves."
+  },
+  {
+    "claim_id": 458,
+    "claim": "The South African Police Service kills three times more people per capita than the United States police force"
+  },
+  {
+    "claim_id": 479,
+    "claim": "Donald Trump said \"When the anarchists started ripping down our statues and monuments, right outside, I signed an order immediately, 10 years in prison.\""
+  },
+  {
+    "claim_id": 480,
+    "claim": "Donald Trump said: \"Biden also vowed to oppose school choice and close down charter schools, ripping away the ladder of opportunity for Black and Hispanic children.\""
+  },
+  {
+    "claim_id": 482,
+    "claim": "Donald trump said: \"Joe Biden recently raised his hand on the debate stage and promised he was going to give it away, your health care dollars to illegal immigrants, which is going to bring massive number of immigrants into our country.\""
+  },
+  {
+    "claim_id": 483,
+    "claim": "Donald Trump said \"We have spent nearly $2.5 trillion on completely rebuilding our military, which was very badly depleted when I took office.\""
+  },
+  {
+    "claim_id": 496,
+    "claim": "Joe Biden is for open borders, sanctuary cities, free lawyers and health care for illegal immigrants."
+  },
+  {
+    "claim_id": 498,
+    "claim": "As we speak the US are developing a growing number of treatments, including convalescent plasma, that are saving lives all across the country."
+  },
+  {
+    "claim_id": 485,
+    "claim": "Donald Trump said \"Last month, I took on Big Pharma. You think that is easy? I signed orders that would massively lower the cost of your prescription drugs.\""
+  },
+  {
+    "claim_id": 98,
+    "claim": "The iPhone 12 won’t come with earphones and a charging adapter."
+  },
+  {
+    "claim_id": 323,
+    "claim": "Donald Trump is in federal court trying to do away with the Affordable Care Act, 100 million people with preexisting conditions like your mom would not have to pay more for their insurance under now.”"
+  },
+  {
+    "claim_id": 406,
+    "claim": "Willie Obiano, the Governor of Anambra State in Nigeria, procured over 100 SUVs as gifts for Anambra state traditional monarchs."
+  },
+  {
+    "claim_id": 216,
+    "claim": "52% of Nigeria’s current population lives in urban areas"
+  },
+  {
+    "claim_id": 262,
+    "claim": "Nigeria performed poorly in Sustainable Development Goals (SDGs) in the past five years."
+  },
+  {
+    "claim_id": 147,
+    "claim": "Because of a so-called trade war with China, America lost 300,000 manufacturing jobs."
+  },
+  {
+    "claim_id": 398,
+    "claim": "The Indian government has launched an online health consultation scheme."
+  },
+  {
+    "claim_id": 155,
+    "claim": "Trump said 'there were fine people on both sides' in far-right protests."
+  },
+  {
+    "claim_id": 222,
+    "claim": "Today, Nigeria grapples with multiple challenges with a population exceeding 200 million."
+  },
+  {
+    "claim_id": 182,
+    "claim": "President Trump announces  he has tested positive for Covid-19."
+  },
+  {
+    "claim_id": 299,
+    "claim": "You could text RBG to 50409 to sign a petition to tell your senator not to replace Ruth Bader Ginsberg in the Supreme court until after the 2020 election"
+  },
+  {
+    "claim_id": 25,
+    "claim": "McDonald’s Azerbaijan's official account was promoting the military taking of Nagorno-Karabakh."
+  },
+  {
+    "claim_id": 32,
+    "claim": "The New York post Endorsed Donald trumps bid for re-election."
+  },
+  {
+    "claim_id": 175,
+    "claim": "“Wisconsin Republicans have not passed a single bill in 6 months.”"
+  },
+  {
+    "claim_id": 77,
+    "claim": "A third of excess deaths in the United States between 1 March and  1 August 2020 during the COVID-19 pandemic could not be directly attributed to the coronavirus"
+  },
+  {
+    "claim_id": 228,
+    "claim": "At independence in 1960  Nigeria had a population of 45 million."
+  },
+  {
+    "claim_id": 392,
+    "claim": "The sky has turned orange to blood red in several parts of the United States."
+  },
+  {
+    "claim_id": 461,
+    "claim": "All India Institute of Medical Sciences Nursing Officer Recruitment Common Eligibility Test 2020 was postponed."
+  },
+  {
+    "claim_id": 429,
+    "claim": "A Pakistani website was hacked by an Indian cyber group to wish Pawan Kalyan a Happy Birthday."
+  },
+  {
+    "claim_id": 215,
+    "claim": "52% of Nigeria’s current population lives in urban areas."
+  },
+  {
+    "claim_id": 205,
+    "claim": "Nigeria’s urban population at independence was approximately 7 million."
+  },
+  {
+    "claim_id": 184,
+    "claim": "The wife of  Lal Bahadur Shastri (ex Prime minister of India) repaid his car loan after his death."
+  },
+  {
+    "claim_id": 346,
+    "claim": "US state of Georgia has “almost 100,000 more COVID-19 cases, almost twice as many deaths and almost 600 more nursing home deaths than North Carolina, US."
+  },
+  {
+    "claim_id": 289,
+    "claim": "Fact Check: WHO has not approved home remedy for COVID-19, don’t fall for misinformation"
+  },
+  {
+    "claim_id": 402,
+    "claim": "Spraying of Naira notes is an offence punishable by imprisonment in Nigeria."
+  },
+  {
+    "claim_id": 133,
+    "claim": "Labour reversed the 4,400 health health worker cuts by the LNP."
+  },
+  {
+    "claim_id": 126,
+    "claim": "Ulysses S. Grant, commander of the Union Army during the American Civil War, was a slave owner."
+  },
+  {
+    "claim_id": 42,
+    "claim": "An 'anti-Black Lives Matter' flag replaced the American flag behind President Trump during a Waukesha campaign rally."
+  },
+  {
+    "claim_id": 170,
+    "claim": "U.S. President Donald Trump has departed Walter Reed hospital just a few days after testing positive for COVID-19."
+  },
+  {
+    "claim_id": 308,
+    "claim": "Sightway Capital is owned by Two Sigma Investments."
+  },
+  {
+    "claim_id": 13,
+    "claim": "Wearing face masks will stop the spread of covid 19"
+  },
+  {
+    "claim_id": 66,
+    "claim": "Hunter Biden was chairman of the Nobel Peace Prize winning World Food Program."
+  },
+  {
+    "claim_id": 469,
+    "claim": "A crowdfunding campaign on the Christian site GiveSendGo solicited donations to help Kyle Rittenhouse, a 17-year-old accused of killing two people at a protest in Kenosha, Wisconsin."
+  },
+  {
+    "claim_id": 305,
+    "claim": "Photo Showing the remains of Vladimir Komarov, a man who fell from space, in 1967."
+  },
+  {
+    "claim_id": 87,
+    "claim": "Hyderabad Metropolitan Water Supply and Sewerage Board (HMWSSB) is delivering 1kg bleaching powder, chlorine tablets to people’s doorsteps"
+  },
+  {
+    "claim_id": 199,
+    "claim": "For a cumulative 29 of Nigeria's 60 years of existence as a nation, Nigeria has been under military rule."
+  },
+  {
+    "claim_id": 136,
+    "claim": "Forty percent of Iowa’s energy resources are from renewables."
+  },
+  {
+    "claim_id": 138,
+    "claim": "Fly swatters are now available on Joe Biden's online store."
+  },
+  {
+    "claim_id": 57,
+    "claim": "While serving as Town Supervisor on Grand Island, Nebraska, US Nate McMurray voted to raise taxes on homeowners."
+  },
+  {
+    "claim_id": 146,
+    "claim": "Right after a time where we're going through a pandemic that lost 22 million jobs at the height, we've already added back 11.6 million jobs."
+  },
+  {
+    "claim_id": 342,
+    "claim": "Fact Check: AARP Did NOT Spend 'Millions In TV Ads Targeting Republican Candidates' -- Nonprofit AARP Is Prohibited From Involvement In Any Political Campaigns"
+  },
+  {
+    "claim_id": 181,
+    "claim": "The ex-Prime Minister of India Lal Bahadur Shastri took a loan to buy a car."
+  },
+  {
+    "claim_id": 207,
+    "claim": "At independence, Nigeria had a population of 45 million."
+  },
+  {
+    "claim_id": 152,
+    "claim": "Over thirty million people... in the last several months had to file for unemployment.\""
+  },
+  {
+    "claim_id": 158,
+    "claim": "US President Donald Trump following his positive diagnosis of COVID-19, was given treatment developed from the use of fetal tissue, made by the company Regeneron."
+  },
+  {
+    "claim_id": 198,
+    "claim": "Today, Nigeria grapple has a population exceeding 200 million."
+  },
+  {
+    "claim_id": 156,
+    "claim": "Vice president of the U.S Mike Pence said “When Joe Biden was vice president of the United States, the FBI actually spied on President Trump and my campaign.”"
+  },
+  {
+    "claim_id": 211,
+    "claim": "At independence, Nigeria had a population of 45 million."
+  },
+  {
+    "claim_id": 106,
+    "claim": "Amy Coney Barrett, associate justice of the Supreme Court of the United States,  said during her Supreme Court confirmation hearing that she was not using notes because she has seven kids and is used to stupid questions."
+  },
+  {
+    "claim_id": 397,
+    "claim": "Wearing a face mask can cause pleurisy."
+  },
+  {
+    "claim_id": 351,
+    "claim": "Donald Trump tweeted that he was donating $500,000 each toward the expenses of the two Los Angeles County sheriff's deputies who were shot and critically injured on September 12, 2020."
+  },
+  {
+    "claim_id": 242,
+    "claim": "U.S. Centers for Disease Control and Prevention downgrades COVID-19, rating it less fatal than seasonal flu"
+  },
+  {
+    "claim_id": 434,
+    "claim": "US President Trump issued an executive order to reopen states in lockdown during COVID-19 pandemic; governors who refuse will be sued"
+  },
+  {
+    "claim_id": 471,
+    "claim": "The Trump RNC Acceptance Speech Was The First Time The White House Was Used For 'Purely Political Campaign Event'"
+  },
+  {
+    "claim_id": 8,
+    "claim": "You’re watching the cheaters and all those people that send in the phony ballots. … They want to have the count weeks after November 3."
+  },
+  {
+    "claim_id": 304,
+    "claim": "Zimbabwe recorded its first coronavirus Infection before 20 February 2020."
+  },
+  {
+    "claim_id": 243,
+    "claim": "Eating millets will protect you from Coronavirus."
+  },
+  {
+    "claim_id": 325,
+    "claim": "Joe Biden was the first in his family to go to college."
+  },
+  {
+    "claim_id": 460,
+    "claim": "Since 2002, South Africa’s police force has grown by 50%."
+  },
+  {
+    "claim_id": 373,
+    "claim": "the Indian Government set up 5 coaching centres for UPSC exams, 4 of which were in Muslim universities."
+  },
+  {
+    "claim_id": 96,
+    "claim": "Commission on Human Rights (CHR) Chairman Chito Gascon called a “surprise military attack” by the Philippine Army,  conducted on members of the New People’s Army (NPA) a “violation of human rights.”"
+  },
+  {
+    "claim_id": 377,
+    "claim": "Western Wildfires Are evidence Of A Coordinated Antifa Campaign To 'Burn The Country Down"
+  },
+  {
+    "claim_id": 451,
+    "claim": "PEDOPHILIA is now LEGAL in CALIFORNIA"
+  },
+  {
+    "claim_id": 417,
+    "claim": "450,000 people attended the Sturgis Motorcycle Rally in South Dakota, and there were only 88 positive Covid-19 tests, so a .02% infection rate."
+  },
+  {
+    "claim_id": 491,
+    "claim": "Joe Biden wants to end school choice."
+  },
+  {
+    "claim_id": 390,
+    "claim": "The NFL, NBA and MLB have Tax-Exempt status."
+  },
+  {
+    "claim_id": 72,
+    "claim": "The daughter of Muahammadu Buhari (the President of Nigeria) is a board member of the Nigerian National Petroleum Corporation (NNPC)."
+  },
+  {
+    "claim_id": 481,
+    "claim": "Donald Trump said: \"When asked if he supports cutting police funding, Joe Biden replied, ‘Yes, absolutely.’\""
+  },
+  {
+    "claim_id": 111,
+    "claim": "Daughters of President Muhammadu Buhari and Vice President Yemi Osinbajo brought about the dissolution of Special Anti-Robbery Squad (SARS)."
+  },
+  {
+    "claim_id": 187,
+    "claim": "US President Donald Trump's positive COVID-19 result is a false positive, which could allow an adversary in the White House to poison the president’s soda and later say that he suffered from COVID-19."
+  },
+  {
+    "claim_id": 107,
+    "claim": "Anthony Fauci the NIAID director is a democrat."
+  },
+  {
+    "claim_id": 244,
+    "claim": "Claims that there were links between Trumps 2016 election campaign and Russia were part of a hoax that Hilary Clinton was behind."
+  },
+  {
+    "claim_id": 444,
+    "claim": "The World Health Organization (WHO) says there is no proof that face masks protect against Covid-19."
+  },
+  {
+    "claim_id": 326,
+    "claim": "COVID-19 was developed as a bioweapon from a research facility in China."
+  },
+  {
+    "claim_id": 264,
+    "claim": "Donald Trump has not appoointed any black federal judges."
+  },
+  {
+    "claim_id": 227,
+    "claim": "Hindus are a minority in Kerala."
+  },
+  {
+    "claim_id": 436,
+    "claim": "The US military will check purity and distribute COVID-19 vaccines in US."
+  },
+  {
+    "claim_id": 426,
+    "claim": "\"Jihadists\" attacked a Temple in West Bengal and charred the Hindu deity Kali"
+  },
+  {
+    "claim_id": 56,
+    "claim": "Previous flu vaccines may have made President Donald Trump susceptible to COVID-19"
+  },
+  {
+    "claim_id": 180,
+    "claim": "Dr. Ebeneezer, a medical doctor and a herbal practitioner at the Amuzu Hospital has instructed men to have sex at least 21 times a month to avoid prostate cancer."
+  },
+  {
+    "claim_id": 250,
+    "claim": "Indian legendary singer Sripathi Panditaradhyula Balasubrahmanyam's family asked the Tamil Nadu government for help to pay the hospital bills after his death, but it was  Vice President Venkaiah Naidu's daughter who stepped in."
+  },
+  {
+    "claim_id": 302,
+    "claim": "Two Sigma Investments is owned by George Soros."
+  },
+  {
+    "claim_id": 24,
+    "claim": "Germany’s Foreign Minister Heiko Maas said that Thailand’s King Maha Vajiralongkorn didn’t do anything illegal while at his German residence."
+  },
+  {
+    "claim_id": 399,
+    "claim": "The Daily Trust news report about a UK judge ruling on how Nigerian Vice President Yemi Osinbajo detected the Process and Industrious Development Limited (P&ID) fraud against Nigeria is fake news."
+  },
+  {
+    "claim_id": 61,
+    "claim": "The large image of the Joe Biden and Kamala Harris logo projected onto a Harley-Davidson location in Milwaukee US indicates the motorcycle manufacturer's endorsement of the US Democratic presidential nominee."
+  },
+  {
+    "claim_id": 141,
+    "claim": "China seek for court’s approval to kill the over 20,000 coronavirus patients to avoid further spread of the virus."
+  },
+  {
+    "claim_id": 275,
+    "claim": "Shah Rukh Khan's Kolkata Knight Riders (KKR) is acquiring a 1.28 per cent stake in Reliance Retail at Rs 5,500 crore"
+  },
+  {
+    "claim_id": 256,
+    "claim": "A child died in Germany from wearing a mask."
+  },
+  {
+    "claim_id": 0,
+    "claim": "In a letter to Steve Jobs, Sean Connery refused to appear in an apple commercial."
+  },
+  {
+    "claim_id": 252,
+    "claim": "New Zealand opposition leader Judith Collins is opposed to new environmental legislation because of her connection to Oravida, a local water and dairy company that exports produce to China."
+  },
+  {
+    "claim_id": 94,
+    "claim": "Saved by the Bell actor, Dustin Diamond died in a prison riot."
+  },
+  {
+    "claim_id": 268,
+    "claim": "US President Donald Trump's executive order on September 24, 2020 legally ensures health coverage protections for those with pre existing medical conditions."
+  },
+  {
+    "claim_id": 151,
+    "claim": "The Democrats want to shut down U.S. churches permanently."
+  },
+  {
+    "claim_id": 386,
+    "claim": "The CDC has removed the “Covid-19 Pandemic” and replaced it with “Covid-19 Outbreak” on their website."
+  },
+  {
+    "claim_id": 20,
+    "claim": "Viral video purportedly shows Pakistani opposition MPs chanted ‘Modi, Modi’ (India's PM)  inside the Pakistani Parliament"
+  },
+  {
+    "claim_id": 99,
+    "claim": "New Zealand's Abortion Legislation Act (2020) does not make it a legal requirement that babies born alive after an abortion are given medical support."
+  },
+  {
+    "claim_id": 462,
+    "claim": "US cable news channel Fox News is not available in Canada due to media legislation in the country."
+  }
+]

@@ -1,0 +1,3207 @@
+[
+  {
+    "claim_id": 9,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "The GDP figure discussed in the statement is 33.1 percent.",
+        "sha256": "a2e1d28ee83a3a3c2dd37be0bf9100db2787c8b0d7b0c7ac50407dd28b1190b7"
+      },
+      {
+        "af_id": 2,
+        "text": "The stated 33.1 percent GDP figure is the highest comparable figure in the history of the speaker's country.",
+        "sha256": "e075476392fd2041f3f6d33a352e345def5b07848f4ee7b673f4406634b5063e"
+      },
+      {
+        "af_id": 3,
+        "text": "The stated 33.1 percent GDP figure is almost three times the previous comparable record of the speaker's country.",
+        "sha256": "a14d6f2f3f8c6156a0091fe11d6fb1403b02a7a41535b8f61b932bee859837fa"
+      },
+      {
+        "af_id": 4,
+        "text": "A comparable GDP record from the 1950s in the speaker's country was less than half of the stated 33.1 percent figure.",
+        "sha256": "05fd0dbba1fb9196d1f3573f13853b7ed0d36e013570f4844a9c2067af97f7d7"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "7ee9c7e5e05ea4c4d09815bc3a3e60070cd4106b43ec6b16f42d706f8993a894"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          6
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "6396301a1de2b911219942b07f72ac426f9d48b0fe06bbb01b71ee74d2a95be6"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          5
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "d3ea69f6502aa406dfb5777f4fba4d4ff6780bb58c41ad5e2a3d28dab70fe2f3"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          7
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "18bdd5e2666f18bd515d2ce37559f8a4f5c1be55b4c60d7a5d59c57fd204d56e"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "What was the largest single quarter of economic growth on record in the United States?",
+        "answer": "The BEA estimates that real GDP grew 7.4 percent (33.1 percent at an annual rate) in the third quarter, the largest single quarter of economic growth on record and roughly twice the prior record of 3.9 percent (16.7 percent at an annual rate) set in the first quarter of 1950.",
+        "url": "https://trumpwhitehouse.archives.gov/articles/great-american-recovery-third-quarter-gdp-blows-past-expectations/",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What was the rate of GDP growth in the last quarter, according to the Commerce Department?",
+        "answer": "According to a report by the Commerce Department, gross domestic product rebounded at a 33.1 percent annualised rate last quarter -that was the fastest pace since the government started keeping records in 1947 and followed a historic shrinkage rate of 31.4 percent in the second quarter.",
+        "url": "https://www.aljazeera.com/news/2020/10/29/trump-biden-to-campaign-in-must-win-florida-us-election-news",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "What was the annualized rate of real GDP growth in the third quarter of 2020?",
+        "answer": "News broke this morning that real GDP grew at an annualized rate of 33.1% in the third quarter of 2020—beating expectations and setting an all-time record.",
+        "url": "https://trumpwhitehouse.archives.gov/articles/new-economic-comeback-president-trump-breaks-70-year-record/",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "Did the US economy grow by 33.1 percent in the third quarter, as claimed by the speaker?",
+        "answer": "He then touted newly released data from the Commerce Department showing that the economy grew by an annualised rate of 33.1 percent in the third quarter, beating expectations, but leaving the economy 3.5 percent below where it was at the end of 2019.",
+        "url": "https://www.aljazeera.com/news/2020/10/29/trump-biden-to-campaign-in-must-win-florida-us-election-news",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "6a9e3074d81b486505c10b72f92eba56b98059868b87c9ab6b1e3872ab5ade9f"
+  },
+  {
+    "claim_id": 18,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "A mail-in ballot postmarked before Election Day would be thrown out if it arrived after Election Day, regardless of its timely postmark.",
+        "sha256": "2091e64e787e145efb712dbef9c80d8222741fa246c8f8a4e01ba67d9862611c"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "3747146e602e06885356ffc5c6f359cf390eafe5d3e709bddb43c33a423be941"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          3
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "b3d3d68d0078bcc7ca874ab4e4bceccf32f52d815a734bcabb4e351c6108cfeb"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          6
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "d5d9b8c53bc0c535b686c4dade76343469807a604950bb03406eaa41df03d1c7"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          10
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "fd46ee9c8b843c5ef2563caf33dcd22cc8c6f31d28bf971db3ab6a0104edfdde"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "In states with postmark-by-date laws, what is the deadline for mail-in ballots to be counted if they are postmarked prior to Election Day but arrive after Election Day?",
+        "answer": "According to the NCSL, 18 states have postmark-by-date laws on the books, meaning that as long as ballots are postmarked on or before Election Day -- or in some cases by the day prior to the election -- they will be counted, as long as they make it to election officials by a specified deadline, ranging from three to 14 days after the election.",
+        "url": "https://abcnews.go.com/Politics/states-changed-rules-voting-amid-coronavirus-pandemic/story?id=72309089",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What happens to a mail-in ballot in California if it is postmarked before Election Day but arrives after Election Day?",
+        "answer": "This type of vote by mail deadline is known as a “postmarked by” deadline. For instance, in California, a mail-in ballot will count if it is postmarked by Election Day and the ballot arrives at the local election office within 17 days after Election Day.",
+        "url": "https://www.democracydocket.com/analysis/mailing-in-your-vote-important-dates/",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "In which states will a mail-in ballot be thrown out if it is postmarked prior to Election Day but arrives after Election Day?",
+        "answer": "In 29 states, postal votes must be received on or before Election Day.[22] Other states have later deadlines, with California election law allowing mailed in ballots to arrive at the elections office up to 17 days after Election Day.[23] Some states, like Texas, give overseas and military voters extra time to mail in their ballots.[24]",
+        "url": "https://en.wikipedia.org/wiki/Election_Day_(United_States)",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "In states that require mail-in ballots to be received on or before Election Day, what happens to ballots that are postmarked before Election Day but arrive after it?",
+        "answer": "While Washington state counts ballots that are postmarked by election day, even if they arrive after, other states require that ballots be received on or before election day to be counted.",
+        "url": "https://www.atg.wa.gov/news/news-releases/ag-ferguson-announces-lawsuit-protect-postal-service-and-mail-voting-trump",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "bcab3308e2b16f74c84be7d9035789a1ef8c80bab9ddeda5702dbe11e9b99447"
+  },
+  {
+    "claim_id": 20,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "A viral video is purported to show Pakistani opposition members of parliament chanting 'Modi, Modi' inside Pakistan's Parliament.",
+        "sha256": "4aba27dd77fcb1b17f6b78494d42f71fdb1b9216b760c9b600af4708444beb6d"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          2
+        ],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "a8f5df60de9fe563a5d89459536610367e33bec524b9693b7a60391fd45c45bb"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          6
+        ],
+        "exact_answer_original_qa_ids": [
+          6
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "959ef86a6d1fb24760643f52e55ecdbc9e9acdf785a30e30c32214ce2c6df9f2"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          7
+        ],
+        "exact_answer_original_qa_ids": [
+          7
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "2338ef6602f772ae730cf100c3e62faee4354927eaa857e71be3123281dc35a1"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [
+          10
+        ],
+        "exact_answer_original_qa_ids": [
+          10
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "77e718fd135b59be949def9bff1e8107cad45f1e3dbc9c0430ffbf97a1092a5b"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "Is the video of Pakistani opposition MPs chanting 'Modi, Modi' inside the Pakistani Parliament authentic?",
+        "answer": "Hence, the video of the parliament proceedings is Pakistan is being shared with a false claim that MPs were raising slogans in support of Modi.",
+        "url": "https://facthunt.in/posts/1484/Truth-behind-the-viral-picture-showing-French-Teacher-who-was-beheaded-for",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "Did Pakistani opposition MPs chant \"Modi, Modi\" inside the Pakistani Parliament?",
+        "answer": "In our investigation, we found this claim to be false. In the viral video, MPs are raising slogans of 'voting-voting.'",
+        "url": "https://facthunt.in/posts/1484/Truth-behind-the-viral-picture-showing-French-Teacher-who-was-beheaded-for",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Does the viral video show Pakistani opposition MPs chanting \"Modi, Modi\" inside the Pakistani Parliament?",
+        "answer": "On analyzing the video, it became clear that 'voting-voting' is being chanted in the background. When we checked on the internet, we found a longer version of the video of the proceedings on 'Dunya News' YouTube channel.",
+        "url": "https://facthunt.in/posts/1484/Truth-behind-the-viral-picture-showing-French-Teacher-who-was-beheaded-for",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "What were the actual slogans chanted inside the Pakistani Parliament, and how were they mispresented in the viral video?",
+        "answer": "In reality, slogans of ‘voting voting’ were raised (mispresented as ‘Modi Modi’ by India TV) following which ‘the one who is a friend of Modi is a foe of Pakistani’ was said.",
+        "url": "https://www.altnews.in/were-modi-modi-slogans-raised-in-pakistan-parliament-india-tv-tv9-bharatvarsh-misreport/",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "298d2f0eb4a6fba3c56376b2e80f63540628762d18321687e8f2aba83165280f"
+  },
+  {
+    "claim_id": 50,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Twitter was placing warning labels on tweets containing clips of Joe Biden saying he would end fracking.",
+        "sha256": "933c2c5a2ba81b13426532d954ce60894dd88f0574ebc11eee6f3f7963f346a9"
+      },
+      {
+        "af_id": 2,
+        "text": "The Joe Biden clips on which Twitter was placing warning labels were unedited.",
+        "sha256": "d65fdd1b50791760c285e91ed544f1a6bf40146870ac431b86aa5db9ffb1389f"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "59c0b3fd13fc0afde7cd2ab57adcea8b666e10b68acff8abb1fbeb4a2fc5a9bc"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "6696819bb7f3f2330b99eba9f89f7f29d6945c2873140ef75368a7722b62d4f4"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          5
+        ],
+        "exact_answer_original_qa_ids": [
+          5
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "1e26a815f7171886f7cbc4d1fd8eced4e8bfbc33a8db4dacc54f64e8d4af9c74"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          6
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "f1d4de704cc055bed6e5e2c482dd1d9f7f562f2a86452f450638851282ccd50e"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "Is Twitter labeling tweets that feature unedited clips of Biden as \"partly false\" because it believes the clips are being manipulated or taken out of context?",
+        "answer": "Twitter marked that video, which featured a clip of former Vice President and Democratic front-runner Joe Biden, as “partly false” and added a warning message to the tweet that said, “Manipulated media.”",
+        "url": "https://www.washingtonexaminer.com/magazine-washington-briefing/968947/twitter-faces-fire-from-democrats-and-republicans-over-media-policy/",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What is the reason behind Twitter's decision to put warnings on tweets that are just unedited clips of Biden saying he would end fracking?",
+        "answer": "A video of Joe Biden that was deceptively edited to make it appear as if he endorsed President Donald Trump for re-election triggered warning labels from Twitter and Facebook, one of the first instances in which new policies meant to curb misinformation have been applied to the Trump campaign.",
+        "url": "https://www.nbcnews.com/tech/social-media/facebook-twitter-put-warning-label-edited-video-biden-n1153506",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Are the tweets that are just unedited clips of Biden saying he would end fracking being labeled as \"manipulated media\" by Twitter?",
+        "answer": "Twitter has used its new \"manipulated media\" tag for the first time on an edited video of a speech by Joe Biden.",
+        "url": "https://www.bbc.com/news/world-us-canada-51799366",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "Did Twitter apply a \"manipulated media\" tag to a video posted by the Trump campaign that was edited to make it appear as though Joe Biden said he would end fracking?",
+        "answer": "WASHINGTON — After the Trump campaign posted a deceptively edited video of Joe Biden on Monday, Twitter applied a \"manipulated media\" tag to the content amid criticism.",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2020/08/31/twitter-flags-trump-campaigns-out-context-video-joe-biden/3450140001/",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "22bdb0991494c84b9fcf3f8b094b06607d3824a98582e38f6e32ab5c0339f9cd"
+  },
+  {
+    "claim_id": 58,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Russia sent medical aid to the United States.",
+        "sha256": "2fd2076b32ca420e69d4fd6024031b112c08188d3711b5d8f470f67e0895e61d"
+      },
+      {
+        "af_id": 2,
+        "text": "Russia's medical aid sent to the United States was medical equipment.",
+        "sha256": "aca57c9ebb45ce127c421afcab9cea8e93353bff2c46c0ad411d2094c16e490e"
+      },
+      {
+        "af_id": 3,
+        "text": "The medical equipment Russia sent to the United States was intended to help coronavirus patients.",
+        "sha256": "c676a5b43bfa2e1f7d8bae3bb001d3e61ddb2cabf04cd760ebc141407a1f0fdf"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "c3d4d1a71161525f3daac6f77c2e0e17b1750d1694dbe6b83d58fcbec5b6559c"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "d89109bff1b1b4c3a040ceaea43562794828e55e92c45335f134a5346194a3c6"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          3
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "cc65246ce4d3d973711969aafc296d2f4f0eca3f62f2cd6cea47fd5aa2e28300"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "Did Russia send medical equipment to the US to help fight the coronavirus pandemic?",
+        "answer": "MOSCOW/WASHINGTON - Russia sent the United States medical equipment on Wednesday to help fight the coronavirus pandemic, a public relations coup for Russian President Vladimir Putin after he discussed the crisis with U.S. President Donald Trump.",
+        "url": "https://www.nbcnews.com/politics/donald-trump/russian-plane-coronavirus-medical-gear-lands-u-s-after-trump-n1174436",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What type of aid did Russia send to the United States on April 1 to help with the COVID-19 pandemic?",
+        "answer": "A Russian Defense Ministry cargo jet loaded with masks, ventilators, and other medical equipment arrived at New York's John F. Kennedy International Airport on April 1: It was \"humanitarian assistance,\" according to the Kremlin, to help the United States in its fight against COVID-19.",
+        "url": "https://www.rferl.org/a/russian-coronavirus-aid-shipment-u-s-mystery-sanctions-propaganda/30529019.html",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "What type of medical aid did Russia send to the US in the form of medical equipment to help coronavirus patients?",
+        "answer": "More striking was Russia’s delivery of medical assistance to the United States. A Russian Air Force cargo plane landed in New York on April 1 carrying protective gear and ventilators.",
+        "url": "https://www.csis.org/analysis/russias-response-covid-19",
+        "qa_tag": "QA3"
+      }
+    ],
+    "baseline_output_sha256": "25edc5d302075f18542ff2e8cbe79ac9c678063370bf440263cd404bff760657"
+  },
+  {
+    "claim_id": 59,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "A scam involved Santander bank customers.",
+        "sha256": "facd861cd0ce7fe934208d898df6986d73878fb7900c4b408233e7d77fecdc1a"
+      },
+      {
+        "af_id": 2,
+        "text": "As part of a scam involving Santander customers, fake bank cards were sent to those customers.",
+        "sha256": "4d5b7799db5e87fa88f671e3bfb32675cc81860254b615f8e9a584e91daf65d7"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          3
+        ],
+        "exact_answer_original_qa_ids": [
+          3
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "7255e2ff3fea961da8fed20ecae454457174168591433fa7b8a0450b9be0bbad"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "64be09118906ca0fcf06c6c8adfaa02b7b0fef4ef1662f87a57c887073db2f14"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          6
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "4473ca9a07b3ab04840e3b011c7ef5820e644e448d6b6dc5ddf8e29a8a5b0d7d"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "Are Santander customers being targeted by a scam involving fake bank cards?",
+        "answer": "“We have been made aware of an ATM scam in which suspects are using Santander Bank ATM’s to fraudulently withdraw cash using fake debit cards.",
+        "url": "https://nypost.com/2020/08/18/multi-state-santander-scam-sparks-staten-island-manhunt/",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What is the common method used by scammers to trick Santander customers into calling a fake phone number?",
+        "answer": "All of the cases are similar in nature. The fraudsters sent out genuine-looking texts that appear as if they are from Santander saying there has been unusual activity, and giving a phone number to call.",
+        "url": "https://www.thisismoney.co.uk/money/beatthescammers/article-4323924/Three-Santander-customers-lose-36k-smishing-scam.html",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Are Santander customers receiving fake bank cards as part of a scam, and if so, how are the scammers able to mimic the bank's number to make the scam appear legitimate?",
+        "answer": "The scammers are able to mimic Santander's number, meaning the text could actually appear within a legitimate thread of messages from the bank, making it especially hard to spot.",
+        "url": "https://www.lovemoney.com/news/63249/santander-text-message-scam-real-fake-one-time-passcode-bank",
+        "qa_tag": "QA3"
+      }
+    ],
+    "baseline_output_sha256": "99f652e4aecd6862203a7eca7791899ec5ebcd05d621b599d6e7fb50f7d46b79"
+  },
+  {
+    "claim_id": 77,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "One-third of excess deaths in the United States from 1 March to 1 August 2020 during the COVID-19 pandemic could not be directly attributed to the coronavirus.",
+        "sha256": "71c258a23ea4b0eeb5b28657f35301272f84c714e229f414754eaab3af2c20bf"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          2
+        ],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "d3e19e76a264567363dc9ce604699726e94eaa3ea4adf0a7a411fced64f48d48"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          3
+        ],
+        "exact_answer_original_qa_ids": [
+          3
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "730bd59b643cbefdeb7a2fdc15873e1d6df076076f20d9bf688675470f851142"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          10
+        ],
+        "exact_answer_original_qa_ids": [
+          10
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "9076fda4ec944bfd5571ecbd87f01b4c19cee1460e1d26cbe7c93a4a9bf2fc5e"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "What proportion of the 225,530 excess deaths in the United States between 1 March and 1 August 2020 were directly attributed to COVID-19?",
+        "answer": "The authors report that during this 5-month period, a total of 1 336 561 deaths occurred in the US, an estimated 20% increase compared with the number of expected deaths, and representing 225 530 excess deaths.2 Approximately 67% of these excess deaths were attributable directly to COVID-19, whereas excess deaths attributed to other causes also could have been related to the pandemic in general.",
+        "url": "https://jamanetwork.com/journals/jama/fullarticle/2771758",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What percentage of excess deaths in the United States between 1 March and 1 August 2020 during the COVID-19 pandemic were not directly attributed to the coronavirus?",
+        "answer": "For every 100 excess deaths directly attributed to COVID-19, there were another 36 excess deaths. This means 26 percent of all excess deaths were not directly attributed to COVID.",
+        "url": "https://www.bu.edu/sph/news/articles/2020/us-covid-deaths-may-be-undercounted-by-36-percent//1000",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "What proportion of excess deaths in the United States between 1 March and 1 August 2020 during the COVID-19 pandemic were attributed to the coronavirus?",
+        "answer": "During the coronavirus pandemic so far, there were 20% more deaths than would normally be expected from March 1 through August 1 in the United States – with Covid-19 officially accounting for about two-thirds of them, according to new research published Monday in the medical journal JAMA.",
+        "url": "https://www.cnn.com/2020/10/12/health/us-deaths-covid-19-pandemic-jama-study/index.html",
+        "qa_tag": "QA3"
+      }
+    ],
+    "baseline_output_sha256": "4a915da93aa19f98e82e17de780affb966f4bb6b8f21dc1a903e22cded26dce9"
+  },
+  {
+    "claim_id": 106,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Amy Coney Barrett was an associate justice of the U.S. Supreme Court.",
+        "sha256": "65be2505e6d168e29198f4971683f7e6154d31b4eb5acd33de32cecbcf2d3dfb"
+      },
+      {
+        "af_id": 2,
+        "text": "During her Supreme Court confirmation hearing, Amy Coney Barrett said she was not using notes.",
+        "sha256": "0b501e0609f0b51faec8a5d91d13332f3a8179b3f8e90be107dda33f7839a945"
+      },
+      {
+        "af_id": 3,
+        "text": "During that confirmation hearing, Amy Coney Barrett attributed her not using notes to having seven children and being used to 'stupid questions'.",
+        "sha256": "05e3bf129e0e676d03d21fcf576a75b81b68546d02c729833414132c3e1aa19f"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          4
+        ],
+        "exact_answer_original_qa_ids": [
+          4
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "15fc06cbe787e347fa59302b9de7b01449763659459a6d510dcb6fa87c263e19"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          5
+        ],
+        "exact_answer_original_qa_ids": [
+          5
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "1fb4a31cb5fac6e0d068d9e44908e503119414dbc37551c921277df51fadc262"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          6
+        ],
+        "exact_answer_original_qa_ids": [
+          6
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "7ec6be3aa2d4e4bcdca85a1aaec037ee908318e9fe8bc2e7402698ec77902a9e"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [
+          10
+        ],
+        "exact_answer_original_qa_ids": [
+          10
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "347593d132bb0af12be2f0b9177ad66b7550550dd51ca0942d11776c520f6a03"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "Did Amy Coney Barrett claim to not use notes during her Supreme Court confirmation hearing due to her experience with answering questions as a mother of seven children?",
+        "answer": "Supreme Court nominee Judge Amy Coney Barrett held up a blank notepad when Sen. John Cornyn (R-TX) asked her to show the public the notes she’s been using to answer the numerous questions spat at her during day two of the confirmation hearings.",
+        "url": "https://www.dailywire.com/news/barrett-asked-to-hold-up-notes-shes-using-to-answer-questions-she-holds-up-a-blank-notepad",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "Did Amy Coney Barrett claim to use notes during her Supreme Court confirmation hearing, and if so, what was her reason for claiming to not use notes?",
+        "answer": "WASHINGTON — Supreme Court nominee Amy Coney Barrett demonstrated the depths of her judicial knowledge on Tuesday as she responded to hours of questioning with zero notes in front of her.",
+        "url": "https://nypost.com/2020/10/13/amy-coney-barrett-reveals-she-has-no-notes-for-hearing/",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Does Amy Coney Barrett have a large family, which may have influenced her approach to her Supreme Court confirmation hearing?",
+        "answer": "Supreme Court Nominee, Amy Coney Barrett, has seven children–the oldest is 16 and the youngest is five.",
+        "url": "https://www.evilhrlady.org/2020/09/judge-amy-coney-barretts-childcare-arrangements-are-not-relevant-to-her-skills.html",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "Did Judge Amy Coney Barrett say during her Supreme Court confirmation hearing that she was not using notes because she has seven kids and is used to stupid questions?",
+        "answer": "WASHINGTON – When Judge Amy Coney Barrett displayed that she was not using notes during Tuesday's Supreme Court confirmation hearing, the moment became just one of a few to go viral.",
+        "url": "https://web.archive.org/web/20201116021137/https://www.usatoday.com/story/news/politics/2020/10/13/confirmation-hearings-viral-moments-amy-coney-barretts-blan-and-sen-whitehouses-presentation/3640887001/",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "7cca9ac533a973bea0da7c79dc892e78b84b3be5edf453578dba37a9ab7fb255"
+  },
+  {
+    "claim_id": 126,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Ulysses S. Grant commanded the Union Army during the American Civil War.",
+        "sha256": "4d53fc04f4106dafc54d6cc7bc7283f9c6579e28cbea9eb12387f097e6f31cca"
+      },
+      {
+        "af_id": 2,
+        "text": "Ulysses S. Grant was a slave owner.",
+        "sha256": "af7d7d2d226b55ccc863db090f47043e6d84ec678e63a5e59cd4f56dece9fa1f"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          1
+        ],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "b890d95b2f7f80d7a6077db89f4fc99e05f1124513604265f7b530c6f68679e2"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          2
+        ],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "68c9b7fee5acc56e96970be0624c70c17de4ebc24731dd88a083714c365e2b6e"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          6
+        ],
+        "exact_answer_original_qa_ids": [
+          6
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "820e3cae693c9a1940cc651eb7f58b910614b0c59a6009224739b3ed25d4f5cc"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [
+          7
+        ],
+        "exact_answer_original_qa_ids": [
+          7
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "e6a303e93b30764bf1e5a4bd19ca9a73a08d044786b206747696583dadf97087"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "What was Ulysses S. Grant's relationship with a slave named William Jones?",
+        "answer": "At some time before the Civil War, Grant himself owned a slave named William Jones. We know this not because the Grant correspondence mentions it, as his letters up until the Civil War do not mention his opinions on slavery nor discuss the status of slaves, but because he manumitted Jones on March 29, 1859.",
+        "url": "https://www.raabcollection.com/us-grant-autograph-slavery",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "Who was an enslaved man owned by Ulysses S. Grant and when was he freed from slavery?",
+        "answer": "William Jones was an enslaved man owned by Ulysses S. Grant for a period of time in the late 1850s. On March 29, 1859, Grant went to the St. Louis Courthouse and wrote a manumission paper legally freeing Jones from slavery.",
+        "url": "https://www.nps.gov/people/william-jones.htm",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Did Ulysses S. Grant own slaves during the American Civil War?",
+        "answer": "Update, 8/24/2016: A passage in this letter from Grant to Congressman Elihu B. Washburne on August 30, 1863, further demonstrates that Grant did not own slaves during the war until the passage of the 13th amendment in 1865, nor did he even have intentions of doing so.",
+        "url": "https://pastexplore.wordpress.com/2015/06/29/did-ulysses-s-grant-own-slaves-during-the-civil-war/",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "Did Ulysses S. Grant own a slave named Jones, and if so, what was his decision regarding the slave's ownership?",
+        "answer": "According to the signed manumission, Jones was “purchased by me [Grant] of Frederick Dent.” Jones is the only known enslaved individual who was owned by Grant—though his decision to free William rather than sell him, especially as he struggled financially, suggests that Grant had personal discomfort with slave ownership.",
+        "url": "https://www.whitehousehistory.org/bios/ulysses-s-grant",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "ad65fe485bdf0d59a4940fe57bde1e5c52b9352aa77455aef6cf485631d2961e"
+  },
+  {
+    "claim_id": 136,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Forty percent of Iowa's energy resources come from renewable sources.",
+        "sha256": "d4f9fb25df71e9cc68e84219129a6759bd0038396d39685643b2b5d7d20ea1e3"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          1
+        ],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "50ec3f2d497bbbcf98482d3ab7556eb5cb9ee4c240ab2bffddc118693b53d5d2"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          2
+        ],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "17050dfec1b9c85b20ae46025f1ec5a1be4057de7791e5fc3539f5d5277f1e1b"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          3
+        ],
+        "exact_answer_original_qa_ids": [
+          3
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "5843f4439eadb9f82baafd2a374c6ef8b1a7e8d68e77e37c4cfaef4db78b7e53"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [
+          9
+        ],
+        "exact_answer_original_qa_ids": [
+          9
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "826bed290a04ff7d75eb6c4aa16b7c7b0caa37245136090125158b4200227690"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "What percentage of Iowa's energy resources come from wind energy?",
+        "answer": "The Hawkeye state has a long history of relying upon renewable energy. In fact, although coal is the most heavily used electric generation resource, wind energy is the second largest source of electricity in Iowa: 37 percent of Iowa’s total electricity generation came from wind energy in 2018, more than in any other state.",
+        "url": "https://www.energysage.com/solar-panels/ia/",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What percentage of Iowa's energy resources come from renewable sources?",
+        "answer": "In addition to renewable fuels, Iowa is a national leader in the generation of wind power. Wind energy supports more than 9,000 jobs in Iowa alone and provides 40 percent of the state's electricity.",
+        "url": "https://www.grassley.senate.gov/about/results/energy-and-environment",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "What percentage of Iowa's electricity generation comes from renewable resources?",
+        "answer": "More than two-fifths of Iowa's electricity net generation comes from renewable resources, almost all of it from wind.23 In 2019, the state was the third-largest wind power producer, after Texas and Oklahoma.",
+        "url": "https://web.archive.org/web/20210219113526/https://www.eia.gov/state/analysis.php?sid=IA#:~:text=In%202019%2C%20about%202%25%20of,generation%20came%20from%20hydroelectric%20power.",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "What percentage of Iowa's energy resources come from renewable sources?",
+        "answer": "In Iowa, wind power has taken off over the past decade. It now makes up nearly 40 percent of the electricity produced in the state.",
+        "url": "https://www.nytimes.com/interactive/2018/12/24/climate/how-electricity-generation-changed-in-your-state.html",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "e4ac84de6f009cc3a769ac28183eeef4d8e3b1b557bf16f8f072842e4342ce9b"
+  },
+  {
+    "claim_id": 141,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "China sought court approval to kill more than 20,000 coronavirus patients.",
+        "sha256": "8818a9a8f94d9a533df0c635d05ce5717e9728f01734498bdbce3aff8813d9ab"
+      },
+      {
+        "af_id": 2,
+        "text": "The stated purpose of China's request for court approval to kill more than 20,000 coronavirus patients was to prevent further spread of the virus.",
+        "sha256": "bc9e7e840b300f93401e393964acb9df548047f8a960342b424e377c555e4261"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          1
+        ],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "1edc9141f2dee727e08d957857ad0e9e93f9b0f9befba6dbf732835c1911373c"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          2
+        ],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "3f76593328a581b1b92876f4ecb497edd5e3efa5c644e864809addfb3cc3ab6c"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          6
+        ],
+        "exact_answer_original_qa_ids": [
+          6
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "f14458ae393beac8e608c726db8e443eed8a915ee3693d5c9b0f9d626bbed121"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [
+          9
+        ],
+        "exact_answer_original_qa_ids": [
+          9
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "64f93b08072ebb8e9d139acbbcd23a91e184bc76a0d64448febafcdc92384996"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "Did China seek court's approval to kill over 20,000 coronavirus patients to avoid further spread of the virus?",
+        "answer": "An article claiming China sought court approval to kill over 20,000 patients who were infected by the deadly novel Coronavirus, is false and originates from a dubious website that has a history of peddling misinformation.",
+        "url": "https://www.boomlive.in/fake-news/false-china-seeks-court-approval-to-kill-over-20000-coronavirus-patients-6812",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "Did China seek court's approval to kill over 20,000 coronavirus patients to avoid further spread of the virus?",
+        "answer": "The article carried made-up information on the outbreak situation in China, specifically a false claim that China’s highest court was “expected to give an approval on Friday” on its government’s supposed proposal to kill over 20,000 coronavirus patients in the country to “control” the further propagation of the virus.",
+        "url": "https://verafiles.org/articles/vera-files-fact-check-report-claiming-china-kill-20k-covid-1",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Is the report claiming that China is seeking court approval to kill over 20,000 coronavirus patients a true or fabricated news?",
+        "answer": "The “fake news” report read: “The highest level of court in China, Supreme People’s Court, is expected to give approval on Friday for the mass killing of coronavirus patients in China as a sure means of controlling the spreading of the deadly virus.",
+        "url": "https://www.thenassauguardian.com/news/chinese-embassy-dispels-fake-news-on-coronavirus/article_364854dd-8cde-56e1-8aeb-1b73f04debc6.html",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "Did the Chinese government seek court approval to kill over 20,000 coronavirus patients to prevent further spread of the virus?",
+        "answer": "Website news-af.feednews.com published on Feb. 7 a fake article claiming the Chinese government, upon approval of its Supreme People’s Court, will carry out a mass execution of 20,000 COVID-19 patients in the country.",
+        "url": "https://verafiles.org/articles/vera-files-fact-check-report-claiming-china-kill-20k-covid-1",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "8d1d8c6dc6b7caaec8561e3cd25756b016b91f9e0e33fb1e2987de2c37f55dc1"
+  },
+  {
+    "claim_id": 142,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "The U.S. CDC said that more than 98,000 deaths unrelated to COVID-19 were caused by hospitals being closed for non-essential services.",
+        "sha256": "6eb98079addcbfb757361e88b660166d8144b0bd5a315fb41510d97842ccb771"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "180afbf7d8ea26f3d6c38fde78ddc087db762b5bb2d87afdda73e8b724dd5027"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "a7ba496c06240d95cb397d425bf742564e88048d61a978ec37322515248ca6bb"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          4
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "4922bf86b311524a14882c773542b488fa75b211a04bf9637c256ddb95764012"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          8
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "2b1a3a8e8d76edb82c53ce96cfca0068333b96176d16fb6513e0e1ea3a78d2c3"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "What percentage of U.S. adults have avoided medical care during the pandemic, and what types of care have they avoided?",
+        "answer": "Also, the Morbidity and Mortality Weekly Report from the Centers for Disease Control and Prevention (CDC) issued results of a survey showing that an estimated 41 percent of U.S. adults have avoided medical care during the pandemic because of concerns about COVID-19, including 12 percent who sidestepped urgent or emergency care and another 32 percent who bypassed routine care.",
+        "url": "https://www.tmc.edu/news/2020/09/coronavirus-connection-a-texas-medical-center-continuing-update/",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What percentage decline in emergency department visits was reported by the CDC from March 29 to April 25, 2020, compared to the same time period in 2019?",
+        "answer": "On June 3, 2020, the CDC released a Morbidity and Mortality Weekly Report that reports emergency department visits from March 29 to April 25 declined 42% compared with the same time period in 2019.",
+        "url": "https://journalistsresource.org/economics/rural-health-care-covid-19-research/",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Could the reported excess deaths related to COVID-19 be indirectly linked to non-COVID related deaths due to delayed or avoided medical care?",
+        "answer": "However, medical care delay or avoidance might increase morbidity and mortality risk associated with treatable and preventable health conditions and might contribute to reported excess deaths directly or indirectly related to COVID-19 (2).",
+        "url": "https://www.cdc.gov/mmwr/volumes/69/wr/mm6936a4.htm",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "What is the relationship between hospital closures for non-essential services and non-COVID related deaths?",
+        "answer": "Large increases in mortality from heart disease, diabetes, and other diseases were observed. Further investigation is required to determine the extent to which these trends represent nonrespiratory manifestations of COVID-19 or secondary pandemic mortality caused by disruptions in society that diminished or delayed access to health care and the social determinants of health (eg, jobs, income, food security).",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7330820/",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "fac62bf1e0bf5da37f9d356d47209ad7557d5ad0c3d752117e99221bcda1713f"
+  },
+  {
+    "claim_id": 146,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "At the height of a pandemic-related employment collapse, 22 million jobs had been lost in the context described by the speaker.",
+        "sha256": "c5fcbc014cd4a047e32e2eff91e5dff7b11bdae692fd8e4680a2a41387142c61"
+      },
+      {
+        "af_id": 2,
+        "text": "By the time of the statement, 11.6 million jobs had been added back following the pandemic-related loss of 22 million jobs.",
+        "sha256": "09465c0f9f66bf6021caf83fb66b14f56f386123b1e723b91a13f2effdee916c"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          1
+        ],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "57f27872f7407eb47c918e6a52c6caae170c4f248f9ac68de9730cca82b2b228"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          2
+        ],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "be8919930aa2dfcfaa33d4a27bb0545e572635fdcde95f27f0b577bd51740cec"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          4
+        ],
+        "exact_answer_original_qa_ids": [
+          4
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "f8bc0301d120992308d6be77366c3718dce35c8fe47a8396aff796a18cbe1861"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [
+          8
+        ],
+        "exact_answer_original_qa_ids": [
+          8
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "81ef86e4fe94d844cb8005148e86ad870696b6444034e34776f34f090215a432"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "How many jobs were lost during the pandemic, and how many jobs were added back after the initial loss?",
+        "answer": "This followed a massive loss of more than 22 million jobs in March and April. The economy has recovered about half of the jobs lost, but there are still 10.7 million fewer jobs than in February.",
+        "url": "https://democrats-budget.house.gov/news/press-releases/chairman-yarmuth-september-jobs-report-we-re-seeing-significant-and-troubling",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "How many jobs were lost during the pandemic, and how many jobs have been added back since then?",
+        "answer": "FACT CHECK: With September's jobs report, over 11.4 million jobs have been added since March. But job gains have slowed in the past three months, showing the recovery is starting to lose momentum.",
+        "url": "https://abcnews.go.com/Politics/fact-checking-2020-vice-presidential-debate-mike-pence/story?id=73464669",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "What is the current job loss status in the US compared to the pre-pandemic level, and how many jobs have been added back since the pandemic's peak?",
+        "answer": "And even though the economy added back more than 1 million jobs every month between May and August, the country is still down 10.7 million jobs since February, before Covid-19 hit.",
+        "url": "https://www.cnn.com/2020/10/02/economy/september-2020-jobs-report-election/index.html",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "Did the number of jobs lost during the pandemic get fully recovered under the given circumstances?",
+        "answer": "Since then, around 11.4 million jobs have been added, but the unemployment rate is still much higher than before the pandemic.",
+        "url": "https://www.bbc.com/news/election-us-2020-54434575",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "e3b9c7fe0cec9e5f710849297c61688ac78e639e67907d21a8e53813dc2d20a6"
+  },
+  {
+    "claim_id": 153,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "President Trump and the speaker had a plan to improve health care.",
+        "sha256": "49bc9af05154ea1865ce39375213f70259d569a4f9f4ff999d9fbae4da056083"
+      },
+      {
+        "af_id": 2,
+        "text": "President Trump and the speaker had a plan to protect pre-existing conditions for every American.",
+        "sha256": "eb20d39a4fa196f8dcff4a08fec58c5b8ee1cb2945eb0bf85c2b81f79c052338"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "d35f24f923354be50d97ca1b5421e53d40ca47d39c9066b68af3cb1cf58707c1"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          4
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "08dafb32bb78d7cf2ba6775e8616978d3e2684ffa7215db17fba9be8935b8cf6"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          10
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "8db2b29b51c63209d05a1ad315a8bd74c6c9eedf4f814bdf32ebbc198e589f1d"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          6
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "6cf2808cbd851c971c1b8affa5f115e754efc801fcca5233d344613f6f854035"
+      },
+      {
+        "selected_qa_id": 5,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "c959bf4ea57bff579a3408437f61113fbe564a5658f02b03488f904a4f06def0"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "Does President Trump's administration have a plan to protect pre-existing conditions for every American, as he claims?",
+        "answer": "Facts First: Trump’s claim about protecting those with pre-existing conditions is false. Though Trump says he would do this, his administration has consistently taken steps to undermine the Affordable Care Act – including joining a lawsuit aimed at striking down the law – without presenting alternative plans that would offer similar benefits.",
+        "url": "https://www.cnn.com/2020/01/13/politics/fact-check-bloomberg-trump-pre-existing-conditions/index.html",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "Does the plan proposed by President Trump and Mike Pence actually protect pre-existing conditions for every American?",
+        "answer": "PENCE'S CLAIM: \"President Trump and I have a plan to improve health care and protect -- to protect preexisting conditions for every American.\"",
+        "url": "https://abcnews.go.com/Politics/fact-checking-2020-vice-presidential-debate-mike-pence/story?id=73464669",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Does President Trump have a clear plan to protect people with pre-existing conditions if the Affordable Care Act is overturned?",
+        "answer": "THE FACTS: There is no clear plan. People with preexisting conditions are already protected by the Obama-era Affordable Care Act, and if the Trump administration succeeds in persuading the Supreme Court to overturn it, those protections will be jeopardy.",
+        "url": "https://www.pbs.org/newshour/politics/ap-fact-check-claims-from-pence-and-harris-vp-debate",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "Does President Trump's executive order ensure that Americans with pre-existing conditions can obtain affordable insurance, as he claims?",
+        "answer": "President Trump has vowed to protect people with pre-existing conditions if the ACA is overturned and recently issued an executive order saying it is the “policy of the United States” to “ensure that Americans with pre-existing conditions can obtain the insurance of their choice at affordable rates.”",
+        "url": "https://www.kff.org/policy-watch/protecting-people-with-pre-existing-conditions-isnt-as-easy-as-it-seems/",
+        "qa_tag": "QA4"
+      },
+      {
+        "question": "Has President Trump actually rolled out a new health care plan that protects those with pre-existing conditions, as he has repeatedly claimed?",
+        "answer": "The President has said repeatedly that he would roll out a new health care plan that would protect those with pre-existing conditions, but he has yet to do so.",
+        "url": "https://www.cnn.com/2020/01/13/politics/fact-check-bloomberg-trump-pre-existing-conditions/index.html",
+        "qa_tag": "QA5"
+      }
+    ],
+    "baseline_output_sha256": "bb9fd70116ee67836c665ab38d8bcc0f06be0832d0e576c0c63b5670a53c3708"
+  },
+  {
+    "claim_id": 155,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Donald Trump said there were 'fine people on both sides' in the context of far-right protests.",
+        "sha256": "c30f1bcbe1e42d7b9c745cb7bc743a0b7a842b9088ad4e4c2561007020033b47"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          2
+        ],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "6637b1168ed7380845bef023c89c293b8d1522658b06668c1946b919b34244d2"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          3
+        ],
+        "exact_answer_original_qa_ids": [
+          3
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "d7f361b87d5194775c60beb53de00be516b9a1461c4687993a2ceb8c5b5a77a1"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          7
+        ],
+        "exact_answer_original_qa_ids": [
+          7
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "86fa463f3a65aa21501f497df8911c29594076f66c5608de7191e4bcd4c7fa15"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [
+          8
+        ],
+        "exact_answer_original_qa_ids": [
+          8
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "13aeec0ba23d76742d813ab147523deabafb08f5dabfe58c4163bab69d087238"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "What did Donald Trump say about the participants in the 2017 Charlottesville rally?",
+        "answer": "After the deadly 2017 Charlottesville rally, Trump told reporters: “I’ve condemned neo-Nazis; I’ve condemned many different groups,” but said he believed that not all of the right-wing participants were neo-Nazis, and that “you also had people that were very fine people on both sides.”",
+        "url": "https://www.latimes.com/politics/story/2020-09-30/la-na-pol-2020-trump-white-supremacy",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What did Donald Trump mean by \"fine people\" when referring to the protesters in Charlottesville?",
+        "answer": "On Aug. 15, Trump said this of the rally organizers and others who protested the planned removal of the Robert E. Lee statue in Charlottesville: “[Y]ou had some very bad people in that group, but you also had people that were very fine people, on both sides.”",
+        "url": "https://www.factcheck.org/2017/08/trumps-phoenix-fiction/",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "What did Trump mean by \"very fine people on both sides\" in his comments about the far-right protests in Charlottesville?",
+        "answer": "These writers argue that Trump’s “very fine people on both sides” comments were meant to refer to the protesters in attendance who were attempting to stop the removal of a statue of Confederate Gen. Robert E. Lee from a public square in Charlottesville, not the neo-Nazis and white nationalists who made up the bulk of the event’s attendees.",
+        "url": "https://www.vox.com/2019/4/26/18517980/trump-unite-the-right-racism-defense-charlottesville",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "What specific group of people did Donald Trump refer to as \"very fine people\" when he said \"there were fine people on both sides\" in the context of the 2017 alt-right riot in Charlottesville?",
+        "answer": "He was referring only to people who wanted to preserve a statue of General Robert E. Lee when he declared that there were “very fine people on both sides” of the deadly 2017 alt-right riot in Charlottesville, President Trump said Friday.",
+        "url": "https://nypost.com/2019/04/26/trump-defends-very-fine-people-remark-about-charlottesville/",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "d74ffcc12bb8183b7da8d8a0edfe16387e2174093809a5b82ef1908101fba4d6"
+  },
+  {
+    "claim_id": 175,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Wisconsin Republicans passed no bills during the six months preceding the statement.",
+        "sha256": "060e80c20fcaaea2de3eda140f154a2379ced8674321e500b8825cc692ebe11d"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          1
+        ],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "9965dadc7d160d904f4203b0f6fe9d004e79effb78c39539b2ece2297675a46e"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          6
+        ],
+        "exact_answer_original_qa_ids": [
+          6
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "86185bee64f7d3dbf4de19fc6f77ce91d5ecdd54878f45de8b2cb631099b14d2"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          9
+        ],
+        "exact_answer_original_qa_ids": [
+          9
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "16b0c246691794da6d84b3945f9365994c06d60b6ae0ad8418f72bbb21506f50"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "Is the claim that Wisconsin Republicans have not passed a single bill in 6 months based on actual legislative data or is it a statement made on Facebook?",
+        "answer": "Facebook posts stated on October 4, 2020 in a Facebook post: “Wisconsin Republicans have not passed a single bill in 6 months.”",
+        "url": "https://www.politifact.com/factchecks/list/?category=&ruling=true&speaker=facebook-posts",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "Did Wisconsin Republicans pass any legislation in the 6-month period preceding the introduction of the \"Tougher on Crime\" package?",
+        "answer": "The legislation were part of Wisconsin Republicans’ “Tougher on Crime” package, which was unveiled last month and passed on mostly party-line votes in the Legislature earlier this month, with Republicans voting in favor and Democrats against.",
+        "url": "https://www.wpr.org/evers-vetoes-gops-tougher-crime-bills",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "How many abortion bills passed by the Republican-controlled Legislature in Wisconsin have been vetoed by Governor Tony Evers in the past 6 months?",
+        "answer": "Madison, Wis. — Wisconsin's Democratic Gov. Tony Evers has vetoed four abortion bills passed by the Republican-controlled Legislature.",
+        "url": "https://www.cbsnews.com/news/abortion-bills-4-vetoed-by-wisconsin-governor-tony-evers-today-2019-06-21/",
+        "qa_tag": "QA3"
+      }
+    ],
+    "baseline_output_sha256": "e309a1365ab0a4802908d2879335d6b5139ecb0f10a02f3393db2034322400be"
+  },
+  {
+    "claim_id": 180,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Dr. Ebeneezer was a medical doctor.",
+        "sha256": "fe3b6cad1865b7c8ac21a594e9022bcd345bf3666992effbc072f6c25f6abd55"
+      },
+      {
+        "af_id": 2,
+        "text": "Dr. Ebeneezer was a herbal practitioner at Amuzu Hospital.",
+        "sha256": "ceb7e5cd8f4d6d5b50bf69f63b02d7519605c0ce18b71cea25dadf762e977c0b"
+      },
+      {
+        "af_id": 3,
+        "text": "Dr. Ebeneezer instructed men to have sex at least 21 times a month to avoid prostate cancer.",
+        "sha256": "263518a197e1677ebd2f468eddf887add8cbb005007c677f5fee5c6af371d3ee"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          1
+        ],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "287f958def097c77ddc047bb912751ab88f6120b5b4754506b48a71a632df1b8"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          3
+        ],
+        "exact_answer_original_qa_ids": [
+          3
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "6c6aa9b494f214077be9cb95120900bf1b8b044fce3a879dccb097eaee39351f"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "Does Dr. Ebeneezer recommend a specific frequency of sexual activity to prevent prostate cancer?",
+        "answer": "Ebeneezer, a medical doctor and a herbal practitioner at the Amuzu Hospital has instructed men to have sex at least 21 times a month to avoid prostate cancer.",
+        "url": "https://web.archive.org/web/20210119165100/https://www.westafricareporters.com/men-must-have-sex-at-least-21-times-a-month-to-avoid-prostate-cancer-expert/",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "Did Dr. Ebeneezer, a medical doctor and a herbal practitioner at the Amuzu Hospital, actually instruct men to have sex at least 21 times a month to avoid prostate cancer?",
+        "answer": "In a twitter video that has since gone viral online, the Doctor was seen advising men to have sex at least 21 times a month in order to check against prostate cancer.",
+        "url": "https://web.archive.org/web/20210119165100/https://www.westafricareporters.com/men-must-have-sex-at-least-21-times-a-month-to-avoid-prostate-cancer-expert/",
+        "qa_tag": "QA2"
+      }
+    ],
+    "baseline_output_sha256": "37e4ad970f1abd159d3b7fafced88fc2d03af9c3d91466f82802801cff31ff59"
+  },
+  {
+    "claim_id": 199,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Nigeria had been under military rule for a cumulative 29 years out of its first 60 years of existence as a nation.",
+        "sha256": "d932aa178c438f692771f06bca72a0abcee0dc94bff7d0ee0b328d14b60da65e"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          2
+        ],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "c8db7535422566885eec2531a1b6e1b17a51d2a7a86d6fe39388aa3f4e3d2379"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          4
+        ],
+        "exact_answer_original_qa_ids": [
+          4
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "ad2cb6c5bbe144198dcd5a42fa91e41c4bede1515de59ae599dfae4dc91b07c1"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          5
+        ],
+        "exact_answer_original_qa_ids": [
+          5
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "b3926aae8cf5d34c4f0548459523c4f65991af41864b83bf4d2ddb7178b9140d"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [
+          8
+        ],
+        "exact_answer_original_qa_ids": [
+          8
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "04864c96af5cd768e8cb75705dccb16287cb54432a45c14c148c2c69587ee400"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "How many years out of Nigeria's first 40 years of independence was the country under military rule?",
+        "answer": "Nigeria's military ruled the country for nearly 30 of its first 40 years of independence. However, in 1999, Nigeria made a transition to civilian rule.",
+        "url": "https://www.hrw.org/news/2011/05/16/nigeria-post-election-violence-killed-800",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "How many years out of Nigeria's 60 years of existence as a nation was the country under military rule, according to the evidence provided?",
+        "answer": "The military \"ruled Nigeria from 1966-1979, and 1983-1999\", a period of about thirty years (Alli 2001: 208).",
+        "url": "http://www.scielo.org.za/scielo.php?script=sci_arttext&pid=S0041-476X2011000100006",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "How many years of Nigeria's 60 years of existence as a nation were spent under military rule?",
+        "answer": "In spite of the fact that Nigeria is experiencing its longest period of uninterrupted civilian administration (since May 29, 1999), the country may rightly be said to be in its tender years of democracy in view of the fact that 28 of Nigeria’s post-independence years were spent under the military.",
+        "url": "https://digitalcommons.osgoode.yorku.ca/librarians/32/",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "How many years out of Nigeria's 60 years of existence has the country been under military rule?",
+        "answer": "3. Nigeria has been ruled by military leaders for a combined 29 years.",
+        "url": "https://www.globalcitizen.org/en/content/facts-to-know-about-nigeria-independence/",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "116e983e7b2560f2d8ce1dcb23f65a84f4b864d0d6da8a175620ab046c16289f"
+  },
+  {
+    "claim_id": 205,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Nigeria's urban population at independence was approximately 7 million.",
+        "sha256": "2e63d07177aca862ba3d7d0d072273b8613c6b1e90ced65b580c8cd695e0baed"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          1
+        ],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "0f94c25825073d0d4690c2b32774cf897edf0d9e8640d4a78cc483b12bdd7710"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          4
+        ],
+        "exact_answer_original_qa_ids": [
+          4
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "72cf6ece059de04da6fa4ee4484cf3e08164db30466c891032ee77aa574d89db"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          7
+        ],
+        "exact_answer_original_qa_ids": [
+          7
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "53936401fcdc0bbff70915974bfa7f50b2a2636a29a3a03ee79f6d804bed8898"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "What was the total population of Nigeria at the time of independence in 1960?",
+        "answer": "It said Nigeria's population was around 63 million when the west African country gained independence in 1960, compared with a population now estimated at close to 200 million.",
+        "url": "https://www.voanews.com/a/nigeria-muhammadu-buhari-communal-violence-population-growth/4201068.html",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What was the total population of Nigeria at independence, given the information about the urban population and the percentage increase in cities with a population of 500,000 or more?",
+        "answer": "Between 1960-1980, World Bank estimates indicate that 1) population in Nigerian cityes of over 500,000 population increased from 22-57%; 2) the number of cities with a population of 500,000 or more increased from 2 to 9 and 3) the urban population increased from 13-20%.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12266187/",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "What was the approximate number of people living in urban areas in Nigeria at the time of its independence?",
+        "answer": "In 1950, only 10.1% of population was urban in Nigeria, this rose to 20.0% by 1970, 43.3% in 2000, and it is expected to reach 58.3% by 2020.[9]",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5676403/",
+        "qa_tag": "QA3"
+      }
+    ],
+    "baseline_output_sha256": "63075ce57f81aa44a4831d54e47a0f35e3896c564f464a219178575a7a8c788c"
+  },
+  {
+    "claim_id": 206,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Government revenue in Nigeria fell by 60 percent.",
+        "sha256": "2e42f5fca33fb2a2ab8e33e6a1bed230f4fb0695409d5a5f3e8324cb1178e7f7"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "640a15caa48c5b64f08a4a809b5483a9691d67b895bf0c70620dc5e092ce7b8a"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "7b49c441d719b459e93ec841eccfd6a1a6ceacd413becc8452e4d0a98fbcebad"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          6
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "f865aa34d6fc2986afcb8217759d35548e7d5ac7792ea0362241a205d1894e88"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "11c09317311e282bed440e092a1930506c904f21120bcf79fac61c2b0ae2e7d3"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "What percentage drop in oil prices and economic activities led to a 60% drop in government revenue in Nigeria?",
+        "answer": "He said in addition to public health challenges to contain the virus’ spread, Nigeria has suffered a significant drop in foreign exchange earnings and internal revenues due to a 40% drop in oil prices and steep drop in economic activities, leading to a 60% drop in government revenue.",
+        "url": "https://www.aa.com.tr/en/africa/nigeria-commemorates-60th-anniversary-of-independence-/1991890",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "By how much has the revenue available to Nigeria dropped?",
+        "answer": "To put the above numbers another way — while oil prices have dropped by 60%, the revenues available to Nigeria have dropped by 81%.",
+        "url": "https://qz.com/africa/564513/a-not-so-brief-history-of-the-fall-and-fall-of-the-nigerian-naira",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "What is the current trend in Nigeria's government revenue compared to previous years?",
+        "answer": "For the first time since 1999, Nigeria's government revenue is shrinking and the value of the national currency, the naira, is falling.",
+        "url": "https://www.bbc.com/news/world-africa-31101351",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "Is the evidence suggesting a -11.4% decline in Nigeria's revenue in 2020 consistent with the claim of a 60% drop in government revenue?",
+        "answer": "in Figure 5 suggest a -11.4% decline in Nigeria’s revenue in 2020 with relatively lower",
+        "url": "https://unctad.org/system/files/official-document/aldcmisc2020d3_en.pdf",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "2d907158db3469b813b88f56595c5f31f7aaf86f8a776909052c7b960b569e93"
+  },
+  {
+    "claim_id": 208,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "The speaker stated that it makes no sense for oil to be cheaper in Nigeria than in Saudi Arabia.",
+        "sha256": "3c7100a6f538ca043214d5be95e54b9ee8ac2ba88da3c05020ea03aa51d0dc05"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "425a1ef633c7df7077f911b3037bd6089f88d1a2e5ea3692ce929f5dc0ece907"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          3
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "29b8e82de7bb0b58cec93100d03f15367047fd6acd2a881ffec511b81c556e24"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          5
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "1154a0ace28ce2b6cdf84a3c2a9a708cad6d662b64deae6fcf1a43aaf86ad9f7"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "69e2563764d6e274fb222d200e95c4c52ff8fee67031a2c740c953211fd14822"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "What is the price of oil in Nigeria compared to Saudi Arabia?",
+        "answer": "“Egypt charges N211 per litre. Saudi Arabia charges N168 per litre. It makes no sense for oil to be cheaper in Nigeria than in Saudi Arabia,” Buhari said in his independence day address on October 1st.",
+        "url": "https://businessday.ng/energy/oilandgas/article/theres-no-reason-nigeria-should-pay-lower-fuel-prices-than-saudi-arabia-buhari/",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "Why does President Buhari think it doesn't make sense for oil to be cheaper in Nigeria than in Saudi Arabia?",
+        "answer": "“Further afield, Egypt charges N211 per litre. Saudi Arabia charges N168 per litre. It makes no sense for oil to be cheaper in Nigeria than in Saudi Arabia,” Buhari said.",
+        "url": "https://www.arise.tv/no-sense-for-oil-to-be-cheaper-in-nigeria-than-saudi-arabia-says-buhari-hints-at-further-price-increase/",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Does the Federal Government agree that oil should be cheaper in Nigeria than in other oil-producing nations?",
+        "answer": "The Federal Government has said that it does not make sense for oil to be cheaper in Nigeria than Saudi Arabia, Egypt, Niger Republic and Republic of Benin, other oil-producing nations.",
+        "url": "https://nairametrics.com/2020/10/01/breaking-it-makes-no-sense-for-oil-to-be-cheaper-in-nigeria-than-saudi-arabia-president-buhari/",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "Why does it make no sense for oil to be cheaper in Nigeria than in Saudi Arabia?",
+        "answer": "48. Further afield, Egypt charges N211 per litre. Saudi Arabia charges N168 per litre. It makes no sense for oil to be cheaper in Nigeria than in Saudi Arabia.",
+        "url": "https://freedomonline.com.ng/buhari-it-makes-no-sense-for-oil-to-be-cheaper-in-nigeria-than-in-saudi-arabia/",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "2f0906a08e584363733b5498e2090c54f7fcfe4fed6f29256a13a742e469dea7"
+  },
+  {
+    "claim_id": 211,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Nigeria's population at independence was 45 million.",
+        "sha256": "e7efe943d09a0e2bbe15cb1bfbf1a1feaede6d8b9800eef5ff71ca82f18847dd"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          1
+        ],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "901e3ab83d3f14f2f997e35b39638fa7912b4824eeb2561fa5116e847f2da366"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          4
+        ],
+        "exact_answer_original_qa_ids": [
+          4
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "24e481061dcf4a6311882a652db67097c6779d2aefb10dd1d88b433d57c3d243"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          5
+        ],
+        "exact_answer_original_qa_ids": [
+          5
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "93799c48184de2a89b136a46c8ec6e101b65c98b66250ed948ced28d7a234ad6"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [
+          8
+        ],
+        "exact_answer_original_qa_ids": [
+          8
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "24cecc29be718eb159ba5b2ed64ad97a4e5fda27af078f3fd5a1e0ee0290c68c"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "What was the population of Nigeria at the time of its independence in 1960?",
+        "answer": "It said Nigeria's population was around 63 million when the west African country gained independence in 1960, compared with a population now estimated at close to 200 million.",
+        "url": "https://www.voanews.com/a/nigeria-muhammadu-buhari-communal-violence-population-growth/4201068.html",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What was the population of Nigeria at the time of independence in 1960?",
+        "answer": "2. At independence in 1960, our population stood at a little over 45 million people but with a steadily rising population growth rate of 2.5%, within 30 years it had more than doubled to 95 million in 1990.",
+        "url": "https://www.fayode.org/speech/nigeria-400-million-people-2050-risks-and-opportunities-keynote-address-kanayo-f-nwanze-phd",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "What was the population of Nigeria at the time of independence in 1960?",
+        "answer": "Population growth in NigeriaFrom 1960 to 2022 the population of Nigeria increased from 45.14 million to 218.54 million people.",
+        "url": "https://www.worlddata.info/africa/nigeria/populationgrowth.php",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "What was the total population of Nigeria at the time of independence?",
+        "answer": "The northern leaders were not about to take that lying down. A new census was held in 1963 and this time, an additional 8.5 million people were discovered in the north bringing the total to 31 million for the north—a figure higher than the population of every other country in Africa at the time—and 56 million for Nigeria as a whole.",
+        "url": "https://qz.com/africa/1221472/the-story-of-how-nigerias-census-figures-became-weaponized",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "1e48b6fe3d2d831535214a4e53902d17956d2f5b7d3a1e03d35ed7d6e9bf90e0"
+  },
+  {
+    "claim_id": 215,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "At the time of the statement, 52 percent of Nigeria's population lived in urban areas.",
+        "sha256": "a31417be1e765242dc258d580e189e9dbcad3c814f4ae5f7067f3e0ba375aab4"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          1
+        ],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "395a3f4e24f3b36b244803c9a300d36fc08cc38be5d543c55408b028f348760c"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          2
+        ],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "527daa5b7f6b722d2cded72b9cacc7b5579f271fb0310d49f320a5f9d907b40a"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          7
+        ],
+        "exact_answer_original_qa_ids": [
+          7
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "50940a336e5dc9f9e1aafdc602a834cd51306b602b1b273b58f96a90834e5297"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [
+          8
+        ],
+        "exact_answer_original_qa_ids": [
+          8
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "15795fa40122b97e7499d9d5a26c0b85cb067232b1c44f96803448edf7a65b16"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "What percentage of Nigeria's population lives in urban areas, according to the World Bank collection of development indicators in 2022?",
+        "answer": "Urban population (% of total population) in Nigeria was reported at 53.52 % in 2022, according to the World Bank collection of development indicators, compiled from officially recognized sources.",
+        "url": "https://tradingeconomics.com/nigeria/urban-population-percent-of-total-wb-data.html",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What is the current percentage of Nigeria's population living in urban areas?",
+        "answer": "In the decade between 2007 and 2017, Nigeria’s urban dwellers increased from 41 percent of the population to about 50 percent.",
+        "url": "https://www.cfr.org/blog/home-over-half-population-nigerias-cities-continue-boom",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Does more than half of Nigeria's population currently reside in urban areas?",
+        "answer": "Over half of Nigeria's population live in rural areas -- 52% to be exact. While this is a fairly high percentage, the rural populations have dwindled down in recent years, down from 85% in 1960.",
+        "url": "https://worldpopulationreview.com/countries/cities/nigeria",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "What percentage of Nigeria's population lives in rural areas, according to the World Bank collection of development indicators in 2022?",
+        "answer": "Rural population (% of total population) in Nigeria was reported at 46.48 % in 2022, according to the World Bank collection of development indicators, compiled from officially recognized sources.",
+        "url": "https://tradingeconomics.com/nigeria/rural-population-percent-of-total-population-wb-data.html",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "27de35d3647731b7ba27d4eeceda93663a92d8233b1c1ef94b371dcb5af2d689"
+  },
+  {
+    "claim_id": 233,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Government revenue fell by 60 percent in the context of the statement.",
+        "sha256": "15766cb7103ae15697d30b48b5059b7df8f709013e6f11aa1e4c46f710597d0a"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "76c383474adb0def7ac9cef50ca3e64f50c9bfa5d72a54e0a757be72b51e1976"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "3ce92105e2a9411a666c9bd726c49b679275f3bc798afd776ae9ecd2cec36857"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "6b8c73521a7ec0175a786f8a738b01d1636dfb1c8e700b4c1f9742b425f6097d"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "What percentage of the government revenue target was achieved, according to the Minister of Finance?",
+        "answer": "The figure represents 56 percent of the target, according to the Minister of Finance. The overall revenue is likely going to be seriously impacted due to disruptions caused by the COVID-19 pandemic and drop in global oil price.",
+        "url": "https://www.dataphyte.com/latest-reports/economy/how-government-can-leverage-digital-economy-to-increase-revenue/",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What was the amount of government revenue in 2016, and how does it compare to the previous year?",
+        "answer": "The Federal Government’s total retained revenue was ₦2,947.5 billion in 2016, a decrease of 9.0 per cent.",
+        "url": "https://www.rns-pdf.londonstockexchange.com/rns/1335X_-2017-11-21.pdf",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "What is the percentage drop in government revenue from the prior budget to the revised budget for 2020?",
+        "answer": "Consequently, overall fiscal revenue for 2020 is estimated at ₦5.84 trillion in the revised budget from ₦8.42 trillion in the prior budget reflecting a drop of 31%.",
+        "url": "https://www.agusto.com/publications/adjusting-for-the-times-an-analysis-of-nigerias-revised-2020-fiscal-budget/",
+        "qa_tag": "QA3"
+      }
+    ],
+    "baseline_output_sha256": "4467208d4f3d5521c9d4b3f603b0bcd08a907f4244b51c8941d993467f0a67c9"
+  },
+  {
+    "claim_id": 242,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "The U.S. Centers for Disease Control and Prevention downgraded COVID-19.",
+        "sha256": "7a29ff6ee2ccfab38184f18abb944d297fbd8b4cb95d1d224f90cbed5b845c08"
+      },
+      {
+        "af_id": 2,
+        "text": "The U.S. Centers for Disease Control and Prevention rated COVID-19 as less fatal than seasonal influenza.",
+        "sha256": "45d358bba93b4ad75c825857102ed514c8ed9f689479df1b6741975c3a997ac4"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          2
+        ],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "ae63bfbd1e3f1a86f571e9814a8e9b91bc4b26129090e7d52d9345d57a8d3c34"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          4
+        ],
+        "exact_answer_original_qa_ids": [
+          4
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "731f42a2ffb1dd335025192f3ac06ac1c25b2ef192546a955f01a863ed926cfb"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          8
+        ],
+        "exact_answer_original_qa_ids": [
+          8
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "454f7bbab1c1552ec1df955c2a91490b1445f8720eba2672a9697542244df605"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [
+          9
+        ],
+        "exact_answer_original_qa_ids": [
+          9
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "2ccc41c71f8ba182082e108d377adc34560054fc8e907130335f5a90dde9e962"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "How does the number of provisionally reported COVID-19 deaths compare to influenza deaths during the apparent peak week of the current season?",
+        "answer": "The CDC also publishes provisional counts of COVID-19 deaths but acknowledges that its reporting lags behind other public data sources.7 For the week ending April 11, 2020, data indicate that the number of provisionally reported COVID-19 deaths was 14.4-fold greater than influenza deaths during the apparent peak week of the current season (week ending February 29, 2020), consistent with the ranges based on CDC statistics.6 As the CDC continues to revise its COVID-19 counts to account for delays in reporting, the ratio of counted COVID-19 deaths to influenza deaths is likely to increase.",
+        "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2766121",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "Does the number of deaths from COVID-19 in the United States during the second full week of April exceed the number of deaths from seasonal flu during the worst week of the past seven flu seasons?",
+        "answer": "If we compare, for instance, the number of people who died in the United States from COVID-19 in the second full week of April to the number of people who died from influenza during the worst week of the past seven flu seasons (as reported to the CDC), we find that the novel coronavirus killed between 9.5 and 44 times more people than seasonal flu.",
+        "url": "https://blogs.scientificamerican.com/observations/comparing-covid-19-deaths-to-flu-deaths-is-like-comparing-apples-to-oranges/",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Did the CDC's initial estimate of the COVID-19 fatality rate change over time?",
+        "answer": "According to NPR, the CDC has revised the estimate downward from its estimate in mid-April. Internal versions of the CDC scenario documents acquired by the Center for Public Integrity show that on April 14, the CDC had estimated a 0.33% fatality rate.",
+        "url": "https://www.usatoday.com/story/news/factcheck/2020/06/05/fact-check-cdc-estimates-covid-19-death-rate-0-26/5269331002/",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "Does the evidence suggest that COVID-19 is less fatal than the seasonal flu?",
+        "answer": "A recent paper published in the journal JAMA Internal Medicine emphasized this point when it found that, in the U.S., there were 20 times more deaths per week from COVID-19 than from the flu in the deadliest week of an average influenza season, Live Science previously reported.",
+        "url": "https://www.livescience.com/new-coronavirus-compare-with-flu.html",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "a8ff11f6b7da17f5d9abb8f62fe41da2bf7acfe41115a93484ef2e754bbb89d0"
+  },
+  {
+    "claim_id": 350,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "The rate of abortions fell more precipitously under Democratic presidential administrations than under the unstated comparison group.",
+        "sha256": "bf6b2d7a61eae5d6f555af3bddf32498f01dd577d66fefba82d69330996076a7"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          4
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "074e191aabe4354538c85d4a42721d2547e672f6b6b97fc054128d6e16a40b95"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          3
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "6b3ee9e2099483e5c921d7618cfc6739f253cdcce8ea3a14f975873cb577017c"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "73e39705a1f91a4f8a9d41ec23f550438c8bceda6eeb0051e6fb7344963d2370"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          10
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "90a67915215e148f2f5949e836b9e064c27bed59f6d4b1e1a2d5559b8d26f823"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "Can the CDC's abortion surveillance study be used to accurately compare abortion rates across different presidential administrations?",
+        "answer": "While these data are not perfect due to inconsistent (and sometimes non-existent) reporting from different states, they can be used to analyze relative changes in abortion rates during the presidencies of different presidential parties, as we will do here using numbers from the CDC’s annual abortion surveillance study.",
+        "url": "https://www.snopes.com/fact-check/abortion-rates-presidencies/",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "Have abortion rates continued to decline under Republican presidential administrations as well as under Democratic presidential administrations?",
+        "answer": "The claim that abortion rates fall under Democrats, while true, ignores the fact that rates have also continued to decline through Republican administrations as well.",
+        "url": "https://www.snopes.com/fact-check/abortion-rates-presidencies/",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Does the evidence suggest that there is a correlation between the party in control of the White House and the rate of abortions?",
+        "answer": "It is plain to see that abortion rates have risen (prior to their peaking in the mid-1980s) and fallen under both Democratic and Republican administration, suggesting little to no correlation with whichever political party controls the White House.",
+        "url": "https://www.snopes.com/fact-check/abortion-rates-presidencies/",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "Has the rate of abortions changed differently under Democratic versus Republican presidential administrations over the past three decades?",
+        "answer": "But people who are against abortion may want to rethink their political alignment, though: during the last three decades, abortion rates have fallen the most under Democrats, and remained flat or at best decreased marginally under Republican administrations.",
+        "url": "https://qz.com/857273/the-sharpest-drops-in-abortion-rates-in-america-have-been-under-democratic-presidents",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "c6b2a529cb963bb148299c296a8ebe48a963053229f8d52bff8ccb772c1986b5"
+  },
+  {
+    "claim_id": 354,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "The unemployment rate in Edo State, Nigeria, fell from 25 percent to 19 percent during Godwin Obaseki's tenure.",
+        "sha256": "42f3c986b83dd7fb3ade7a5befda6a9fd7078349c11f5396a7c327fdc9265d37"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "544128a77e3876b0a22cb2c00f6eed422ff103e802f201935b9ef1bdc2092654"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "de464e44758b698ccbe9aaba7d306d75475a743f995eaf4a2691beadec832bfb"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "What was the change in the unemployment rate in Edo State, Nigeria during Godwin Obaseki's tenure?",
+        "answer": "The unemployment rate in Edo State has dropped from 25.1 per cent in the 3rd quarter of 2018 to 19 per cent in the second quarter of 2020, new data released from Nigeria Bureau of Statistics (NBS) have shown.",
+        "url": "https://edostate.gov.ng/edo-unemployment-rate-falls-from-25-1-to-19-on-back-of-obasekis-job-creation-drive/",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What was the unemployment rate in Edo State in the 2nd Quarter of 2020?",
+        "answer": "The latest report from the National Bureau of Statistics showed that unemployment in Edo State has dropped drastically from 25.1 per cent in the 3rd Quarter of 2018 to 19 per cent in the 2nd Quarter of 2020, according to Friday’s report from the National Bureau of Statistics.",
+        "url": "https://www.thisdaylive.com/index.php/2020/09/01/edo-modular-refinery-as-catalysts-for-job-creation?shared=email&msg=fail%3Famp%3D1%3Famp%3D1",
+        "qa_tag": "QA2"
+      }
+    ],
+    "baseline_output_sha256": "28d9fce3f36d2c1420c27dce0c6fdbfb05c84f8a4baec359aa0dac4d8c6ad03e"
+  },
+  {
+    "claim_id": 366,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Joe Biden referred to law enforcement as 'the enemy'.",
+        "sha256": "5e475c04af08ae660407417557b27a890c7c3cdcb8e66b769c659b7dad353e41"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "7dee22d27b3f579e523abc0dffa401ab91feb81b299c1a0bc6ea712c2f5b7b1d"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "96c5a49d5a284287c8e5dbddb286196a8258f59fb854c6b429b76c660c86ebdc"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "6406f7a6fb4a3c0dedad397e525701866ea242015dcaa884a5cbc780190dbe90"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "857d8be527a098a5557ae7587dd7f0b23f222495bd8dc1e4044128afd6cf0aa6"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "What specific changes to law enforcement is Biden advocating for, in response to his earlier statement about calling law enforcement the enemy?",
+        "answer": "Biden continued by calling for the series of changes we outlined in our above fact check on the “enemy” remark, including a focus on community policing and more investigations of police departments.",
+        "url": "https://www.cnn.com/2020/07/10/politics/fact-check-biden-police-enemy-defunding/index.html",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "Did Joe Biden actually call law enforcement the enemy?",
+        "answer": "“Joe Biden says the police are ‘the enemy,’” Lou Dobbs lied at the top of a segment on his Fox Business show.",
+        "url": "https://www.mediamatters.org/fox-news/trumpists-use-distortion-outright-fabrication-lie-biden-called-police-enemy",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Did Sean Hannity accurately report what Joe Biden said about law enforcement?",
+        "answer": "A few hours later, Sean Hannity falsely suggested that Biden had called police “the enemy” at least four times over the course of his Fox prime-time show.",
+        "url": "https://www.mediamatters.org/fox-news/trumpists-use-distortion-outright-fabrication-lie-biden-called-police-enemy",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "Did Joe Biden refer to law enforcement as the enemy?",
+        "answer": "Moreover, earlier this summer, PolitiFact noted, “Biden himself has said several times in interviews and op-eds that he does not support defunding the police.”",
+        "url": "https://www.vox.com/2020/8/25/21400782/rnc-republicans-democrats-defund-police-joe-biden-black-lives-matter",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "235adbccaea3cc3998bdce3e87a26a28aa3692bd9987684629776a0c849426c2"
+  },
+  {
+    "claim_id": 386,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "The CDC replaced the wording 'Covid-19 Pandemic' with 'Covid-19 Outbreak' on its website.",
+        "sha256": "e8c49a4ba0cf53d7587c7aa6baeaf33537fbce20ed32d58550bda30dd64d3cc0"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          2
+        ],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "6f3ee565fa28744b5ddde80fbf83bccd76bca9d1d54a75c00912c49529d4e331"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          9
+        ],
+        "exact_answer_original_qa_ids": [
+          9
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "cf11dc708231874cb890ed166624cc759ef5b08dd42d06bdc231cf3823bf6a45"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "Did the CDC's response to the COVID-19 outbreak change from a \"pandemic\" to an \"outbreak\" at any point in time?",
+        "answer": "On January 21, 2020 CDC launched its agency wide response to the COVID-19 pandemic. It has been the largest response to any disease outbreak in CDC’s history.",
+        "url": "https://www.cdc.gov/about/index.html",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "Did the CDC update the terminology on their website to reflect the WHO's announcement on March 11, 2020, characterizing the COVID-19 outbreak as a pandemic?",
+        "answer": "On March 11, 2020, the World Health Organization announced that the COVID-19 outbreak can be characterized as a pandemic, as the rates of infection continue to rise in many locations around the world and across the United States.",
+        "url": "https://trumpwhitehouse.archives.gov/presidential-actions/proclamation-declaring-national-emergency-concerning-novel-coronavirus-disease-covid-19-outbreak/",
+        "qa_tag": "QA2"
+      }
+    ],
+    "baseline_output_sha256": "0958ef83fc74f1e471fe540028140c7610ed6f348c0355e1fed524f1bedda805"
+  },
+  {
+    "claim_id": 398,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "The Indian government launched an online health consultation scheme.",
+        "sha256": "9c2a8502b3ed691a97718602bfb292532fdd5546b014fec78c9f9a7256e42566"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          1
+        ],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "3748e32c67114d960b808b0f8446d2d25654ca15395e313236b6c42cf68e1ff1"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          5
+        ],
+        "exact_answer_original_qa_ids": [
+          5
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "270ec2377659fee9f748e19ae3091e32248641b874e2e074f4b1de0bda85e850"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          6
+        ],
+        "exact_answer_original_qa_ids": [
+          6
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "3d6c196a86002fff7f7b7143f423ac91755888cf8d2fe140c6722c2786673afd"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [
+          9
+        ],
+        "exact_answer_original_qa_ids": [
+          9
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "0c0234a0996342a3a1bf899e3da94d85aaab1cdb1e94974890f39c9e638ec536"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "Has the Indian government launched an online health consultation scheme, and if so, what is the name of the platform and how many consultations has it conducted during the lockdown?",
+        "answer": "In a push to Digital India, a flagship programme for promoting e-governance, the newly launched eSanjeevani platform, an initiative to make e-health services easily accessible across the states has conducted two lakh tele-consultations during the lockdown.",
+        "url": "https://government.economictimes.indiatimes.com/news/digital-india/centres-to-roll-out-e-health-platform-esanjeevani-across-states/77654281",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "Did the Indian government launch an online health consultation scheme in April 2020?",
+        "answer": "The Health Ministry rolled out the second tele-consultation service ‘eSanjeevaniOPD’ enabling patient-to-doctor telemedicine owing to the COVID-19 pandemic in April 2020.",
+        "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1646913",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Has the Indian government launched an online health consultation scheme, and if so, what are the two platforms through which it is operational?",
+        "answer": "The national tele-medicine service which is operational on two government platforms - 'eSanjeevani' and 'eSanjeevaniOPD'- has completed over 1.5 lakh teleconsultations, the Union health ministry said.",
+        "url": "https://www.livemint.com/news/india/tele-medicine-facility-top-10-states-which-registered-highest-consultations-11597035798233.html",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "What type of telemedicine services are available on the eSanjeevani platform launched by the Indian government?",
+        "answer": "This eSanjeevani platform has enabled two types of telemedicine services viz. Doctor-to-Doctor (eSanjeevani) and Patient-to-Doctor (eSanjeevani OPD) Tele-consultations.",
+        "url": "https://medicaldialogues.in/news/health/dr-harsh-vardhan-lauds-contribution-of-states-in-popularising-esanjeevani-the-tele-medicine-platform-of-health-ministry-68454",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "7e1e994643c68004cfc2adc21d34983dedfe349e48ceec2a8c0391e739768439"
+  },
+  {
+    "claim_id": 399,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "A Daily Trust report described a UK judge's ruling on how Nigerian Vice President Yemi Osinbajo detected Process and Industrious Development Limited (P&ID) fraud against Nigeria.",
+        "sha256": "e32c7c90375ea5c85d69f45757f0b411e36a5e754835f084b9b373cf6122a0a5"
+      },
+      {
+        "af_id": 2,
+        "text": "The Daily Trust report about the UK judge's ruling on Yemi Osinbajo and the P&ID fraud against Nigeria was fake news.",
+        "sha256": "ba02f2d4bb736527385a1cce250c5adbc023fa680c25c7e217200e4d426c362a"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          1
+        ],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "eb4cfcb667c15658459bbc46b7a0b487676f03e0df284a1e7d341f7095bdf2d7"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          2
+        ],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "614a72e9aec4f3836c7e7815c6c086c04df104d0570b7d9816e4616f9f5b9c8a"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          4
+        ],
+        "exact_answer_original_qa_ids": [
+          4
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "198c288256d4d5364db1290b152677b8809a3e1792e703811eff94b90279556c"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [
+          5
+        ],
+        "exact_answer_original_qa_ids": [
+          5
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "a0b36d81a64beb5d56cc30750541bbcaf7d4f70c40b34cd65d7283bbf05eb10d"
+      },
+      {
+        "selected_qa_id": 5,
+        "exact_original_qa_ids": [
+          9
+        ],
+        "exact_answer_original_qa_ids": [
+          9
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "fcc392b3a0eaa7c1b193f9c287631abb52b75c19ef7a5ce7995a718d2bd56ee7"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "What role did Nigerian Vice President Yemi Osinbajo play in the Process and Industrious Development Limited (P&ID) case, according to the UK court ruling?",
+        "answer": "Going by the ruling by a United Kingdom judge, the timely observation and interventions of the Vice President of Nigeria, Prof. Yemi Osinbajo was instrumental in how the Process and Industrious Development Limited (P&ID) case became known and identified as a fraudulent endeavour, according to a review of the court record.",
+        "url": "https://dailytrust.com/how-osinbajo-detected-pid-fraud-against-nigeria-uk-judge/",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What did the UK judge say about the role of Nigerian Vice President Yemi Osinbajo in detecting the Process and Industrial Development Limited (P&ID) fraud against Nigeria?",
+        "answer": "A United Kingdom judge says the timely observation and intervention of Vice President Yemi Osinbajo was instrumental in how the Process and Industrial Development Limited (P&ID) deal with Nigeria became known and identified as a fraudulent endeavour.",
+        "url": "https://www.nairaland.com/6099905/how-osinbajo-detected-p-id",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Did the UK High Court of Justice Queen's Bench Division Commercial Court's ruling contradict the claim that Nigerian Vice President Yemi Osinbajo detected the P&ID fraud against Nigeria?",
+        "answer": "Sir Ross Cranston of the UK High Court of Justice Queen’s Bench Division Commercial Court explained that the Vice President was a regular fixture all through process, noting that, the Vice President’s “fraud on the nation” statement in June 2018 turned the case against P&ID in Nigeria’s favour.",
+        "url": "https://www.chronicle.ng/2020/09/osinbajo-detected-pid-fraud-nigeria-judge/",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "How did Nigerian Vice President Yemi Osinbajo allegedly detect the Process and Industrious Development Limited (P&ID) fraud against Nigeria, according to the UK judge's ruling?",
+        "answer": "How Osinbajo detected P&ID fraud against Nigeria – UK Judge",
+        "url": "https://www.chronicle.ng/2020/09/osinbajo-detected-pid-fraud-nigeria-judge/",
+        "qa_tag": "QA4"
+      },
+      {
+        "question": "Did a UK judge rule in favor of P&ID in a case involving Nigeria, as reported by The Daily Trust?",
+        "answer": "“In light of the indicators of fraud listed above, the most likely explanation for this is that Mr Shasore had entered into a dishonest arrangement with P&ID not to challenge its evidence or seek any disclosure with the inevitable result that Nigeria lost the case.”",
+        "url": "https://saharareporters.com/2020/07/17/revealed-former-lagos-attorney-general-shasore-collected-2m-pid-frustrate-nigeria%E2%80%99s",
+        "qa_tag": "QA5"
+      }
+    ],
+    "baseline_output_sha256": "6aa82492cb190edd620f465782240f4b210ba61acf371c59e7d44e7f6f22a351"
+  },
+  {
+    "claim_id": 404,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Indian Railways has been completely privatized.",
+        "sha256": "254f353567a26c5b2cde26bf8e21909109b83e82e3aa78cf01e89817c92df233"
+      },
+      {
+        "af_id": 2,
+        "text": "The complete privatization of Indian Railways would cause scores of Indian Railways employees to lose their jobs.",
+        "sha256": "4671f7bba0179d1ece8eb457d3d48bc18683388a2fc55c8ecd0ea5ac66f23c2e"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "b2f393ef61ad6aee8d5dc5c9e1a26f05eb06b1651261eb7aebc1e29c85a6e1ff"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "36d4784021e9ab8df0198efac3f79a0d9cfb75a59cd71fd7f54dacf271e2b0aa"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "546dd761f0b7c7abc9a5e1442556b5518864d676d79ae7178b96b93544da57fc"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "006a20f1241bb82ca04fbfa31c5744a0f4d0b366a5b26592cd33135653ef1d0a"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "Is Indian Railways being completely privatized, and if so, what are the implications for its employees?",
+        "answer": "Indian Railways has launched itself on the road to privatisation by flagging off the Tejas Express running between Lucknow and Delhi and announcing plans to privatise the running of as many as 150 passenger trains.",
+        "url": "https://www.iasexpress.net/privitisation-railways/",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "Has the Indian Railways been completely privatized?",
+        "answer": "The government has experimented with privatizing parts of the Indian railways — be it in development and maintenance of railway stations or through the first private train named Tejas Express.",
+        "url": "https://inc42.com/features/how-online-train-booking-ticket-platforms-are-gearing-up-for-indian-railways-privatised-future/",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Is the privatization of the Tejas Express the only instance of privatization by Indian Railways, and will it lead to the complete privatization of the Railways?",
+        "answer": "The case “Tejas Express: Indian Railways’ Leap toward Privatization?” discusses in detail the decision of public sector undertaking Indian Railways (IR) to go in for a limited form of privatization by allowing another entity to operate one of its premier trains, the Tejas Express (TE), between New Delhi and Lucknow.",
+        "url": "https://www.icmrindia.org/casestudies/catalogue/Economics/ECON078.htm",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "Is Indian Railways being completely privatized, and if so, what are the implications for the people working in the Railways?",
+        "answer": "Recently, the Ministry of Railways has taken the first step towards privatisation of railways by inviting Request for Qualifications (RFQ) to private players for operation of passenger train services.",
+        "url": "https://www.drishtiias.com/daily-news-analysis/privatisation-of-railways",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "556089672c738eeb6164482aa2f911049a8c828d65ad339185c9cc3710ac53d4"
+  },
+  {
+    "claim_id": 427,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "U.S. citizens should go to polling places on Election Day and cast an in-person ballot if poll workers cannot confirm receipt of their mail-in ballots.",
+        "sha256": "78c74ce627ca77772b13621b86a0caa1a966183e115e988ca9a0f15a7be8db90"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "b71acae904e59b91a3ec98ad6543b294aae0ad50303bda77b91a8cef72822e24"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          3
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "d7de2baa5187b093714c3b9b4757a6f1d7491735c96bff13d895de80ea1239e2"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "d5dd5f6d799d7e497ed5bab58894c936ac4dc4adcfd009ce1deac59837193e42"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          4
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "77bbfa42c1fc34350f9b432afb16200f7be3aa9c6254ac1ba39a890338c607b2"
+      },
+      {
+        "selected_qa_id": 5,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "f2966a94d5fdff8aff313a139aa245548c3a656e4e99b8ac66eea12913e84682"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "What happens to a voter's in-person ballot if poll workers cannot confirm that their mail-in ballot was received?",
+        "answer": "If poll workers cannot confirm that a voter has not already voted by mail, the voter may have to vote by provisional ballot, meaning the canvassing board would decide later whether to count the vote.",
+        "url": "https://www.tampabay.com/florida-politics/buzz/2020/06/22/so-you-want-to-vote-by-mail-in-florida-heres-what-you-need-to-know/",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What should a U.S. citizen do if poll workers can't confirm that their mail-in ballot was received?",
+        "answer": "If you were sent a mail-in ballot, but your polling place has no record of having received it, you may vote by provisional ballot.",
+        "url": "https://www.luzernecounty.org/397/Application-for-Mail-In-Absentee-Ballots",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "What happens if a mail-in ballot is not confirmed to have been received by the county, and can a voter still cast a ballot on Election Day?",
+        "answer": "Your vote is considered final at that point. However, if you mailed your ballot too late, or you aren’t sure whether the county received your voted ballot in time, you may be able to vote a provisional ballot at the polling place.",
+        "url": "https://www.luzernecounty.org/397/Application-for-Mail-In-Absentee-Ballots",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "Can a voter who requested an absentee ballot still cast a provisional ballot in person on Election Day if they are unsure if their mail-in ballot was received?",
+        "answer": "Additionally, some voters that requested an absentee ballot may wish to vote on Election Day for any number of reasons—such as failure to receive their ballot in time or due to fear their ballot did not arrive back to their local election official in time to be counted, which would also entitle voters to provisional ballots in at last 16 states plus the District of Columbia.",
+        "url": "https://bipartisanpolicy.org/report/counting-the-vote-during-the-2020-election/",
+        "qa_tag": "QA4"
+      },
+      {
+        "question": "What happens if a voter submits a mail-in ballot and then shows up to vote in person, and the check-in system alerts the poll worker that they have already voted?",
+        "answer": "If someone has voted an absentee ballot and then shows up to vote in person, the check-in system will alert the poll worker that the person has already voted.",
+        "url": "https://www.ncsbe.gov/voting/vote-mail/faq-voting-mail",
+        "qa_tag": "QA5"
+      }
+    ],
+    "baseline_output_sha256": "78533676de7d01ac2825ab6b7b4ad310311af07b8bb0057b659f52cf4076e044"
+  },
+  {
+    "claim_id": 436,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "The U.S. military will check the purity of COVID-19 vaccines.",
+        "sha256": "aa0281e128f59ca3ac8f8d9fcc54d605ab71a84991448a08e0a2409c4428a7fd"
+      },
+      {
+        "af_id": 2,
+        "text": "The U.S. military will distribute COVID-19 vaccines in the United States.",
+        "sha256": "24f43568c54d9546d2512f3e86a8084d6a9616f38f3df9cdc3f4ca3e23d90184"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          1
+        ],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "4b73dcfc2c0723679149cf52915526a00f20cfaebd3a960dce0d9622bbe1694d"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          4
+        ],
+        "exact_answer_original_qa_ids": [
+          4
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "ea15a269b0fe0af1502efb60571566874b84f771c21b4036cab4822984dcd6b2"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          5
+        ],
+        "exact_answer_original_qa_ids": [
+          5
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "bdea0175b40a3e028054af7e94609f7390cf76c40fef8bd66b05f537baf2c54d"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [
+          9
+        ],
+        "exact_answer_original_qa_ids": [
+          9
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "165ed7e72ab14794dd5ea368be5e2e09089ffe84ade6fdc3a0d24dc9db12e8f3"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "Did the US military say they would check the purity of COVID-19 vaccines?",
+        "answer": "There is no evidence that the US military will \"check the purity\" of vaccines. However, Trump said in this May, 2020 press conference that they would be involved in the distribution of a COVID-19 vaccine.",
+        "url": "https://www.boomlive.in/world/misleading-list-of-donald-trumps-achievements-viral-on-social-media-8593",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "Will the US military be directly involved in checking the purity and distributing COVID-19 vaccines in the US?",
+        "answer": "Planning is still underway. And, while the military is involved in distribution preparations and planning, we were told by the Department of Health and Human Services that “DOD support may not be required at all” for vaccination distribution.",
+        "url": "https://www.factcheck.org/2020/08/dueling-trump-biden-claims-on-covid-19-vaccination-distribution/",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Will the US Department of Defense be responsible for both checking the purity of COVID-19 vaccines and distributing them in the US?",
+        "answer": "With regard to distribution, OWS has stated that the U.S. Department of Defense (DOD) will assist with the distribution and administration of the vaccine.",
+        "url": "https://www.nga.org/publications/covid-19-vaccine-considerations-mass-distribution/",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "What role will the US military play in the distribution of COVID-19 vaccines in the US, according to the White House official?",
+        "answer": "“The United States military is always ready and able to assist the American people and respond to a crisis, and like the President and HHS have said, the military stands ready to assist with logistics and mass distribution,” the White House official said.",
+        "url": "https://web.archive.org/web/20210825065043/https://www.mcclatchydc.com/news/coronavirus/article244555822.html",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "bd97dd6d54ddda4e75d9e915fcc81803d8758feaa9604ef77607be294eaac541"
+  },
+  {
+    "claim_id": 444,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "The World Health Organization said there was no proof that face masks protect against COVID-19.",
+        "sha256": "0598195eab68df8a0cebe016d5fd6352ff5ab9008f8db66f7d87ef790d498554"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          1
+        ],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "6ce50c4a6b0bd1fdfb259f0068b42a38c09a413e20be4b190dd8f8b64150ec9f"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          2
+        ],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "5ccb3efdbb2ce9fa1984b8e7c567c0a2e6aad9645e670398acfc4564c7551aaf"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          8
+        ],
+        "exact_answer_original_qa_ids": [
+          8
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "35ae7fc9345a4377dfeddb33df2237318f790854f4f37b5d07e7b86fd08d707b"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [
+          10
+        ],
+        "exact_answer_original_qa_ids": [
+          10
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "23696c0d550ce2a2bc174e3a7e87300cf97644645052cbbd81930bab5b8f7f08"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "What specific situations and settings does the WHO recommend wearing masks in to prevent COVID-19 transmission?",
+        "answer": "“WHO has updated its guidance to advise that to prevent COVID-19 transmission effectively in areas of community transmission, governments should encourage the general public to wear masks in specific situations and settings as part of a comprehensive approach to suppress SARS-CoV-2 transmission.”",
+        "url": "https://makermask.org/who-guidance-on-fabric-masks/",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What is the purpose of wearing face masks in public according to the World Health Organization (WHO)?",
+        "answer": "The World Health Organization (WHO) has changed its advice on face masks, saying they should be worn in public where social distancing is not possible to help stop the spread of coronavirus.",
+        "url": "https://www.bbc.com/news/health-52945210",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Does the World Health Organization (WHO) recommend wearing cloth masks in areas where community transmission of Covid-19 is ongoing?",
+        "answer": "Even the WHO finally came around. Spurred by the results of a review of the evidence the organization had commissioned, on June 5, the WHO announced updated guidance recommending that all citizens should wear cloth masks in areas where community transmission is ongoing.",
+        "url": "https://www.wired.com/story/how-masks-went-from-dont-wear-to-must-have/",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "Does the World Health Organization (WHO) recommend the use of face masks in the community to prevent the acquisition of COVID-19?",
+        "answer": "However, the use of face mask in the community remains controversial.21 , 22 WHO issued an interim guideline regarding the use of masks in the context of COVID-19 on 6 April 2020, stating no evidence that wearing a mask by healthy persons in the wider community setting can prevent acquisition of COVID-19.23 European Centre for Disease Prevention and Control issued a technical report on 8 April 2020 that the use of face masks in the community could be considered, especially when visiting busy, closed spaces, despite not knowing how much the use of masks in the community can contribute to a decrease in transmission in addition to the other counter measures.24 On 3 April 2020, CDC recommended the use of cloth face coverings, especially in areas of significant community-based transmission.25",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7177146/",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "8b507609e6fe8d130b7874a7762cdd201bb7b8c76c728683f1b6721e065c82f7"
+  },
+  {
+    "claim_id": 462,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Fox News is a U.S. cable news channel.",
+        "sha256": "64d62d7c74e4ca0fc4703c6bc63767e86c2130ebfef0d06004c66242e1cee25b"
+      },
+      {
+        "af_id": 2,
+        "text": "Fox News is not available in Canada because of Canadian media legislation.",
+        "sha256": "885ae9b7b8e1071bc455f42adf5a2f2a6faf6231b8122a4cf7c7d41ccf9a9d47"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [
+          2
+        ],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "1804f115e810ec8010bbb36334071a15536831cb97b687e8075015cfc2dfcf51"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [
+          3
+        ],
+        "exact_answer_original_qa_ids": [
+          3
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "b11bdaba7f0f2eedce9cb0ef1521369562d551adea1f8d94e99eba2b46d6c036"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [
+          4
+        ],
+        "exact_answer_original_qa_ids": [
+          4
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "dc352a837f61f29ddf75032b045f030a6f06b1394c5e6428b9986abe87c91b48"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [
+          6
+        ],
+        "exact_answer_original_qa_ids": [
+          6
+        ],
+        "status": "exact_qa",
+        "selected_qa_sha256": "16484d3c3b795f43718d7ae3088be0a08818ef2cbf1938aeaa453880773f999b"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "Does the Canadian Radio-television and Telecommunications Commission (CRTC) regulations prohibit the availability of Fox News Channel in Canada?",
+        "answer": "The CRTC regulations apply only to Canadian broadcasters using Canadian airwaves; they do not apply to the Fox News Channel, which is a non-Canadian entity transmitted via satellite and cable, not broadcast over public airwaves.",
+        "url": "https://www.snopes.com/fact-check/canadian-fox/",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "Did the Canadian government initially reject Fox News' attempt to establish a Canadian version of the channel due to media ownership laws, but later approve its availability on digital television platforms?",
+        "answer": "Fox Chairman and CEO Rupert Murdoch was rebuffed in his efforts to establish Fox News Canada in 2003 due to Canadian laws regarding foreign ownership of print and broadcast media, but the CRTC approved an application to bring the Fox News Channel to Canadian digital television line-ups back in November 2004, and that channel is now carried by dozens of different digital providers throughout Canada.",
+        "url": "https://www.snopes.com/fact-check/canadian-fox/",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "What is the outcome of the Canadian Radio-television and Telecommunications Commission's (CRTC) decision regarding the availability of Fox News Channel in Canada?",
+        "answer": "The Canadian Radio-television and Telecommunications Commission (CRTC) approved an application Thursday to bring the Fox News Channel, one of the highest-rated news channels in the United States, onto Canadian digital airwaves.",
+        "url": "https://www.cbc.ca/news/canada/crtc-approves-fox-news-for-canada-1.492643",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "Did the media legislation in Canada prevent Fox News from entering the country?",
+        "answer": "However, it is not true that such regulations have kept the Fox News Channel from gaining entry into Canada, or that they were invoked to boot Fox News out of that country after the channel was established there.",
+        "url": "https://www.snopes.com/fact-check/canadian-fox/",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "f3e93d7af36ffbcfa12d97f09c8f1f87e4588844d74eb345f93d45aa0e6cd2db"
+  },
+  {
+    "claim_id": 480,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Donald Trump said Joe Biden had vowed to oppose school choice.",
+        "sha256": "f24470301b1f637b135adb75be24e2613490a98456da818a1aad3b44f0d8b71c"
+      },
+      {
+        "af_id": 2,
+        "text": "Donald Trump said Joe Biden had vowed to close down charter schools.",
+        "sha256": "2deb3b585e93157e6a124f15f6faa3f15a7f5e4f4d579fe78ba56ede6df34381"
+      },
+      {
+        "af_id": 3,
+        "text": "Donald Trump said Biden's stated positions on school choice and charter schools were 'ripping away the ladder of opportunity' for Black and Hispanic children.",
+        "sha256": "2d9621d064fe7a66fc3dfc6893f6d1fb9c93496780b68ef9e32837b5122ad8cc"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "5bc89e98049c800cd9226084812b06b1ffa560f86c98d1887e2a5b7242f093c7"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          4
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "2b288133186e417d4546c2d5be5dc6c063081130c1fb30c9a7ef311db6b71d74"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          10
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "63ef99968f9b2d909ff70aee1174c54bd999ea5dbf86d513ee9337de1d9d8b1c"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "6b79b6a9c9560e0e34535a54214dfeb1b59d044003ae5cd5bd1a1116818b1fbc"
+      },
+      {
+        "selected_qa_id": 5,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          6
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "7f66fbf952d5764326aa91792675b0c7565b71704caf213e18ca4e88fe53ac45"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "What did Donald Trump claim that Joe Biden vowed to do regarding school choice and charter schools?",
+        "answer": "\"Biden also vowed to oppose school choice and close all charter schools, ripping away the ladder of opportunity for Black and Hispanic children,\" Trump claimed.",
+        "url": "https://www.nbcnews.com/politics/2020-election/fact-checking-trump-other-speakers-final-night-republican-national-convention-n1238578",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "Does Donald Trump's claim that Joe Biden opposes school choice and wants to close down charter schools accurately reflect Biden's stance on private school vouchers and charter schools?",
+        "answer": "As for Trump’s claim that Biden opposes school choice, as the document makes clear, Biden opposes “private school vouchers and other policies that divert taxpayer–funded resources away from the public school system.”",
+        "url": "https://www.factcheck.org/2020/07/trump-twists-bidens-position-on-school-choice-charter-schools/",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "Did Donald Trump accurately state that Joe Biden would abolish all charter schools?",
+        "answer": "Nonetheless, whether Biden would cut off funding for charter schools managed by for-profit companies, or whether he would seek to rein in charter school expansion with further school district oversight, Trump goes too far with his blanket claim that Biden would “abolish all charter schools.”",
+        "url": "https://www.factcheck.org/2020/07/trump-twists-bidens-position-on-school-choice-charter-schools/",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "What did Joe Biden allegedly promise to do regarding school choice and charter schools, according to Donald Trump?",
+        "answer": "Biden also vowed to oppose school choice and close all charter schools, ripping away the ladder of opportunity for Black and Hispanic children.",
+        "url": "https://www.presidency.ucsb.edu/documents/address-accepting-the-republican-presidential-nomination-2",
+        "qa_tag": "QA4"
+      },
+      {
+        "question": "What is Biden's stance on the use of public money for private schools and charter schools?",
+        "answer": "By that metric, Trump had a point: Biden opposes the use of public money for private schools. He’s also against for-profit and low-performing charter schools.",
+        "url": "https://www.politifact.com/article/2020/aug/21/republicans-gather-nominate-trump-second-term/",
+        "qa_tag": "QA5"
+      }
+    ],
+    "baseline_output_sha256": "f857a66c9047557aa1a5a918e83d3d4bed4740b14e276872398cda9f4af1408e"
+  },
+  {
+    "claim_id": 483,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Donald Trump said the United States had spent nearly $2.5 trillion on completely rebuilding its military.",
+        "sha256": "c26b7ef9bacf6b1768b9959c269b983046674d4bb817ba5e6df3c68dbcfd9614"
+      },
+      {
+        "af_id": 2,
+        "text": "Donald Trump said the U.S. military was very badly depleted when he took office.",
+        "sha256": "b56ea53cd1f184299cdd6c58c93498c881d134603bd18e34b0859d53f10dc772"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "a1a2d54d44a8321845ab067707a54830216cc67f62da78eefa6de30001f2a65b"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          2
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "4632506dcbc268a3f09be144f43f07e9ab5026f73af8df9d370d3996b7441070"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          6
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "8cbb57ebdf62f7c12101873a9e23d2f663f133300ffbdb03acdeeb0ae7ef54df"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          10
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "f62be56ef21d8d9185f73cdf506e5c9b4df11d6b70f72a2accb3cb559c7f45fa"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "Did Donald Trump claim that the US military was \"very badly depleted\" when he took office?",
+        "answer": "TRUMP: “We have spent $2.5 trillion on completely rebuilding our military, which was very badly depleted when I took office, as you know.”",
+        "url": "https://apnews.com/article/virus-outbreak-election-2020-ap-top-news-race-and-ethnicity-health-699e0c893bfbd986cea11b6f403beb3e",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "Is there any evidence that the US military was \"very badly depleted\" when Donald Trump took office?",
+        "answer": "We have spent nearly $2.5 trillion on completely rebuilding our military, which was very badly depleted when I took office.",
+        "url": "https://www.nbcnews.com/politics/2020-election/read-full-text-president-donald-trump-s-acceptance-speech-rnc-n1238636",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "How much of the $2.05 trillion in total defense spending during Trump's first three years in office actually occurred during his tenure, rather than during Obama's final months in office?",
+        "answer": "Facts First: Trump was exaggerating. As noted by Todd Harrison, director of defense budget analysis at the Center for Strategic and International Studies, total defense spending for fiscal years 2017, 2018 and 2019 was $2.05 trillion – and that includes more than three-and-a-half months of Obama’s tenure, since the 2017 fiscal year began in October 2016.",
+        "url": "https://www.cnn.com/2019/10/09/politics/trump-october-fact-check-ukraine-whistleblower/index.html",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "Did Todd Harrison, director of defense budget analysis at the Center for Strategic and International Studies, agree with Donald Trump's claim about the amount spent on rebuilding the military?",
+        "answer": "Todd Harrison, director of defense budget analysis at the Center for Strategic and International Studies, told us when Trump has claimed $2-plus trillion was spent on military equipment, that’s “absolutely untrue.”",
+        "url": "https://www.factcheck.org/2020/07/trumps-false-military-equipment-claim/",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "908d48f87934e07e8d4236ebee665c602d518858170a701d33247d18eaca5b16"
+  },
+  {
+    "claim_id": 496,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "Joe Biden supports open borders.",
+        "sha256": "0b7266b40b6789709018ee8e6743f74d7ba114b1838f26664fbba99272d6f1f9"
+      },
+      {
+        "af_id": 2,
+        "text": "Joe Biden supports sanctuary cities.",
+        "sha256": "35e00231020663ff4ac103cdfdb965027af26b4dba3daaa6cb0176598fdf5774"
+      },
+      {
+        "af_id": 3,
+        "text": "Joe Biden supports providing free lawyers for immigrants described in the statement as 'illegal immigrants'.",
+        "sha256": "c22be6384448f5da7ff6ccd08f449b75a6af289be475dcd77cb2fc25b0e9a246"
+      },
+      {
+        "af_id": 4,
+        "text": "Joe Biden supports providing health care for immigrants described in the statement as 'illegal immigrants'.",
+        "sha256": "11db2fc81e59ef60bfa8ff1e8e4f5d8a605cef9b5868c07b15fa323c310dd10f"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          1
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "f36986b6448286615d8242c93987fa9e99147a66757518e48af4a58e1e682378"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          4
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "6a679e4c0a0d27eda451503f9b57b8ca6c5a6bbacee40263a81972afa73cc523"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          8
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "edc12ebc7a3cf75787f68dfdd85b4b8e81f3612c06216f293cccb5d63baf2c22"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "c3e91c6cad81162d2527605ac83fb2ea786281749f4d90064e477796f0cf3510"
+      },
+      {
+        "selected_qa_id": 5,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          6
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "9bb650e7d1e8e2e17d2537585fd465944dc5f8becf62bd6231efd9c29feede94"
+      },
+      {
+        "selected_qa_id": 6,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "29dc8d7fba9d0d339d872fe15b250f32be972ffb89a92d82b6d3829dd08271f4"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "Does Joe Biden's agenda support providing free lawyers and healthcare for illegal immigrants, and if so, how will it be funded?",
+        "answer": "(Applause.) Joe Biden is for open borders. Their agenda calls for an end to deportations; support for sanctuary cities; and free lawyers and free healthcare for illegal immigrants, all paid for by American taxpayers.",
+        "url": "https://trumpwhitehouse.archives.gov/briefings-statements/remarks-vice-president-pence-dangers-socialism/",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What specific immigration policies has Joe Biden proposed for undocumented immigrants?",
+        "answer": "While it's true that Biden has pledged to stop construction of the border wall that Trump made a key 2016 campaign promise, he has hardly proposed amnesty and free health care for all undocumented immigrants.",
+        "url": "https://www.nbcnews.com/politics/2020-election/fact-checking-night-2-republican-national-convention-n1238108",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "What specific immigration policy provisions did Joe Biden support in the 2013 Senate immigration bill, also known as the Gang of Eight bill?",
+        "answer": "Biden supports a more open and welcoming immigration policy than the one championed by Trump. Biden supported the 2013 Senate immigration bill, the so-called Gang of Eight bill, which in addition to providing a path to earned citizenship for those then in the country illegally, would have included significant investments in border security.",
+        "url": "https://rollcall.com/2020/08/25/rnc-fact-check-first-night-speakers-spin/",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "Does Joe Biden support providing free health care to undocumented immigrants beyond emergency treatment?",
+        "answer": "There is no evidence showing Biden saying that U.S. taxpayers have an obligation to provide health care for undocumented immigrants, beyond the emergency treatment they are already eligible for under federal law.",
+        "url": "https://www.usatoday.com/story/news/factcheck/2020/07/24/fact-check-biden-doesnt-say-taxpayers-must-pay-immigrant-health-care/5485242002/",
+        "qa_tag": "QA4"
+      },
+      {
+        "question": "Does Joe Biden support providing health care to people regardless of their immigration status?",
+        "answer": "Biden has said that people should have access to health care, regardless of immigration status; he has not said it should be free.",
+        "url": "https://www.freep.com/story/news/politics/elections/2020/08/26/rnc-2020-fact-check/3441820001/",
+        "qa_tag": "QA5"
+      },
+      {
+        "question": "Does Joe Biden support decriminalizing border crossings?",
+        "answer": "In his campaign, Biden is an advocate for immigration reform in the U.S. In a larger conversation about his stances on various issues, Biden has told USA TODAY that he does not support decriminalizing border crossings, as some other 2020 candidates including Sanders do.",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2019/11/22/joe-biden-tells-immigration-activist-you-should-vote-trump/4273814002/",
+        "qa_tag": "QA6"
+      }
+    ],
+    "baseline_output_sha256": "a33c4515ed010c4b53875d07210b371f88b0f5a0a258702d0c4515154d5b8429"
+  },
+  {
+    "claim_id": 498,
+    "afs": [
+      {
+        "af_id": 1,
+        "text": "At the time of the statement, the United States was developing a growing number of treatments, including convalescent plasma.",
+        "sha256": "92ecab69232c45167cd6d19451539170117ae0cf1f3fcdf625681796c19bf5db"
+      },
+      {
+        "af_id": 2,
+        "text": "At the time of the statement, the treatments being developed in the United States, including convalescent plasma, were saving lives across the country.",
+        "sha256": "ba2f975338361cf152ee23361daffb1559ec901dd5cc77157aa1fffc124f55a1"
+      }
+    ],
+    "qa_mapping": [
+      {
+        "selected_qa_id": 1,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "244747d98d13e786433083127e6704c540cd7bc582a1c114fe0f2333caad6f45"
+      },
+      {
+        "selected_qa_id": 2,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [
+          5
+        ],
+        "status": "answer_only_question_differs",
+        "selected_qa_sha256": "ed8bffc689249331470929fead6373e4899ae1105aefc14039bf3963efae54f7"
+      },
+      {
+        "selected_qa_id": 3,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "793fdbf1b05e525638fb580995f872f8ff502bac52022b06c71d5ead5c181274"
+      },
+      {
+        "selected_qa_id": 4,
+        "exact_original_qa_ids": [],
+        "exact_answer_original_qa_ids": [],
+        "status": "historical_QA_differs_from_original400",
+        "selected_qa_sha256": "4e5de3554606b67eba8491ec0b1c394decf1ed6866f79fe36544a336801c52da"
+      }
+    ],
+    "af_qa_association": "claim-level joint context: every AF receives the same ordered selected QA list; no historical per-AF edges",
+    "selected_qas": [
+      {
+        "question": "Are there any treatments being developed in the US that are saving lives across the country?",
+        "answer": "The U.S. Food and Drug Administration issued an emergency use authorization (EUA) for investigational convalescent plasma for the treatment of COVID-19 in hospitalized patients as part of the agency’s ongoing efforts to fight COVID-19.",
+        "url": "https://www.cityofwarren.org/covid-19-resources-information/",
+        "qa_tag": "QA1"
+      },
+      {
+        "question": "What evidence is there that convalescent plasma is saving lives in the US?",
+        "answer": "“The use of convalescent plasma – blood plasma from individuals who have recovered from COVID-19 – presents real hope for saving lives,” said Marc Klapholz, Chair of the Department of Medicine at Rutgers New Jersey Medical School and University Hospital, and the Principal Investigator for the use of Convalescent COVID-19 plasma.",
+        "url": "https://www.rutgers.edu/news/rutgers-university-hospital-lead-way-treating-covid-19-convalescent-plasma-recovered-patients",
+        "qa_tag": "QA2"
+      },
+      {
+        "question": "What evidence is there that convalescent plasma is effective in reducing mortality rates for COVID-19 patients when administered early in the disease course?",
+        "answer": "- While HHS continues to clinically evaluate efficacy data, a large Mayo Clinic study found that the use of convalescent plasma for COVID-19 is safe, and preliminary results suggest a lower mortality rate for COVID-19 patients when plasma is administered early in the disease course.",
+        "url": "https://trumpwhitehouse.archives.gov/briefings-statements/president-donald-j-trump-promoting-safe-plasma-donations-protect-americans-defeat-covid-19/",
+        "qa_tag": "QA3"
+      },
+      {
+        "question": "What treatments, including convalescent plasma, are being developed and made available to patients across the country?",
+        "answer": "The government is now also supporting a National Expanded Access Treatment Program “to collect and provide convalescent plasma to patients in need across the country.”",
+        "url": "https://abcnews.go.com/Health/explaining-plasma-transplant-coronavirus-patients-recover/story?id=70236268",
+        "qa_tag": "QA4"
+      }
+    ],
+    "baseline_output_sha256": "dd0f377696aad0e81a44d88d1c9c0dce0c3d475b39525f799673485ea4d06682"
+  }
+]

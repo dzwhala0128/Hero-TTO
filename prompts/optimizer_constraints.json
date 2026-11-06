@@ -1,0 +1,7 @@
+[
+  "Return one valid JSON object and no surrounding prose or Markdown.",
+  "The JSON object must contain exactly two string fields: justification and verdict.",
+  "The justification must be non-empty and use only the supplied claim and QA evidence.",
+  "The verdict must be exactly one of: Supported, Refuted, Not Enough Evidence, Conflicting Evidence/Cherrypicking.",
+  "Do not add metadata, confidence, annotations, citations not present in the evidence, or external facts."
+]

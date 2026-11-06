@@ -1,0 +1,16 @@
+{
+  "af_source": "source-project://targeted40_experiment/frozen_inputs_v162/Targeted40_40Claims_ApprovedAF_SelectedQA_ReadyToImport.json",
+  "af_source_sha256": "1f97dc7b50a789b4796f49dc312aad49a4389fae6c6d4e56be95c2b9348f7197",
+  "historical_sources": {
+    "source-project://hero_visual_workbench/.studio_batch_jobs/d730b1eac272444e/config.json": "12c863f28afbdb0a6feb3ed1f7c72cd2f35a4e0c22908f20bfba21e8dbcd0e6e",
+    "source-project://targeted40_factscore_refined_v1/prepared_config_8192.json": "e9635da86d94bfddde10b90353604f39fef5c2dc43fe2489c38107b0b6e47f97",
+    "source-project://hero_visual_workbench/.studio_batch_jobs/cc2fcf98548c4db2/config.json": "12c863f28afbdb0a6feb3ed1f7c72cd2f35a4e0c22908f20bfba21e8dbcd0e6e",
+    "source-project://hero_visual_workbench/.studio_batch_jobs/58e59dd522704bba/config.json": "9637b84fec60b2ed34211da7c7205bbf9bc7b14d5dae880c04a98ddc96a29e08",
+    "source-project://hero_visual_workbench/studio_batch.py": "ec5acd44ba8839c546e26dd6eae99229d8d97a9952f437e14e2891cfa596b9d9",
+    "source-project://hero_visual_workbench/studio_textgrad_format.py": "42cef775140762ab0b552c5648e74d047b183f844132d82655f4f8bd54aa2805",
+    "source-project://hero_visual_workbench/studio_textgrad_worker.py": "79937790ad6f865b19d7217b1e58eeb5a324f788551718c4b1a9b8d4c33e19d5",
+    "source-project://targeted40_experiment/frozen_inputs_v162/Targeted40_40Claims_ApprovedAF_SelectedQA_ReadyToImport.json": "1f97dc7b50a789b4796f49dc312aad49a4389fae6c6d4e56be95c2b9348f7197",
+    "source-project://targeted40_factscore_refined_v1/prepared_runtime_input.json": "5eca90a5e1892458bc79b2faa324799c59efa108a735227c327835d4d375bcc4"
+  },
+  "status": "frozen-input; extracted copies available, original external files not read"
+}

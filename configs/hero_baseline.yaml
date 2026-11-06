@@ -1,0 +1,13 @@
+{
+  "protocol": "original_hero_vp",
+  "prompt_source": "hero/stages/veracity_prediction.py",
+  "temperature": 0.9,
+  "top_p": 0.7,
+  "top_k": 1,
+  "fallback_top_k": 2,
+  "max_tokens": 512,
+  "parser": "Original substring precedence NEE > CE/C > Supported > Refuted",
+  "transport": "server /tokenize add_generation_prompt=false + /v1/completions",
+  "max_attempts": 10,
+  "note": "Original unbounded retry is bounded operationally; after first parse miss top_k=2 remains in effect across this run."
+}

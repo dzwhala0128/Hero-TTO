@@ -1,0 +1,55 @@
+{
+  "experiment_name": "Targeted40 9B frozen Baseline + 63 AF + 9B Native TextGrad",
+  "arm": "af63",
+  "endpoint": "http://127.0.0.1:8005/v1",
+  "model": "qwen3.5-9B",
+  "max_iterations": 1,
+  "historical_evaluator": {
+    "runMode": "joint",
+    "systemPrompt": "You are an evidence-grounded AUDITOR of the CURRENT SOLUTION in a four-class AVeriTeC fact-checking task. Audit the ORIGINAL CLAIM and the supplied QA ANSWERS before writing any criticism. AFs are editable interpretations, not evidence. QA QUESTIONS may contain false assumptions: evidence comes only from the QA ANSWERS. Never read or infer gold labels, use outside facts, guess the correct verdict, or independently solve the claim. Do not change or propose a replacement four-class verdict.\n\nMANDATORY EXPLICIT EVIDENCE AUDIT (perform and print the steps; do not keep them silent):\nA. TARGET: Write the minimal independent propositions the ORIGINAL CLAIM actually asserts. Preserve who said/claimed/advised what, negation, time scope, quantity, comparator, causal structure, and approximate language. Do not silently turn 'X said P' into 'P is true' or 'advised to do X for Y' into 'X guarantees Y'. Do not turn 'during a tenure' into 'from the first to the last day of the tenure'.\nB. QA-BY-QA: For each supplied relevant QA, print its actual QA number, a short EXACT quote from its ANSWER (not from its question), and one evidence relation to the relevant target proposition:\n   EXPLICIT_SUPPORT = answer establishes the target proposition with matching scope.\n   COMPATIBLE_NOT_PROVEN = answer and proposition can both hold, but answer alone does not establish the exact claim.\n   ACTUAL_CONTRADICTION = answer and proposition CANNOT both hold under the SAME referent, measure, unit, time, comparator, and denominator.\n   INSUFFICIENT = answer has some relevant context but omits a necessary part.\n   NOT_COMPARABLE = different time, population, definition, denominator, or unrelated information prevents direct comparison.\n   If a relevant QA is unclear, explicitly say so. Do NOT invent evidence, numerical values, implied QA citations, or a contradiction just to criticize the solution.\nC. NUMERICAL AND LOGICAL CROSS-CHECK: State whether any claimed numerical contradiction passes this test: same measured quantity, same time and scope, same units/denominator, and disjoint mathematical constraints. Demonstration of the RULE (not part of the user's evidence): target 7.8 and answer 'more than 7.5' are COMPATIBLE_NOT_PROVEN, because 7.8 > 7.5; the lower bound does not prove 7.8. Target 7.8 and answer 'at most 7.5' can conflict ONLY IF the same statistic, time and unit are involved. 'Around 7.5' does not automatically contradict 7.8 without a justified tolerance. 'More than 8' is not the exact value 8, but a rounded 8 need not be falsely declared incompatible. Different time windows are NOT automatically contradictory.\nD. CRITIQUE: ONLY AFTER steps A-C, compare the CURRENT SOLUTION's actual written reasoning to the Answer-derived relations. Identify at most three material errors with valid QA references and exact quote support. DISTINGUISH 'not adequately established' from 'positively refuted'. Do not allege that the CURRENT SOLUTION cited a QA unless its text actually did. If no demonstrable material error exists, explicitly write 'No material evidence-grounded reasoning error found.' If evidence is insufficient for a precise claim, you may note that the explanation overstates certainty WITHOUT asserting an affirmative contradiction.\n\nOutput plain English text using EXACT headings:\nCLAIM TARGET:\nQA CHECKS:\nNUMERICAL / SCOPE CHECK:\nCRITIQUE:\nDo not output a JSON Solution, substitute verdict, or non-four-class label. Keep the text concise but show every material QA quotation. Do not silently skip the evidence-check stage.",
+    "userTemplate": "{{inputs}}\n\nAudit the CURRENT SOLUTION in this order: (1) target proposition(s) from ORIGINAL CLAIM; (2) per-QA exact ANSWER quotations with explicit evidence relations; (3) numerical/scope compatibility gate; (4) evidence-grounded critique. Compare the target to each relevant answer separately before pooling evidence. Remember: a lower bound compatible with a number does not prove that number and does not contradict it. Missing precision is not refutation. Do not recommend a verdict. Use the required four headings.",
+    "promptMode": "custom",
+    "template": "E18",
+    "endpoint": "http://127.0.0.1:8005/v1",
+    "model": "qwen3.5-9B",
+    "max_tokens": 1800,
+    "seed": 12345,
+    "temperature": 0.0,
+    "thinking": false
+  },
+  "optimizer_constraints": [
+    "Return one valid JSON object and no surrounding prose or Markdown.",
+    "The JSON object must contain exactly two string fields: justification and verdict.",
+    "The justification must be non-empty and use only the supplied claim and QA evidence.",
+    "The verdict must be exactly one of: Supported, Refuted, Not Enough Evidence, Conflicting Evidence/Cherrypicking.",
+    "Do not add metadata, confidence, annotations, citations not present in the evidence, or external facts."
+  ],
+  "generation": {
+    "seed": 12345,
+    "temperature": 0.0,
+    "max_tokens": 1024,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "stages": {
+    "evaluator": {
+      "temperature": 0.0,
+      "max_tokens": 1800
+    },
+    "backward": {
+      "temperature": 0.2,
+      "max_tokens": 1536
+    },
+    "optimizer": {
+      "temperature": 0.0,
+      "max_tokens": 1024
+    }
+  },
+  "timeout_seconds": 240,
+  "failure_policy": "baseline_fallback_on_recorded_error; no automatic retry; pending request is never resent",
+  "max_context": 8192,
+  "auto_fit_output": false,
+  "token_budget_policy": "Exact server tokenize before each uncached stage: input + fixed output + 128 <= 8192; no truncation or adaptive budget; errors cause recorded baseline fallback",
+  "validator": "historical JSON/two-explicit-field normalization + pure shape checks; no URL/semantic gates"
+}

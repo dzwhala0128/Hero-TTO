@@ -1,0 +1,42 @@
+{
+  "targeted40": {
+    "baseline": {
+      "qa_count": 400,
+      "mode": "original_hero_vp_rerun"
+    },
+    "human63": {
+      "status": "frozen-input",
+      "claims": 40,
+      "afs": 63,
+      "qa": 154,
+      "protocol": "E18_native_backward",
+      "baseline": "frozen_9b_explicit_final; 2 incomplete historical responses"
+    },
+    "merged67": {
+      "status": "frozen-input",
+      "claims": 40,
+      "afs": 67,
+      "qa": 154,
+      "protocol": "E18_native_backward",
+      "baseline": "frozen_9b_explicit_final"
+    },
+    "fine146": {
+      "status": "missing_external_frozen_input",
+      "runnable": false
+    }
+  },
+  "full169": {
+    "claims": 169,
+    "qa": 1690,
+    "af": null,
+    "textgrad": "v4a_fixed6_frozen_evaluator_faithful_v2_compact",
+    "status": "offline_verified_gpu_pending"
+  },
+  "full500": {
+    "claims": 500,
+    "qa": 5000,
+    "vp": 500,
+    "textgrad": "unsupported: no frozen AF/Evaluator protocol",
+    "status": "baseline_inputs_ready_gpu_pending"
+  }
+}

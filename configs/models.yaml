@@ -1,0 +1,16 @@
+{
+  "hero": {
+    "endpoint": "http://127.0.0.1:8000/v1",
+    "model": "hero-vp"
+  },
+  "textgrad": {
+    "endpoint": "http://127.0.0.1:8005/v1",
+    "model": "qwen36-evaluator"
+  },
+  "weights_packaged": false,
+  "notes": "Endpoints/aliases can be overridden by HERO_BASE_URL/HERO_MODEL and TEXTGRAD_BASE_URL/TEXTGRAD_MODEL. Model paths belong in .env.",
+  "textgrad_e18": {
+    "endpoint": "http://127.0.0.1:8005/v1",
+    "model": "qwen3.5-9B"
+  }
+}

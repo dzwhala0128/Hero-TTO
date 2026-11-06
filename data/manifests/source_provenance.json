@@ -1,0 +1,303 @@
+[
+  {
+    "source": "hyde_fc_generation.py",
+    "destination": "hero/stages/hyde_fc_generation.py",
+    "sha256": "251b5853162b5d22802d938a36e735b2bf67e56ac4b6b25efc98674fc07b4c0c"
+  },
+  {
+    "source": "retrieval.py",
+    "destination": "hero/stages/retrieval.py",
+    "sha256": "9fccc04df2b1f57d7fbd6f7346397e8062cb4eee330be1c0f11f29ac91bf572e"
+  },
+  {
+    "source": "reranking.py",
+    "destination": "hero/stages/reranking.py",
+    "sha256": "3cab9699c0455f4ab0d565792c5bdd06c7a8b75c8a11743f3f22f81b6028c2f9"
+  },
+  {
+    "source": "question_generation.py",
+    "destination": "hero/stages/question_generation.py",
+    "sha256": "b51f5e284cc7151366351f5e5be902a1b501eb4716ea7834d45e9ff8a5fb9401"
+  },
+  {
+    "source": "veracity_prediction.py",
+    "destination": "hero/stages/veracity_prediction.py",
+    "sha256": "ad5a34a05796ca157b1fa879dee154f5054dd6f500452e3f0a64310b3aed646b"
+  },
+  {
+    "source": "averitec_evaluate.py",
+    "destination": "hero/stages/averitec_evaluate.py",
+    "sha256": "270c81e397aecc4c11724101f38820479c497e6d015c947c5e1ae760be3fcec8"
+  },
+  {
+    "source": "hyde_doc_utils.py",
+    "destination": "hero/stages/hyde_doc_utils.py",
+    "sha256": "1398da41fa2ab8d0bffd12346a4e10a0e48fce3c0ceac4c8539c2a23224e8b72"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/__init__.py",
+    "destination": "textgrad_native/textgrad/__init__.py",
+    "sha256": "dc055cc2eb20062348b73297daa278daf7b09913eef7a0a1e46d17ef2a553f40"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/config.py",
+    "destination": "textgrad_native/textgrad/config.py",
+    "sha256": "77b4dc8341b4d1f93c5f266ca98455f109b0de89dab606f6f0e077405b6741a9"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/defaults.py",
+    "destination": "textgrad_native/textgrad/defaults.py",
+    "sha256": "de266daa98169816faf2d7d865714e0436e00bf9f8df1d4ebf5d436e93202b67"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/loss.py",
+    "destination": "textgrad_native/textgrad/loss.py",
+    "sha256": "f175d5a7d654f941219063896852813a1794c7bfa051b9ab5cf23cffe3d6416f"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/model.py",
+    "destination": "textgrad_native/textgrad/model.py",
+    "sha256": "eb00643c72da20ce6dcb310e52766dfaf856bef5a62394a39346ba5c0aecf01e"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/prompts.py",
+    "destination": "textgrad_native/textgrad/prompts.py",
+    "sha256": "e8929a5e09978299937d54ce78c52e3df475b5f34f9bbb1df5f7312a9a2a6a29"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/variable.py",
+    "destination": "textgrad_native/textgrad/variable.py",
+    "sha256": "5891a995352212a41460d95da47a1019c632b38743d5aa24266ce0b615ee3e83"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/autograd/__init__.py",
+    "destination": "textgrad_native/textgrad/autograd/__init__.py",
+    "sha256": "8a03d815c415355abf90f5f8b0015c489c29a338869c679996d53222d8c615e7"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/autograd/algebra.py",
+    "destination": "textgrad_native/textgrad/autograd/algebra.py",
+    "sha256": "a249d53a01a6477cc46ef5220ab46161ed6866394cc4695495bff7815b825c00"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/autograd/function.py",
+    "destination": "textgrad_native/textgrad/autograd/function.py",
+    "sha256": "2dfb0949086602708612ecb1e0381fcb4df2455a0a0228f39db98968abedd709"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/autograd/functional.py",
+    "destination": "textgrad_native/textgrad/autograd/functional.py",
+    "sha256": "98e339182e124009a596ab3f5da0f8a5a920b8eb82fa8f9ee9d087601507ec41"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/autograd/llm_backward_prompts.py",
+    "destination": "textgrad_native/textgrad/autograd/llm_backward_prompts.py",
+    "sha256": "1e3f9c023cd7fe9d2e42b322fec33e93c9dd698f60c17f35d45abe076bf0c541"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/autograd/llm_ops.py",
+    "destination": "textgrad_native/textgrad/autograd/llm_ops.py",
+    "sha256": "75887c232d6cb142c38a58b852b851dfef4f787d279cffa374aeac37a27be939"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/autograd/multimodal_backward_prompts.py",
+    "destination": "textgrad_native/textgrad/autograd/multimodal_backward_prompts.py",
+    "sha256": "2131f1ad98c9b82cea671314f851d5ee58a3157b79b6ef9176e8e93a48718138"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/autograd/multimodal_ops.py",
+    "destination": "textgrad_native/textgrad/autograd/multimodal_ops.py",
+    "sha256": "ad43070f9d5910b8a588316b9eda2d4ae27f1aeb6e100f0ae379f5da80ba9cad"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/autograd/reduce_prompts.py",
+    "destination": "textgrad_native/textgrad/autograd/reduce_prompts.py",
+    "sha256": "934f3cb2e5ce5658ce5af63534b927f3cf34d8bc40cab7fbf65602ab5964f6d0"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/autograd/string_based_ops.py",
+    "destination": "textgrad_native/textgrad/autograd/string_based_ops.py",
+    "sha256": "69e4b30cb9392a8e92d122c6d529031a488c6557b0a90ad7576f5be21cbe35a9"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/optimizer/__init__.py",
+    "destination": "textgrad_native/textgrad/optimizer/__init__.py",
+    "sha256": "23691b0d2f5e2c35f0e13078261ced72287e09ca1a52a4bb7f87ced67b1d93ad"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/optimizer/optimizer.py",
+    "destination": "textgrad_native/textgrad/optimizer/optimizer.py",
+    "sha256": "8b0d618bce04549bb5cf439b4206db402573c03a15b1127ec8e26878893887d3"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/optimizer/optimizer_prompts.py",
+    "destination": "textgrad_native/textgrad/optimizer/optimizer_prompts.py",
+    "sha256": "b35a8a56de0d11d9ada8081ef74ccbdc85ba3d3be2f6a20bba9a4b01ed945c79"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/utils/image_utils.py",
+    "destination": "textgrad_native/textgrad/utils/image_utils.py",
+    "sha256": "339d06fdc6392ed78e23f38830ade7ed9dfdf9c70244321493290d8414d8197e"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/engine/__init__.py",
+    "destination": "textgrad_native/textgrad/engine/__init__.py",
+    "sha256": "55934966a417700391f33116583f755fb0d54f1f5bc005ee4ef497c5a153830d"
+  },
+  {
+    "source": "textgrad_source_native_hero/textgrad/engine/base.py",
+    "destination": "textgrad_native/textgrad/engine/base.py",
+    "sha256": "096ab42e04d9fee755d986dffdc968eee498c7cb4e8a187124049e3083043430"
+  },
+  {
+    "source": "textgrad_source_native_hero/hero_extension/__init__.py",
+    "destination": "textgrad_native/hero_extension/__init__.py",
+    "sha256": "062a8e98f9343bcd211f15a5cc1c914b5f6d75cb2d36fac67e7bc481825194c7"
+  },
+  {
+    "source": "textgrad_source_native_hero/hero_extension/hero_solution.py",
+    "destination": "textgrad_native/hero_extension/hero_solution.py",
+    "sha256": "e15e9ac8ac4d32eab650425f4271a25aef05ca25abe0590b3b69cf5b4ae1dd6a"
+  },
+  {
+    "source": "textgrad_source_native_hero/hero_extension/hero_objective.py",
+    "destination": "textgrad_native/hero_extension/hero_objective.py",
+    "sha256": "8e8ace6e53b049ffd25487bb560fb414c9164798a88849091cb9c4ace0cb757b"
+  },
+  {
+    "source": "textgrad_source_native_hero/hero_extension/hero_objective_evaluator_v4a.py",
+    "destination": "textgrad_native/hero_extension/hero_objective_evaluator_v4a.py",
+    "sha256": "efd07fbe710bdaf8bda13130b5067a48166c85f35829880f92204c4b26861042"
+  },
+  {
+    "source": "textgrad_source_native_hero/hero_extension/hero_faithful_backward_v2_compact.py",
+    "destination": "textgrad_native/hero_extension/hero_faithful_backward_v2_compact.py",
+    "sha256": "ec743ff93e7363dc7cfdec9b4241205208c929d85ffc807a9ed336cddabf52c0"
+  },
+  {
+    "source": "textgrad_source_native_hero/hero_extension/hero_validator.py",
+    "destination": "textgrad_native/hero_extension/hero_validator.py",
+    "sha256": "6f5a47ffa8a0b73006e40f4643dd6aa9e466b17e01c09e1527db754ce57525be"
+  },
+  {
+    "source": "textgrad_source_native_hero/LICENSE",
+    "destination": "textgrad_native/LICENSE",
+    "sha256": "ed05ff64a2b47ecba690d8b6fe28d970de1f6e31b1c84daa229f21294ece9702"
+  },
+  {
+    "source": "atomic_decomposition_factscore_v2/decompose.py",
+    "destination": "atomic_facts/fine_grained/generator/decompose.py",
+    "sha256": "e406ef6b2b5c2810e6a5a4777b683d29dfa62370bc897a4bdcbd37283a152097"
+  },
+  {
+    "source": "atomic_decomposition_factscore_v2/decompose_original_prompt.py",
+    "destination": "atomic_facts/fine_grained/generator/decompose_original_prompt.py",
+    "sha256": "6eee4a89d85b1960522e5a82dbc7a8e0fb761c6372e1ae33f7ed5a01e9b6659f"
+  },
+  {
+    "source": "atomic_decomposition_factscore_v2/demons.json",
+    "destination": "atomic_facts/fine_grained/generator/demons.json",
+    "sha256": "9bf5442f694586097bfac3ececd4d982225f56744ba7989b93093c9cda15bf23"
+  },
+  {
+    "source": "atomic_decomposition_factscore_v2/README.md",
+    "destination": "atomic_facts/fine_grained/generator/README.md",
+    "sha256": "a707ca41da6d261f7ce5a396c24fa1c0a04f728f261ba732fe303e2612970a21"
+  },
+  {
+    "source": "targeted40_9b_textgrad_af63_v1/historical_protocol.py",
+    "destination": "atomic_facts/common/historical_protocol.py",
+    "sha256": "b9163b4f6b9780fcad84394ad448953b427f33701fdc32ca88727dd50a5af412"
+  },
+  {
+    "source": "data_store/averitec/dev.json",
+    "sha256": "499793726b4a5406780928a3d9dedc48d6dd53de778f22437d129cacdb08e300"
+  },
+  {
+    "source": "data_store/exp018_textgrad_vp_prompt/heldout_eval/heldout_0_500_baseprompt_hero70b_same_evidence.pred.json",
+    "sha256": "983de2a3a238e793b5627ce8e3fa39afeb248ac21e1957924e964183f25ec9dc"
+  },
+  {
+    "source": "targeted40_hero9b_final_recovery/frozen_inputs_no_gold.json",
+    "sha256": "7cc4fe06e071881c85bcabde2c96c5ac4b1c548d2d253412a5070bc9f41d2324"
+  },
+  {
+    "source": "targeted40_9b_textgrad_af63_v1/initial_predictions.json",
+    "sha256": "36a3ba64ffc819bcff2c0ce8375d1b084335ffe1c7e53b15a54a31b5d421bede"
+  },
+  {
+    "source": "targeted40_9b_textgrad_af63_v1/af_mapping.json",
+    "sha256": "f4b0ec203abf35813528965aa33ef6bc86921df219cf50ba37f495208cc69b84"
+  },
+  {
+    "source": "targeted40_9b_textgrad_af63_v1/config.json",
+    "sha256": "0d8d1c489a1df016fc40cdb1bf40b696128b88993e3796bdb908d8f080480a0a"
+  },
+  {
+    "source": "targeted40_9b_textgrad_af63_v1/input_manifest.json",
+    "sha256": "47219dee3b02e8b7b7a20a65036100c55298e5f7107344949c47a312daa7a45f"
+  },
+  {
+    "source": "targeted40_9b_textgrad_af63_v1/prepared_evaluator_inputs.json",
+    "sha256": "a03583a9d673f9dabdd8e0bb0c4946bc26dea71eec93099038590a14e4a52ff1"
+  },
+  {
+    "source": "targeted40_9b_textgrad_af67_v1/initial_predictions.json",
+    "sha256": "a1adb477879bf7864abd1cca4f8df8bfaa8bb3b41b699becc3c89e09e6efc519"
+  },
+  {
+    "source": "targeted40_9b_textgrad_af67_v1/af_mapping.json",
+    "sha256": "736f62f97ceae2ee964d09704b3e69763870734f9bb24560402f5cd23bfab0c0"
+  },
+  {
+    "source": "targeted40_9b_textgrad_af67_v1/config.json",
+    "sha256": "e0182385f2312796fb6594fac906bd371fdd6f39354a761f1c95f790d6a15a70"
+  },
+  {
+    "source": "targeted40_9b_textgrad_af67_v1/input_manifest.json",
+    "sha256": "32ac5aa7fe360d09c05d20b89081ee2b25b9b688695758edd8a8e0bd8f452b96"
+  },
+  {
+    "source": "targeted40_9b_textgrad_af67_v1/prepared_evaluator_inputs.json",
+    "sha256": "3b0451aebea79221336db229b4bdfc82cbcc16f7fe6406561105d85f2f748a23"
+  },
+  {
+    "source": "targeted40_9b_textgrad_af63_v1/historical_input_whitelist.json",
+    "sha256": "086fdf279912af2589765325dff51e809ff6525ccc34c582a333b6958393505f"
+  },
+  {
+    "source": "data_store/fewshot_v4/textgrad_full169_four_arms_v1/target169_manifest.json",
+    "sha256": "6532b4d1f726a642d6160efef309868d4563ea5e77e36256abfa6534c62e9890"
+  },
+  {
+    "source": "data_store/baseline_rare_lable/vp_baseline_runtime_textgrad_input.json",
+    "sha256": "9f2ed67f882d37f9640d7dc7ef1f92e67d0ee577a0775b17732b40236555a2d3"
+  },
+  {
+    "source": "textgrad_source_native_hero/hero_outputs/sr_control_source_native/sr100_holdout_global_unseen_hashseed12345_generalized_v1_v2/selection/sr100_holdout_vp_baseline_no_gold.json",
+    "sha256": "0f7bbd9e7ca150d868ea55f2b3d3a9dcd58e810f7c185f8437ac9c281e4d476c"
+  },
+  {
+    "source": "textgrad_source_native_hero/hero_outputs/evaluator_v4a_full169/evaluation/evaluation.run_config.json",
+    "sha256": "5aa2857506f479226d33e18c3c1b135c69c33bc3a177bf0bb5b5fa958792c2b5"
+  },
+  {
+    "source": "textgrad_source_native_hero/hero_outputs/evaluator_v4a_full169/evaluation/evaluation.jsonl",
+    "sha256": "e2da69e30f4ff6d238056704f9bd66ac3d3e701c86a7297e9db18db52e6c705c"
+  },
+  {
+    "source": "data_store/averitec/train.json",
+    "sha256": "ae5eda7c42ddf1695ef185a7ba1bc716928f5adf57103e4f78aae5f9afe00f9c"
+  },
+  {
+    "source": "textgrad_source_native_hero/hero_extension/hero_data.py",
+    "destination": "textgrad_native/hero_extension/hero_data.py",
+    "sha256": "bbf9a44d4fa844bcaf5b5b0198791ff2d5da349bbf46fd45f6d8618781965c69"
+  },
+  {
+    "source": "scripts/finalize_targeted40_hero9b.py",
+    "destination": "pipeline/historical_parser.py",
+    "sha256": "bbb60947576b1b94d4e494dcbf9014daabd68b893556a8e5a14020d398167932",
+    "extraction": "unchanged parser_b function AST, excluding Gold-capable main"
+  }
+]
